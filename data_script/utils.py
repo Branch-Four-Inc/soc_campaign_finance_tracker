@@ -86,6 +86,23 @@ def round_amount(amount):
 
     return round(amount, 0)
 
+def find_doctors(df): #No doctor names found in data Stella Mach check
+    """
+    Return all individual contributors whose names start with
+    Dr or Dr.
+    """
+    doctors = df[
+        (df["Contributor Type"] == "Individual") &
+        (
+            df["Contributor Name"]
+            #.str.contains(r"^\s*dr\.?\s", flags=re.IGNORECASE, regex=True, na=False)
+            #.str.contains(r"^\s*dr[.\s]", flags=re.IGNORECASE, regex=True, na=False) 
+            .str.contains(r"^\s*dr\.?\b", flags=re.IGNORECASE, regex=True, na=False)
+        )
+    ]
+
+    return doctors
+
 
 def standardize_address(address: str) -> str:
     """
@@ -324,3 +341,16 @@ def standardize_address(address: str) -> str:
     standardized = re.sub(r"\s+", " ", standardized).strip()
     standardized = re.sub(r"#\s+(?=\S)", "#", standardized)  # "# 5" -> "#5"
     return standardized
+
+
+
+def fix_bad_line(bad_line):
+    
+    ''' 
+    For NJ contributions - sometimes a contribution is shifted one to the right. This code fixes the shift 
+    during the read_csv line 
+    '''
+# keep the first 4 fields, drop the extra field at index 4,
+    # and shift everything after it left by one
+    fixed = bad_line[:3] + bad_line[5:]
+    return fixed

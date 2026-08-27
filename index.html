@@ -407,8 +407,8 @@ let DATA = {};
 async function loadAll() {
   const files = ['total_contributions','contributor_types','pac_contributors','corporate_contributors','top_contributors','instate_perc','all_state_perc'];
   const [paramsText, ...results] = await Promise.all([
-    fetch('data_output/parameters.csv').then(r => r.text()),
-    ...files.map(f => fetch(`data_output/${f}.csv`).then(r => r.text()))
+    fetch('data_output/HUDSON COUNTY/parameters.csv').then(r => r.text()),
+    ...files.map(f => fetch(`data_output/HUDSON COUNTY/${f}.csv`).then(r => r.text()))
   ]);
   files.forEach((f, i) => DATA[f] = parseCSV(results[i]));
 
