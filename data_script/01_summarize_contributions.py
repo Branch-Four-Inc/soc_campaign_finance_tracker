@@ -1,24 +1,25 @@
 import numpy as np
 import pandas as pd
 from pathlib import Path
-from utils import round_amount, clean_amount
+from utils import round_amount
 
 
-
-def main(file_format="tsv",):
+def main(file_format="tsv"):
 
     ############# CONFIG ##########################
-    county = "HUDSON COUNTY"
+    county = "ESSEX COUNTY"
     contribution_start = "2020-01-01"
     newsroom = "Slice of Culture"
-    pull_date = "2026-09-04"
+    pull_date = "2026-09-01"
     contribution_end = pull_date
     state = "NJ"
     ###############################################
 
     input_dir = Path(f"raw_contributions/{county}")
     output_dir = Path(f"data_output/{county}")
-    candidate_info_dir = input_dir / Path(f"candidates_{'_'.join(county.split(' '))}_2026.tsv")
+    candidate_info_dir = input_dir / Path(
+        f"candidates_{'_'.join(county.split(' '))}_2026.tsv"
+    )
     file_names = input_dir.glob(f"*{file_format}")
 
     df_list = []
@@ -30,14 +31,17 @@ def main(file_format="tsv",):
             try:
                 temp_df = (
                     pd.read_csv(f, index_col=False, delimiter="\t")
-                    .rename(columns={
-                        "ENTITY_S":"CandidateID",
-                        "CONT_AMT":"Amount",
-                        "CONT_DATE":"ContributionDate",
-                        "CONTRIBUTOR": "ContributorName"
-                    })
+                    .rename(
+                        columns={
+                            "ENTITY_S": "CandidateID",
+                            "CONT_AMT": "Amount",
+                            "CONT_DATE": "ContributionDate",
+                            "CONTRIBUTOR": "ContributorName",
+                        }
+                    )
                     # remove any duplicate contributions
-                    .drop_duplicates().reset_index(drop=True)
+                    .drop_duplicates()
+                    .reset_index(drop=True)
                 )
                 df_list += [temp_df]
             except Exception as e:
@@ -52,14 +56,16 @@ def main(file_format="tsv",):
 
     cand_info = (
         pd.read_csv(candidate_info_dir, delimiter="\t")
-        .rename(columns={
-            "name": "Candidate",
-            "office_cmte": "Office",
-            # "election_type": "Election",
-            "eid":"CandidateID",
-            "party": "Party",
-            "location":"Location"
-        })
+        .rename(
+            columns={
+                "name": "Candidate",
+                "office_cmte": "Office",
+                # "election_type": "Election",
+                "eid": "CandidateID",
+                "party": "Party",
+                "location": "Location",
+            }
+        )
         # .drop_duplicates(["Candidate"])
         .drop(columns=["search_location"])
         .sort_values(["Office", "Candidate"])
@@ -73,7 +79,7 @@ def main(file_format="tsv",):
         "DIVINCENZO, JOSEPH N JR": "DIVINCENZO, JOSEPH",
         "MATHEWS, MARITIZA": "MATHEWS, MARITZA",
         "MURRAY-THOMAS, ADORIAN": "MURRAY-THOMAS, A'DORIAN",
-        "POMARES, CARLOS  M": "POMARES, CARLOS"
+        "POMARES, CARLOS  M": "POMARES, CARLOS",
     }
     CNTY_MAP = {"HUDSON COUNTY": HC_NAME_MAPPING, "ESSEX COUNTY": EC_NAME_MAPPING}
     cand_info["Candidate"] = cand_info["Candidate"].replace(CNTY_MAP[county])
@@ -83,7 +89,7 @@ def main(file_format="tsv",):
     #         502842: [502840, 502841, 502937, 502938, 505544, 503283, 505610, 502634]
     #     }
     # EC_CMTE_MAPPING = {
-    #     437005: [503419, 437003, 437004, 437001], 
+    #     437005: [503419, 437003, 437004, 437001],
     #     505387: [504072, 507886, 503605, 508277, 461343, 507889, 505885, 460962, 503423, 502949, 505886, 459513, 507881, 503394, 507880]
     # }
 
@@ -92,7 +98,7 @@ def main(file_format="tsv",):
     all_info = pd.merge(contributions, cand_info, on="CandidateID", how="outer")
 
     # Group and sum to collapse GENERAL and PRIMARY
-    no_grp = ["election_type", "Amount", "CandidateID", "STREET1", "STREET2"]
+    no_grp = ["election_type", "Amount", "STREET1", "STREET2"]
     agg_cols = [col for col in all_info.columns if col not in no_grp]
     df = all_info.groupby(agg_cols, as_index=False)["Amount"].sum()
 
@@ -109,7 +115,11 @@ def main(file_format="tsv",):
     df["PullDate"] = pull_date
 
     # if there is 'Union' or 'PAC' or 'LLC' in the Contributor's name, switch it to not being an individual
-    df.loc[(df["IsIndividual"]=="Y") & (df["ContributorName"].str.contains("UNION|LLC|CORP|PAC")),"IsIndividual"] = "N"
+    df.loc[
+        (df["IsIndividual"] == "Y")
+        & (df["ContributorName"].str.contains("UNION|LLC|CORP|PAC")),
+        "IsIndividual",
+    ] = "N"
 
     # Clean up the values for candidates, individuals, location, etc.
     title_cols = [
@@ -122,10 +132,14 @@ def main(file_format="tsv",):
         "ContributorName",
         "ContributorType",
     ]
-    df.loc[:, title_cols] = df.loc[:, title_cols].apply(lambda x: x.str.strip().str.title())
+    df.loc[:, title_cols] = df.loc[:, title_cols].apply(
+        lambda x: x.str.strip().str.title()
+    )
 
     # Covert to datetime and filter
-    df["ContributionDate"] = pd.to_datetime(df["ContributionDate"], errors="coerce").fillna(pd.to_datetime(pull_date))
+    df["ContributionDate"] = pd.to_datetime(
+        df["ContributionDate"], errors="coerce"
+    ).fillna(pd.to_datetime(pull_date))
     df = df[
         (df["ContributionDate"] >= contribution_start)
         & (df["ContributionDate"] <= contribution_end)
@@ -146,8 +160,9 @@ def main(file_format="tsv",):
     df.rename(columns={"ContributorType": "Contributor Type"}, inplace=True)
 
     # clean contributor name
-    df.loc[df["IsIndividual"]=="N","ContributorName"] = (
-        df.loc[df["IsIndividual"]=="N","ContributorName"].fillna("")
+    df.loc[df["IsIndividual"] == "N", "ContributorName"] = (
+        df.loc[df["IsIndividual"] == "N", "ContributorName"]
+        .fillna("")
         # make LLC and LLPs uppercase
         .str.replace("Llp", "LLP")
         .str.replace("Llc", "LLC")
@@ -162,16 +177,14 @@ def main(file_format="tsv",):
     # total contributions
     summary = (
         df.groupby(
-            ["Candidate", "Location", "Office"], dropna=False
+            ["CandidateID", "Candidate", "Location", "Office"], dropna=False
         ).agg(**{"Total Contributions": pd.NamedAgg(column="Amount", aggfunc="sum")})
     ).reset_index(drop=False)
     summary["Total Contributions"] = round_amount(summary["Total Contributions"])
 
-    breakpoint()
-
     # contributor type
     contrib_summary = (
-        df.groupby(["Candidate", "Contributor Type"], dropna=False).agg(
+        df.groupby(["CandidateID", "Candidate", "Contributor Type"], dropna=False).agg(
             **{
                 "Total Contributions": pd.NamedAgg(column="Amount", aggfunc="sum"),
                 "Number of Contributions": pd.NamedAgg(
@@ -189,6 +202,7 @@ def main(file_format="tsv",):
     donor_summary = (
         df.groupby(
             [
+                "CandidateID",
                 "Candidate",
                 "ContributorName",
             ],
@@ -217,7 +231,7 @@ def main(file_format="tsv",):
         .sort_values(
             ["Total Contributions", "Contributor Name"], ascending=False
         )  # sort by amount and name to keep top 10 list stable
-        .groupby(["Candidate"], group_keys=False)
+        .groupby(["CandidateID", "Candidate"], group_keys=False)
         .apply(lambda g: g.nlargest(10, "Total Contributions"))
         .reset_index(drop=False)
         .drop(columns=["Contributor Name"])
@@ -235,9 +249,9 @@ def main(file_format="tsv",):
         .str.contains("pac|political action committee")
     ]
     pacs_summary = (
-        pacs.groupby(["Candidate", "ContributorName"])
+        pacs.groupby(["CandidateID", "Candidate", "ContributorName"])
         .agg(**{"Total Contributions": pd.NamedAgg(column="Amount", aggfunc="sum")})
-        .groupby(["Candidate"], group_keys=False)
+        .groupby(["CandidateID", "Candidate"], group_keys=False)
         # sort by amount and name to keep list stable
         .apply(
             lambda x: x.sort_values(
@@ -252,15 +266,12 @@ def main(file_format="tsv",):
 
     # corporate contributors
     corporates = df[
-        df["Contributor Type"]
-        .str.strip()
-        .str.lower()
-        .str.contains("business/corp")
+        df["Contributor Type"].str.strip().str.lower().str.contains("business/corp")
     ]
     corporates_summary = (
-        corporates.groupby(["Candidate", "ContributorName"])
+        corporates.groupby(["CandidateID", "Candidate", "ContributorName"])
         .agg(**{"Total Contributions": pd.NamedAgg(column="Amount", aggfunc="sum")})
-        .groupby(["Candidate"], group_keys=False)
+        .groupby(["CandidateID", "Candidate"], group_keys=False)
         .apply(
             lambda x: x.sort_values(
                 ["Total Contributions", "ContributorName"], ascending=False
@@ -275,14 +286,23 @@ def main(file_format="tsv",):
     # ----------------------------------------------------------------
     # STATE CONTRIBUTIONS
     # ----------------------------------------------------------------
-    df['Contributor Location'] = np.where(df['STATE'] == state, "In-state", "Out-of-state")
-    df['Contributor Location'] = np.where(df['STATE'].isna()==True, "Undisclosed", df['Contributor Location'])
-    
-    instate_contr = df.groupby(['Candidate', 'Contributor Location'])['Amount'].sum().reset_index(drop = False)
-    state_contr = df.groupby(['Candidate', 'STATE'])['Amount'].sum().reset_index(drop = False)
-    # state_contr['STATE'] = state_contr['STATE'].str.upper()
-    state_contr = state_contr.rename({'STATE': 'State'}, axis = 1)
+    df["Contributor Location"] = np.where(
+        df["STATE"] == state, "In-state", "Out-of-state"
+    )
+    df["Contributor Location"] = np.where(
+        df["STATE"].isna() == True, "Undisclosed", df["Contributor Location"]
+    )
 
+    instate_contr = (
+        df.groupby(["Candidate", "Contributor Location"])["Amount"]
+        .sum()
+        .reset_index(drop=False)
+    )
+    state_contr = (
+        df.groupby(["Candidate", "STATE"])["Amount"].sum().reset_index(drop=False)
+    )
+    # state_contr['STATE'] = state_contr['STATE'].str.upper()
+    state_contr = state_contr.rename({"STATE": "State"}, axis=1)
 
     # parmeters to show on UI
     parameters = pd.DataFrame(
@@ -302,12 +322,10 @@ def main(file_format="tsv",):
     contrib_summary.to_csv(output_dir / "contributor_types.csv", index=False)
     donor_summary.to_csv(output_dir / "top_contributors.csv", index=False)
     pacs_summary.to_csv(output_dir / "pac_contributors.csv", index=False)
-    corporates_summary.to_csv(
-        output_dir / "corporate_contributors.csv", index=False
-    )
+    corporates_summary.to_csv(output_dir / "corporate_contributors.csv", index=False)
     parameters.to_csv(output_dir / "parameters.csv", index=False)
-    instate_contr.to_csv(output_dir / 'instate_perc.csv', index = False)
-    state_contr.to_csv(output_dir / 'all_state_perc.csv', index = False)
+    instate_contr.to_csv(output_dir / "instate_perc.csv", index=False)
+    state_contr.to_csv(output_dir / "all_state_perc.csv", index=False)
 
 
 if __name__ == "__main__":
