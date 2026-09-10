@@ -2,75 +2,101 @@ CandidateID,Candidate,Contributor Type,Total Contributions,Number of Contributio
 441534,"Carroll, Cornelius J",(Unknown),1300.0,4
 441534,"Carroll, Cornelius J",Business/Corp,4500.0,14
 441534,"Carroll, Cornelius J",Candidate Committee,1900.0,4
-441534,"Carroll, Cornelius J",Individual,27075.0,125
+441534,"Carroll, Cornelius J",Individual,27075.0,124
 441534,"Carroll, Cornelius J",Union,650.0,3
 441534,"Carroll, Cornelius J",Union PAC,4000.0,7
 441914,"Davis, James",(Unknown),900.0,2
-441914,"Davis, James",Business/Corp,35250.0,57
+441914,"Davis, James",Business/Corp,35100.0,56
 441914,"Davis, James",Candidate Committee,1325.0,4
-441914,"Davis, James",Individual,165023.0,471
+441914,"Davis, James",Individual,162273.0,458
 441914,"Davis, James",Political Party Cmte,4750.0,4
 441914,"Davis, James",Professional PAC,1625.0,3
 441914,"Davis, James",Union,17350.0,27
 441914,"Davis, James",Union PAC,13200.0,15
+446421,"Perez, Juan  M",(Unknown),425.0,2
+446421,"Perez, Juan  M",Business/Corp,7475.0,19
+446421,"Perez, Juan  M",Individual,38150.0,89
+446421,"Perez, Juan  M",Professional PAC,375.0,1
+446421,"Perez, Juan  M",Union,4250.0,8
+446421,"Perez, Juan  M",Union PAC,5250.0,10
+446426,"La Pelusa, Gary Sr",(Unknown),3650.0,8
+446426,"La Pelusa, Gary Sr",Business/Corp,24050.0,46
+446426,"La Pelusa, Gary Sr",Candidate Committee,1250.0,3
+446426,"La Pelusa, Gary Sr",Individual,74796.0,217
+446426,"La Pelusa, Gary Sr",Union,1800.0,5
+446426,"La Pelusa, Gary Sr",Union PAC,5000.0,5
 459096,"Booker, Loyad",(Unknown),12250.0,6
-459096,"Booker, Loyad",Business/Corp,18950.0,12
+459096,"Booker, Loyad",Business/Corp,18950.0,11
 459096,"Booker, Loyad",Candidate Committee,1600.0,2
-459096,"Booker, Loyad",Individual,52875.0,79
+459096,"Booker, Loyad",Individual,52625.0,76
 459096,"Booker, Loyad",Union,1000.0,2
-459284,"Baselice, Robert P",Business/Corp,20250.0,14
-459284,"Baselice, Robert P",Individual,60300.0,51
-459284,"Baselice, Robert P",Union,2000.0,2
+459284,"Baselice, Robert P",Business/Corp,19750.0,13
+459284,"Baselice, Robert P",Individual,54800.0,46
+459284,"Baselice, Robert P",Union,1000.0,1
 459284,"Baselice, Robert P",Union PAC,3000.0,3
 459966,"O'Dea, William",(Unknown),750.0,1
 459966,"O'Dea, William",Business/Corp,5575.0,10
 459966,"O'Dea, William",Candidate Committee,250.0,1
-459966,"O'Dea, William",Individual,36677.0,69
+459966,"O'Dea, William",Individual,36677.0,68
 459966,"O'Dea, William",Legislative Leadership Cmte,1000.0,1
 459966,"O'Dea, William",Union,15037.0,8
-459966,"O'Dea, William",Union PAC,19500.0,9
+459966,"O'Dea, William",Union PAC,18500.0,8
 459974,"Kopacz, Kenneth",(Unknown),450.0,2
 459974,"Kopacz, Kenneth",Business/Corp,26900.0,39
-459974,"Kopacz, Kenneth",Candidate Committee,8500.0,12
-459974,"Kopacz, Kenneth",Individual,123450.0,354
+459974,"Kopacz, Kenneth",Candidate Committee,8500.0,11
+459974,"Kopacz, Kenneth",Individual,121850.0,343
 459974,"Kopacz, Kenneth",Political Cmte,3700.0,5
 459974,"Kopacz, Kenneth",Trade Association PAC,4000.0,4
-459974,"Kopacz, Kenneth",Union,16950.0,21
+459974,"Kopacz, Kenneth",Union,15950.0,20
 459974,"Kopacz, Kenneth",Union PAC,14600.0,20
-461382,"Fife, James A",(Unknown),4200.0,7
-461382,"Fife, James A",Business/Corp,4400.0,7
-461382,"Fife, James A",Individual,38755.0,122
-461382,"Fife, James A",Political Cmte,250.0,1
-461382,"Fife, James A",Union,900.0,2
-466037,Turner Silvestri-Erhet Curtis & Sosa,Business/Corp,85500.0,63
-466037,Turner Silvestri-Erhet Curtis & Sosa,Candidate Committee,12000.0,4
-466037,Turner Silvestri-Erhet Curtis & Sosa,Individual,84000.0,110
+460816,"Romano, Anthony L Jr",Business/Corp,13000.0,24
+460816,"Romano, Anthony L Jr",Candidate Committee,13151.0,1
+460816,"Romano, Anthony L Jr",Individual,53850.0,88
+460816,"Romano, Anthony L Jr",Professional PAC,2000.0,2
+460816,"Romano, Anthony L Jr",Union,1750.0,3
+460816,"Romano, Anthony L Jr",Union PAC,16300.0,15
+465816,"Weimmer, Jacqueline",(Unknown),8586.0,5
+465816,"Weimmer, Jacqueline",Business/Corp,10025.0,14
+465816,"Weimmer, Jacqueline",Candidate Committee,825.0,4
+465816,"Weimmer, Jacqueline",Individual,59741.0,134
+465816,"Weimmer, Jacqueline",Interest,2.0,3
+465816,"Weimmer, Jacqueline",Political Party Cmte,350.0,2
+465816,"Weimmer, Jacqueline",Union,250.0,1
+465816,"Weimmer, Jacqueline",Union PAC,1750.0,4
+466308,"Rodriguez, Caridad",Individual,23600.0,59
 466348,"Aponte-Lipski, Yraida",(Unknown),1000.0,1
 466348,"Aponte-Lipski, Yraida",Business/Corp,500.0,1
 466348,"Aponte-Lipski, Yraida",Candidate Committee,750.0,1
-466348,"Aponte-Lipski, Yraida",Individual,8200.0,22
+466348,"Aponte-Lipski, Yraida",Individual,7900.0,19
 466348,"Aponte-Lipski, Yraida",Union PAC,1000.0,1
+475396,"Ghainda, Adrian",(Unknown),0.0,1
+481744,"Lucarelli, Lance",(Unknown),0.0,1
 502634,"Ashe Nadrowski, Sharon",(Unknown),10000.0,2
-502634,"Ashe Nadrowski, Sharon",Business/Corp,37601.0,21
+502634,"Ashe Nadrowski, Sharon",Business/Corp,32401.0,19
 502634,"Ashe Nadrowski, Sharon",Candidate Committee,5500.0,1
-502634,"Ashe Nadrowski, Sharon",Individual,161085.0,312
+502634,"Ashe Nadrowski, Sharon",Individual,160335.0,304
 502634,"Ashe Nadrowski, Sharon",Legislative Leadership Cmte,1000.0,1
 502634,"Ashe Nadrowski, Sharon",Union,13000.0,8
 502634,"Ashe Nadrowski, Sharon",Union PAC,12500.0,4
-502820,"Theodoropoulos, Stathis",Business/Corp,3100.0,1
-502876,"Elgarhi, Omar",Individual,31065.0,22
+502755,"Walker, Erica",(Unknown),0.0,1
+502790,"Sabry Guirgis, David",Individual,5363.0,27
+502840,"Perry, Gene E",(Unknown),0.0,1
+502841,"Bottino, Mark A",(Unknown),0.0,1
+502842,Perry Bottino Salama Godesky & Gillen Team Sharon Cte,Business/Corp,32750.0,6
+502842,Perry Bottino Salama Godesky & Gillen Team Sharon Cte,Candidate Committee,10000.0,2
+502842,Perry Bottino Salama Godesky & Gillen Team Sharon Cte,Individual,95100.0,34
+502842,Perry Bottino Salama Godesky & Gillen Team Sharon Cte,Union PAC,11250.0,5
+502876,"Elgarhi, Omar",Individual,30565.0,20
+502893,"Gullace, Salvatore",Individual,10000.0,1
+502937,"Salama, Mariam",(Unknown),0.0,1
+502938,"Godesky-Rodriguez, Melissa",(Unknown),0.0,1
+503034,"Eniquez-Rada, Melissa",(Unknown),0.0,1
+503035,"Veloz, Ramon",(Unknown),0.0,1
 503036,Booker Carroll Rada Veloz Gullace & La Pelusa Team Booker,(Unknown),1250.0,2
-503036,Booker Carroll Rada Veloz Gullace & La Pelusa Team Booker,Business/Corp,21450.0,14
+503036,Booker Carroll Rada Veloz Gullace & La Pelusa Team Booker,Business/Corp,21325.0,13
 503036,Booker Carroll Rada Veloz Gullace & La Pelusa Team Booker,Candidate Committee,28049.0,15
-503036,Booker Carroll Rada Veloz Gullace & La Pelusa Team Booker,Individual,60563.0,73
+503036,Booker Carroll Rada Veloz Gullace & La Pelusa Team Booker,Individual,59188.0,67
 503036,Booker Carroll Rada Veloz Gullace & La Pelusa Team Booker,Union,500.0,1
-503109,Stack Martinetti Grullon Fernandez & Valdivia,Business/Corp,124990.0,34
-503109,Stack Martinetti Grullon Fernandez & Valdivia,Ideological Assoc/ PAC,1000.0,1
-503109,Stack Martinetti Grullon Fernandez & Valdivia,Individual,282410.0,149
-503109,Stack Martinetti Grullon Fernandez & Valdivia,Interest,1.0,2
-503109,Stack Martinetti Grullon Fernandez & Valdivia,Political Cmte,81000.0,4
-503109,Stack Martinetti Grullon Fernandez & Valdivia,Trade Association PAC,1000.0,1
-503109,Stack Martinetti Grullon Fernandez & Valdivia,Union,2000.0,2
 503124,"Ekladious, Mina",(Unknown),500.0,1
 503124,"Ekladious, Mina",Business/ Corp Assoc/ PAC,2000.0,1
 503124,"Ekladious, Mina",Business/Corp,24550.0,18
@@ -79,26 +105,49 @@ CandidateID,Candidate,Contributor Type,Total Contributions,Number of Contributio
 503124,"Ekladious, Mina",Union,1500.0,1
 503165,"Dublin, Jeffrey",Business/Corp,1200.0,3
 503165,"Dublin, Jeffrey",Candidate Committee,750.0,2
-503165,"Dublin, Jeffrey",Individual,21275.0,66
+503165,"Dublin, Jeffrey",Individual,20320.0,63
 503165,"Dublin, Jeffrey",Political Cmte,3500.0,5
 503165,"Dublin, Jeffrey",Trade Association PAC,300.0,1
 503165,"Dublin, Jeffrey",Union,250.0,1
 503165,"Dublin, Jeffrey",Union PAC,700.0,2
+503283,"Gillen, Thomas",(Unknown),0.0,1
+503444,"Valdez, Alex",(Unknown),2250.0,2
+503444,"Valdez, Alex",Business/Corp,500.0,1
+503444,"Valdez, Alex",Individual,20002.0,24
+503444,"Valdez, Alex",Professional PAC,3000.0,1
+503444,"Valdez, Alex",Union PAC,2537.0,3
+503454,"Desmond, Mary Jane",(Unknown),0.0,1
+503455,"Acosta, Anthony",(Unknown),0.0,1
+503456,"Fiermonte, Karen",(Unknown),0.0,1
+503457,"Lavelle, Dawn",(Unknown),0.0,1
 503458,Desmond Acosta Fiermonte & Lavelle,Business/Corp,2000.0,1
-503458,Desmond Acosta Fiermonte & Lavelle,Individual,47364.0,41
-503458,Desmond Acosta Fiermonte & Lavelle,Misc/ Other,5625.0,5
+503458,Desmond Acosta Fiermonte & Lavelle,Individual,47364.0,36
 503458,Desmond Acosta Fiermonte & Lavelle,Union,1000.0,2
-503536,"Bautista, Ronald",Individual,25397.0,83
-503573,Zapata Solano Bonilla & Theodoropoulos,Business/Corp,1700.0,4
-503573,Zapata Solano Bonilla & Theodoropoulos,Individual,14457.0,36
-503573,Zapata Solano Bonilla & Theodoropoulos,Interest,0.0,2
-503573,Zapata Solano Bonilla & Theodoropoulos,Political Party Cmte,8900.0,6
+503536,"Bautista, Ronald",Individual,31497.0,100
+503558,"Sebik, John Milan",(Unknown),0.0,1
 503579,"Johnson, Pam",Business/Corp,500.0,1
 503579,"Johnson, Pam",Individual,2050.0,3
 503579,"Johnson, Pam",Political Cmte,1000.0,1
 503579,"Johnson, Pam",Union,1037.0,1
-504234,"Bennett, Lawrence M",Business/Corp,9800.0,7
+503746,"Pearl, Jim",(Unknown),0.0,1
+503747,"Devaney, Patrick Sr",(Unknown),0.0,1
+503989,"Cedeno, Fanny",(Unknown),0.0,1
+504232,"Alexander, Melissa",(Unknown),0.0,1
+504233,"Raza, Qamar",(Unknown),0.0,1
+504234,"Bennett, Lawrence M",Business/Corp,9500.0,6
 504234,"Bennett, Lawrence M",Candidate Committee,1346.0,2
 504234,"Bennett, Lawrence M",Individual,7300.0,11
-504234,"Bennett, Lawrence M",Misc/ Other,2250.0,1
 504234,"Bennett, Lawrence M",Union,500.0,1
+504235,"Gopalak, Anmol",(Unknown),0.0,1
+505544,"Godesky-Rodriguez, Melissa",(Unknown),0.0,1
+505610,"Gillen, Tommy",(Unknown),0.0,1
+505637,"Weiner, Aaron",(Unknown),0.0,1
+507214,"Raza, Qamar",(Unknown),0.0,1
+507219,"Cedeno, Fanny",(Unknown),0.0,1
+507223,"Gopalak, Anmol",(Unknown),0.0,1
+507256,"Klich, Amanda",(Unknown),0.0,1
+509364,"Kopacz, Robyn",(Unknown),0.0,1
+509365,"Cubberly, Scott",(Unknown),0.0,1
+509366,"Yacoub, Remonda",(Unknown),0.0,1
+509367,"Hladik, John",(Unknown),0.0,1
+509368,"Alexander, Melissa",(Unknown),0.0,1
