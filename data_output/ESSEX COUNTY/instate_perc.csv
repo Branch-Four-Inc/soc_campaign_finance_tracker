@@ -1,54 +1,356 @@
-Candidate,Contributor Location,Amount
-"Anderson, Corey",Undisclosed,0.0
-"Bennett Meany, Gabrielle",Undisclosed,0.0
-"Contella, Frank",Undisclosed,0.0
-"Defrank, Sahwa",Undisclosed,0.0
-"Depena, Noamy",Undisclosed,0.0
-"Divincenzo, Joseph",In-state,683085.32
-"Divincenzo, Joseph",Out-of-state,98600.0
-"Eley, Demetrius",Undisclosed,0.0
-"Engel, Deborah",In-state,3250.0
-"Engel, Deborah",Out-of-state,11000.0
-"Ferreira Almeida, Daniela",Undisclosed,0.0
-"Ferriera Almeida, Daniela",Undisclosed,0.0
-"Freeman, Douglas",Undisclosed,0.0
-"Gill, Brendan",In-state,30150.0
-"Gill, Brendan",Out-of-state,2500.0
-"Graham Sermons, Romaine",In-state,22542.0
-"Graziano, Thomas",Undisclosed,0.0
-"Khanna, Vineeta",Undisclosed,0.0
-"Klein, Shawn",In-state,68657.27
-"Klein, Shawn",Out-of-state,11000.0
-"Kraemer, Adam",In-state,5000.0
-"Lewis, Marqes-Aquil",In-state,16893.27
-"Lu, Kyle",Undisclosed,0.0
-"Luciano, Leonard M",In-state,56737.0
-"Luciano, Leonard M",Out-of-state,3200.0
-Luna & Depena (Graziano Melham)  Belleville Victory 2026,In-state,89860.26
-Luna & Depena (Graziano Melham)  Belleville Victory 2026,Out-of-state,4200.0
-"Luna, Yolanda",Undisclosed,0.0
-"Maldonado, Andrea C",Undisclosed,0.0
-"Mathews, Maritza",Undisclosed,0.0
-"Mcgrath, Christine",In-state,31102.07
-"Mcgrath, Christine",Out-of-state,5800.0
-"Melham, Michael A",In-state,285884.11
-"Melham, Michael A",Out-of-state,10995.71
-"Mercado, Robert",In-state,250.0
-"Missaggia, Lissa",Undisclosed,0.0
-"Muhammad, Medinah",In-state,10430.0
-"Muhammad, Medinah",Out-of-state,1800.0
-"Murray-Thomas, A'Dorian",In-state,7750.0
-"Murray-Thomas, A'Dorian",Out-of-state,1000.0
-Pichardo Muhammad Luciano Pomares Klein Mcgrath Richardson & Yasin,In-state,50000.0
-"Pichardo, Wilson A",In-state,1500.0
-"Pomares, Carlos",In-state,41374.59
-"Pomares, Carlos",Out-of-state,14600.0
-"Richardson, Wayne",In-state,132590.0
-"Richardson, Wayne",Out-of-state,24500.0
-"Russo, Robert J",In-state,1500.0
-"Sebold, Patricia",In-state,5665.0
-"Velez, Frank Iii",In-state,9237.5
-"Victor Hinds, Wynnie-Fred",Undisclosed,0.0
-"Wells, Danyale P",In-state,6505.139999999999
-"Yasin, Abdur R",In-state,33068.0
-"Yasin, Abdur R",Out-of-state,6250.0
+CandidateID,Candidate,Contributor Location,Amount
+437001,"Melham, Michael A",In-state,285884.11
+437001,"Melham, Michael A",Out-of-state,10995.71
+437003,"Depena, Noamy",Undisclosed,0.0
+437004,"Graziano, Thomas",Undisclosed,0.0
+437005,Luna & Depena (Graziano Melham)  Belleville Victory 2026,In-state,89860.26
+437005,Luna & Depena (Graziano Melham)  Belleville Victory 2026,Out-of-state,4200.0
+437063,"Vauss, Anthony",In-state,143250.0
+437063,"Vauss, Anthony",Out-of-state,13400.0
+438228,"Ramos, Anibal Jr",In-state,627261.87
+438228,"Ramos, Anibal Jr",Out-of-state,82850.0
+441239,"Council, Patrick O",In-state,303762.83
+441239,"Council, Patrick O",Out-of-state,31700.0
+441756,"Frederic, Charnette",Undisclosed,0.0
+441757,"Hudley, October",Undisclosed,0.0
+441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,In-state,275150.0
+441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,Out-of-state,35100.0
+442017,"Crump, Cecil Lawrence",In-state,245800.0
+442017,"Crump, Cecil Lawrence",Out-of-state,7000.0
+442150,"Spango, James R",In-state,194160.02
+442150,"Spango, James R",Out-of-state,6083.34
+447217,"Silva, Michael J",In-state,207880.0
+447217,"Silva, Michael J",Out-of-state,28300.0
+447717,"Baraka, Ras J",In-state,569820.6
+447717,"Baraka, Ras J",Out-of-state,61766.67
+448273,"Mccartney, Susan",In-state,1000.0
+453829,"Scott-Rountree, Louise",In-state,53780.0
+453829,"Scott-Rountree, Louise",Out-of-state,5000.0
+454582,"Sebold, Patricia",In-state,5665.0
+454589,"Mercado, Robert",In-state,250.0
+459043,"Brown, Darlene",Undisclosed,0.0
+459044,"Evans, Sean",Undisclosed,0.0
+459513,"Richardson, Wayne",In-state,132590.0
+459513,"Richardson, Wayne",Out-of-state,24500.0
+460791,"Talmadge, Ryan",Undisclosed,0.0
+460864,"Bardi, Christopher",Undisclosed,0.0
+460885,"Bardi, Christopher",Undisclosed,0.0
+460962,"Pomares, Carlos",In-state,41374.59
+460962,"Pomares, Carlos",Out-of-state,14600.0
+461281,"Mciver, Lamonica",In-state,2006.46
+461343,"Luciano, Leonard M",In-state,56737.0
+461343,"Luciano, Leonard M",Out-of-state,3200.0
+461375,"Graham Sermons, Romaine",In-state,22542.0
+461379,"Murray-Thomas, A'Dorian",In-state,7750.0
+461379,"Murray-Thomas, A'Dorian",Out-of-state,1000.0
+461613,"Gill, Brendan",In-state,30150.0
+461613,"Gill, Brendan",Out-of-state,2500.0
+466297,"Klein, Shawn R",Undisclosed,0.0
+470812,"Tempesta, Joseph Jr",In-state,24200.0
+470814,"Hollaway, Tammy",Undisclosed,0.0
+473245,"Charris Tabares, Monica M",Undisclosed,0.0
+473413,"Adams, Eric",Undisclosed,0.0
+473414,"Herran, Alonzo Jr",In-state,33500.0
+473506,"Baptiste, Ruth",Undisclosed,0.0
+473507,"Inman, Paul",Undisclosed,0.0
+473508,Inman Baptiste Watford & Ogu Team Inman 2026,In-state,38337.0
+473650,"Ogbourne, Lynn",In-state,250.0
+473650,"Ogbourne, Lynn",Out-of-state,6235.0
+473663,"Tillman, George  Jr",Undisclosed,0.0
+473962,"Montague, Sheila A",Undisclosed,0.0
+475395,"Mccoy, Jimmy L",Undisclosed,0.0
+475410,"Kelly, Ade'Kamil",Undisclosed,0.0
+477217,"White, Altarik B Sr",In-state,1250.0
+481046,"Lloyd, Lynda A",Undisclosed,0.0
+502667,"Jackson, Donald L",In-state,2800.0
+502671,"Gonzalez, Rosalee",Undisclosed,0.0
+502672,"Cruz, Sarah",Undisclosed,0.0
+502673,Gonzalez Martinez & Cruz Team Mundell For Bloomfield,In-state,156481.7
+502673,Gonzalez Martinez & Cruz Team Mundell For Bloomfield,Out-of-state,16300.0
+502751,"Rock, Brian",In-state,1950.0
+502751,"Rock, Brian",Out-of-state,500.0
+502776,"Velez, Frank Iii",In-state,9237.5
+502808,"Chaneyfield Jenkins, Gayle",Undisclosed,0.0
+502813,"Bey, Amina",In-state,31565.0
+502813,"Bey, Amina",Out-of-state,600.0
+502814,"Quiles, Jacqueline",Undisclosed,0.0
+502815,"Kelly, Dupre L",In-state,52555.0
+502815,"Kelly, Dupre L",Out-of-state,1450.0
+502817,"Scott-Rountree Bey Council Crump & Kelly (Baraka, Quiles) Team Baraka 2026",In-state,304416.67
+502817,"Scott-Rountree Bey Council Crump & Kelly (Baraka, Quiles) Team Baraka 2026",Out-of-state,21333.33
+502828,"Jones, Trenton E",In-state,2552.0
+502879,"Kettles, Khalil T",Undisclosed,0.0
+502888,"Garner, Tanisha  H",In-state,605.0
+502899,"Santiago, Stefanie",In-state,1915.48
+502899,"Santiago, Stefanie",Out-of-state,3500.0
+502902,"Victor Hinds, Wynnie-Fred",Undisclosed,0.0
+502935,Vauss Frederic & Brown Team Irvington Strong 2026,In-state,124650.0
+502935,Vauss Frederic & Brown Team Irvington Strong 2026,Out-of-state,15000.0
+502949,"Mcgrath, Christine",In-state,31102.07
+502949,"Mcgrath, Christine",Out-of-state,5800.0
+502953,"Williams, Tammy M",In-state,35530.0
+502953,"Williams, Tammy M",Out-of-state,4850.0
+503008,"Garcia, Josephine C",In-state,64450.0
+503008,"Garcia, Josephine C",Out-of-state,34600.0
+503009,"Santana, Vereliz",Undisclosed,0.0
+503010,"Childs, Quamid",In-state,500.0
+503070,"Desir, Danouchka",Undisclosed,0.0
+503071,"Quizhpi, Jennifer",Undisclosed,0.0
+503072,Desir & Quizhpi,Undisclosed,0.0
+503103,"Council, Hassani K",In-state,8335.0
+503117,Save Montclair Schools,In-state,533.13
+503354,"Martinez, Jason",Undisclosed,0.0
+503394,"Yasin, Abdur R",In-state,33068.0
+503394,"Yasin, Abdur R",Out-of-state,6250.0
+503401,"James, Lynval H",Undisclosed,0.0
+503407,"Rivera, Edden O",Undisclosed,0.0
+503419,"Luna, Yolanda",Undisclosed,0.0
+503422,"Lebron, Maria E",In-state,4000.01
+503422,"Lebron, Maria E",Out-of-state,2500.0
+503423,"Klein, Shawn",In-state,68657.27
+503423,"Klein, Shawn",Out-of-state,11000.0
+503443,"Peppers, Rasheen M",In-state,62050.0
+503443,"Peppers, Rasheen M",Out-of-state,7000.0
+503445,"Comesanas, Mark",In-state,5650.0
+503463,"Anderson, Corey",Undisclosed,0.0
+503467,"Watford, Durrell",Undisclosed,0.0
+503468,"Ogu, Jude N",Undisclosed,0.0
+503470,"Benbow, Syesha",Undisclosed,0.0
+503471,"Geffrard, Jordan",Undisclosed,0.0
+503472,"Lyon, Audrey",Undisclosed,0.0
+503487,"Farrell, John",Undisclosed,0.0
+503488,"Gray, Lisa A",Undisclosed,0.0
+503489,"Hollaway, Tammy",Undisclosed,0.0
+503490,"Peters, Tawheed",Undisclosed,0.0
+503529,"Jackson, Latoya",Undisclosed,0.0
+503530,"Nivar, Jordy",Undisclosed,0.0
+503553,"Quintana, Luis A",In-state,77200.0
+503553,"Quintana, Luis A",Out-of-state,24775.0
+503581,"Nivar, Jordy",Undisclosed,0.0
+503605,"Muhammad, Medinah",In-state,10430.0
+503605,"Muhammad, Medinah",Out-of-state,1800.0
+503606,"Khanna, Vineeta",Undisclosed,0.0
+503627,"Russo, Robert J",In-state,1500.0
+503645,Council Childs Comesanas & Nivar Moving Newark Schools Forward 2026,In-state,39250.0
+503647,"Docteroff, Michael",Undisclosed,0.0
+503648,"Canale, Kathy L",Undisclosed,0.0
+503649,Tempesta Docteroff & Canale,In-state,42900.0
+503651,"Zall, Beth",Undisclosed,0.0
+503652,"Brazell, William",Undisclosed,0.0
+503653,Zall & Brazell,In-state,3800.0
+503653,Zall & Brazell,Out-of-state,660.0
+503677,"Wells, Danyale P",In-state,6505.139999999999
+503679,"Hendy, Jackie",In-state,5425.0
+503679,"Hendy, Jackie",Out-of-state,700.0
+503680,"Salters, Debra L",Undisclosed,0.0
+503681,"Davis, Douglas R",Out-of-state,250.0
+503682,"Milton, Noble D",Undisclosed,0.0
+503683,"Singleton, Nasheedah S",In-state,100.0
+503684,"Hinnant, Joanette",In-state,4621.0
+503686,"Brown, Nadirah A",Undisclosed,0.0
+503687,"Olivera, Pablo A",Undisclosed,0.0
+503688,"Cooper, Malik H",Undisclosed,0.0
+503689,"Shabazz, Yusuf A",Undisclosed,0.0
+503690,"Vaughn, Lamont T",Undisclosed,0.0
+503691,"Cherry, Christina G",Undisclosed,0.0
+503692,"Sanchez, Marcos M",In-state,950.0
+503693,"Norton, Asia J",In-state,4158.3099999999995
+503693,"Norton, Asia J",Out-of-state,491.64
+503694,"Jetti, Willie S",In-state,650.0
+503695,"Baker, Lonnie T",Undisclosed,0.0
+503696,"Ahmad, Abdush",Undisclosed,0.0
+503697,"Outlaw, Malcolm X Sr",Undisclosed,0.0
+503698,"El-Amin, Muta N",Undisclosed,0.0
+503699,"Eason, Tency",Undisclosed,0.0
+503700,"Summers-Johnson, Jamie B",In-state,400.0
+503700,"Summers-Johnson, Jamie B",Out-of-state,4500.0
+503701,"Coley, Kerry",Undisclosed,0.0
+503702,"Hall, Antoinett A",Undisclosed,0.0
+503703,"Hilbert, Quantavia L",Undisclosed,0.0
+503704,"Vauss, Anthony A Jr",In-state,83725.0
+503704,"Vauss, Anthony A Jr",Out-of-state,14550.0
+503732,Benbow Geffard & Lyon,In-state,17400.0
+503732,Benbow Geffard & Lyon,Out-of-state,3000.0
+503760,"Abenstein, Stacey",Undisclosed,0.0
+503761,"Kahn, Laurie",Undisclosed,0.0
+503762,Kahn & Abenstein,In-state,12650.0
+503762,Kahn & Abenstein,Out-of-state,750.0
+503873,"Ceperley, Martin",In-state,19050.0
+503879,"Engel, Deborah",In-state,3250.0
+503879,"Engel, Deborah",Out-of-state,11000.0
+503887,"Meinhardt, Edward",Undisclosed,0.0
+503888,"Bhuptani, Ketan K",Undisclosed,0.0
+503889,Meinhardt & Bhuptani,In-state,50305.59
+503889,Meinhardt & Bhuptani,Out-of-state,2850.0
+503902,"Wang, Daphne Dan",In-state,6250.0
+503990,"Jurgensen, Kenneth",Undisclosed,0.0
+503991,"Sagalow, Jonathan R",Undisclosed,0.0
+503992,"Alcorta, Ricardo",Undisclosed,0.0
+503993,Jurgensen Sagalow & Alcorta,In-state,1710.0
+503993,Jurgensen Sagalow & Alcorta,Out-of-state,250.0
+503994,"Sullivan, John T",In-state,13082.58
+503995,"Mathews, Maritza",Undisclosed,0.0
+503996,"Ferreira Almeida, Daniela",Undisclosed,0.0
+504072,"Pichardo, Wilson A",In-state,1500.0
+504662,Millburn Residents For Non-Partisan Positive Change,Undisclosed,0.0
+505170,"Divincenzo, Joseph",In-state,683085.32
+505170,"Divincenzo, Joseph",Out-of-state,98600.0
+505171,"Lewis, Marqes-Aquil",In-state,16893.27
+505172,"Eley, Demetrius",Undisclosed,0.0
+505173,"Freeman, Douglas",Undisclosed,0.0
+505174,"Defrank, Sahwa",Undisclosed,0.0
+505175,"Kraemer, Adam",In-state,5000.0
+505176,"Contella, Frank",Undisclosed,0.0
+505177,"Babula, Greg",In-state,17391.72
+505177,"Babula, Greg",Out-of-state,1500.0
+505178,"Bonica, Paul",Undisclosed,0.0
+505179,"Bootwala, Stef",In-state,2461.04
+505179,"Bootwala, Stef",Out-of-state,1750.0
+505182,"Jones, Garrett C",Undisclosed,0.0
+505183,"Pollara, Andrew",Undisclosed,0.0
+505184,"Bambrick, Brian",Undisclosed,0.0
+505185,"King, John",Undisclosed,0.0
+505186,"D`Avella, Bernard J",Undisclosed,0.0
+505187,"Campisi, Peter",Undisclosed,0.0
+505188,"Lattimer, Michael",Undisclosed,0.0
+505189,"Lam, Bill",In-state,5001.52
+505189,"Lam, Bill",Out-of-state,350.0
+505190,"Foley, Timothy S",Undisclosed,0.0
+505191,"De Luca, Victor",In-state,6544.3
+505192,"Saccomandi, Frank Iv",Undisclosed,0.0
+505193,"Stoller, Ben",Undisclosed,0.0
+505194,"Floria-Callori, Anthony",Undisclosed,0.0
+505195,"Luers-Franco, Aimee",Undisclosed,0.0
+505196,"Tilton, Kenneth",Undisclosed,0.0
+505197,"Biront, John",Undisclosed,0.0
+505235,"Goldsman, Justin",In-state,1118.0
+505331,"Zeblow , Aaron",Undisclosed,0.0
+505332,"Zeblow, Jennifer",Undisclosed,0.0
+505340,Millburn Residents For Non Partisan Positive Change,In-state,20951.0
+505354,"Krakoviak, Joe",Undisclosed,0.0
+505371,Residents For Transparency And Affordability,In-state,20842.59
+505371,Residents For Transparency And Affordability,Out-of-state,400.84
+505387,Pichardo Muhammad Luciano Pomares Klein Mcgrath Richardson & Yasin,In-state,50000.0
+505446,"Bennett, Micaela",In-state,9730.0
+505446,"Bennett, Micaela",Out-of-state,685.0
+505500,Saccomandi & Stoller,Undisclosed,0.0
+505521,"Council, Patrick",In-state,60210.0
+505552,"King, John",Undisclosed,0.0
+505616,"Dvorin, Matthew",Undisclosed,0.0
+505617,"Rudin, Joyce L",Undisclosed,0.0
+505634,Zeblow & Zeblow,Undisclosed,0.0
+505650,"Gibbons, Kenneth",Undisclosed,0.0
+505719,"Hartwyk, Katherine",Undisclosed,0.0
+505803,"Zablow, Aaron",Undisclosed,0.0
+505804,"Zablow, Jennifer",Undisclosed,0.0
+505805,Zablow & Zablow,Undisclosed,0.0
+505964,"Docteroff, Michael",Undisclosed,0.0
+505965,"Canale, Kathy L",Undisclosed,0.0
+506162,"Saccomandi, Frank Iv",Undisclosed,0.0
+506163,"Stoller, Ben",Undisclosed,0.0
+506164,Saccomandi & Stoller For Millburn Tc,Undisclosed,0.0
+506260,"Foley, Timothy S",Undisclosed,0.0
+506290,"Schor, Corey",Undisclosed,0.0
+506349,"Gonzalez, Rosalee",Undisclosed,0.0
+506350,"Cruz, Sarah",Undisclosed,0.0
+506351,Gonzalez & Cruz,Undisclosed,0.0
+506783,"Callahan, Elizabeth",Undisclosed,0.0
+506784,"Meyer, William",Undisclosed,0.0
+506785,Callahan & Meyer For Board Of Education,Undisclosed,0.0
+506872,"Zall, Beth",Undisclosed,0.0
+506873,"Brazell, Bill",Undisclosed,0.0
+506874,Zall & Brazell Cte,Undisclosed,0.0
+506982,"Scarpa, Susan",Undisclosed,0.0
+507177,"Frenklakh, Daniel",Undisclosed,0.0
+507250,"Meinhardt, Edward",Undisclosed,0.0
+507251,"Bhuptani, Ketan K",Undisclosed,0.0
+507252,"Abenstein, Stacey",Undisclosed,0.0
+507253,Meinhardt Bhuptani & Abenstein,Undisclosed,0.0
+507608,"Weintraub, Lawrence",Undisclosed,0.0
+507878,"Mathews, Maritza",Undisclosed,0.0
+507882,"Eley, Demetrius",Undisclosed,0.0
+507883,"Ferriera Almeida, Daniela",Undisclosed,0.0
+507884,"Freeman, Douglas",Undisclosed,0.0
+507885,"Defrank, Sahwa",Undisclosed,0.0
+507891,"Contella, Frank",Undisclosed,0.0
+507893,"Jurgensen, Kenneth",Undisclosed,0.0
+507894,"Jones, Garrett C",Undisclosed,0.0
+507895,"Sagalow, Jonathan R",Undisclosed,0.0
+507896,"Heftler, Mark",Undisclosed,0.0
+507897,"Pollara, Andrew",Undisclosed,0.0
+507898,"Bambrick, Brian",Undisclosed,0.0
+507899,"Davella, Bernard J",Undisclosed,0.0
+507900,"Campisi, Peter",Undisclosed,0.0
+507901,"Lattimer, Michael",Undisclosed,0.0
+507902,"Lefkovits, David",Undisclosed,0.0
+507903,"Moody, Lorijeane",Undisclosed,0.0
+507909,"Tilton, Kenneth",Undisclosed,0.0
+507910,"Floria-Callori, Anthony",Undisclosed,0.0
+507911,"Luers-Franco, Aimee",Undisclosed,0.0
+507913,"Biront, John",Undisclosed,0.0
+508276,"Woods, Jason J",Undisclosed,0.0
+508671,"Diaz, Kevin",Undisclosed,0.0
+508997,"Bennett Meany, Gabrielle",Undisclosed,0.0
+508998,"Lu, Kyle",Undisclosed,0.0
+508999,"Maldonado, Andrea C",Undisclosed,0.0
+509000,"Missaggia, Lissa",Undisclosed,0.0
+509001,"Miller, Quan R",Undisclosed,0.0
+509002,"Diaz, Maria A",Undisclosed,0.0
+509003,"Serrano, Damaso",Undisclosed,0.0
+509004,"Dudley, Kasey",Undisclosed,0.0
+509005,"Green, Nadeisha",Undisclosed,0.0
+509006,"Parry, Stephanie",Undisclosed,0.0
+509007,"Landolfi-Jefferson, Marisa",Undisclosed,0.0
+509008,"Palek, Paul A Jr",Undisclosed,0.0
+509009,"Street, Jason",Undisclosed,0.0
+509010,"Cristobal, Laila",Undisclosed,0.0
+509011,"Schaer, Jonathan R",Undisclosed,0.0
+509012,"Depascale, Anthony",Undisclosed,0.0
+509013,"Street, Melinda",Undisclosed,0.0
+509014,"Gearhart, Darleen L",Undisclosed,0.0
+509015,"Gottlieb, Jocelyn",Undisclosed,0.0
+509016,"Maddock, Gilbert",Undisclosed,0.0
+509017,"Gong, Fang",Undisclosed,0.0
+509018,"Ashinsky, Neal Adam",Undisclosed,0.0
+509019,"Azeez, Patricia",Undisclosed,0.0
+509020,"Ostrovsky, Anna",Undisclosed,0.0
+509021,"Saurabh, Prasoon",Undisclosed,0.0
+509022,"Germa, Christian",Undisclosed,0.0
+509023,"Longley Richards, Cynthia",Undisclosed,0.0
+509024,"Shivani, Priya",Undisclosed,0.0
+509025,"Finkelstein, Andrew",Undisclosed,0.0
+509026,"Mishra, Gyanprakash S",Undisclosed,0.0
+509027,"Gideon, Andrew W",Undisclosed,0.0
+509028,"Reynics, Richard",Undisclosed,0.0
+509029,"Pierson, Corey",Undisclosed,0.0
+509030,"Bookhart, Brandie",Undisclosed,0.0
+509031,"Haran, Ayelet",Undisclosed,0.0
+509032,"Moon, David",Undisclosed,0.0
+509033,"Simpson, George",Undisclosed,0.0
+509034,"Ved, David",Undisclosed,0.0
+509035,"Patel Malige, Sapna",Undisclosed,0.0
+509037,"Danchak-Martin, Lisa",Undisclosed,0.0
+509038,"Battaglia, Joe",Undisclosed,0.0
+509039,"Balsamo, Salvatore",Undisclosed,0.0
+509040,"Ferraro, Salvatore",Undisclosed,0.0
+509041,"Marsala, Michael",Undisclosed,0.0
+509042,"Turner, Fatimah",Undisclosed,0.0
+509043,"Davis, Samantha",Undisclosed,0.0
+509044,"Lambert Wingfield, Jeff",Undisclosed,0.0
+509046,"Cianni Villopoto, Angelica",Undisclosed,0.0
+509047,"Scaraggi, Allison",Undisclosed,0.0
+509048,"Boone, Michael",Undisclosed,0.0
+509049,"Goman, Robert W Iii",Undisclosed,0.0
+509050,"Ferrera, Diana",Undisclosed,0.0
+509051,"Deo, Anthony J",Undisclosed,0.0
+509052,"Vera, Maria",Undisclosed,0.0
+509053,"Mims, Brenda T",Undisclosed,0.0
+509058,Ostrovsky Saurabh & Germa For Millburn Boe,Undisclosed,0.0
+509107,"Digiovanni, Ruth",Undisclosed,0.0
+509419,"Horta, Mariana",Undisclosed,0.0
+509420,"Porro, Kyle",Undisclosed,0.0
+509421,"Martin, Antoinette",Undisclosed,0.0
+509449,Spango Bardi & Biront Committee To Re-Elect,Undisclosed,0.0
+509476,Miller Diaz & Serrano For The Bloomfield Students,Undisclosed,0.0
+509483,"Rosa, Jacqueline",Undisclosed,0.0
+509516,Maldonado & Missaggia For Boe,Undisclosed,0.0

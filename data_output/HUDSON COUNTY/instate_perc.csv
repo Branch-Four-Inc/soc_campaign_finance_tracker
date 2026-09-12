@@ -1,72 +1,173 @@
-Candidate,Contributor Location,Amount
-"Acosta, Anthony",Undisclosed,0.0
-"Alexander, Melissa",Undisclosed,0.0
-"Aponte-Lipski, Yraida",In-state,11150.0
-"Ashe Nadrowski, Sharon",In-state,215386.0
-"Ashe Nadrowski, Sharon",Out-of-state,19350.0
-"Baselice, Robert P",In-state,78550.0
-"Bautista, Ronald",In-state,27447.0
-"Bautista, Ronald",Out-of-state,4050.0
-"Bennett, Lawrence M",In-state,16146.01
-"Bennett, Lawrence M",Out-of-state,2500.0
-Booker Carroll Rada Veloz Gullace & La Pelusa Team Booker,In-state,101572.31
-Booker Carroll Rada Veloz Gullace & La Pelusa Team Booker,Out-of-state,8740.0
-"Booker, Loyad",In-state,76750.0
-"Booker, Loyad",Out-of-state,9675.0
-"Bottino, Mark A",Undisclosed,0.0
-"Carroll, Cornelius J",In-state,37975.0
-"Carroll, Cornelius J",Out-of-state,1450.0
-"Cedeno, Fanny",Undisclosed,0.0
-"Cubberly, Scott",Undisclosed,0.0
-"Davis, James",In-state,212575.0
-"Davis, James",Out-of-state,23948.0
-Desmond Acosta Fiermonte & Lavelle,In-state,50363.71
-"Desmond, Mary Jane",Undisclosed,0.0
-"Devaney, Patrick Sr",Undisclosed,0.0
-"Dublin, Jeffrey",In-state,27020.0
-"Ekladious, Mina",In-state,38600.0
-"Ekladious, Mina",Out-of-state,4200.0
-"Elgarhi, Omar",In-state,30565.0
-"Eniquez-Rada, Melissa",Undisclosed,0.0
-"Fiermonte, Karen",Undisclosed,0.0
-"Ghainda, Adrian",Undisclosed,0.0
-"Gillen, Thomas",Undisclosed,0.0
-"Gillen, Tommy",Undisclosed,0.0
-"Godesky-Rodriguez, Melissa",Undisclosed,0.0
-"Gopalak, Anmol",Undisclosed,0.0
-"Gullace, Salvatore",In-state,10000.0
-"Hladik, John",Undisclosed,0.0
-"Johnson, Pam",In-state,4587.0
-"Klich, Amanda",Undisclosed,0.0
-"Kopacz, Kenneth",In-state,188850.0
-"Kopacz, Kenneth",Out-of-state,7100.0
-"Kopacz, Robyn",Undisclosed,0.0
-"La Pelusa, Gary Sr",In-state,103623.99
-"La Pelusa, Gary Sr",Out-of-state,6922.0
-"Lavelle, Dawn",Undisclosed,0.0
-"Lucarelli, Lance",Undisclosed,0.0
-"O'Dea, William",In-state,71389.0
-"O'Dea, William",Out-of-state,6400.0
-"Pearl, Jim",Undisclosed,0.0
-"Perez, Juan  M",In-state,48300.0
-"Perez, Juan  M",Out-of-state,7625.0
-Perry Bottino Salama Godesky & Gillen Team Sharon Cte,In-state,148200.0
-Perry Bottino Salama Godesky & Gillen Team Sharon Cte,Out-of-state,900.0
-"Perry, Gene E",Undisclosed,0.0
-"Raza, Qamar",Undisclosed,0.0
-"Rodriguez, Caridad",In-state,23000.0
-"Rodriguez, Caridad",Out-of-state,600.0
-"Romano, Anthony L Jr",In-state,94900.87
-"Romano, Anthony L Jr",Out-of-state,5150.0
-"Sabry Guirgis, David",In-state,2112.51
-"Sabry Guirgis, David",Out-of-state,3250.0
-"Salama, Mariam",Undisclosed,0.0
-"Sebik, John Milan",Undisclosed,0.0
-"Valdez, Alex",In-state,27239.25
-"Valdez, Alex",Out-of-state,1050.0
-"Veloz, Ramon",Undisclosed,0.0
-"Walker, Erica",Undisclosed,0.0
-"Weimmer, Jacqueline",In-state,79778.94
-"Weimmer, Jacqueline",Out-of-state,1750.0
-"Weiner, Aaron",Undisclosed,0.0
-"Yacoub, Remonda",Undisclosed,0.0
+CandidateID,Candidate,Contributor Location,Amount
+441534,"Carroll, Cornelius J",In-state,37975.0
+441534,"Carroll, Cornelius J",Out-of-state,1450.0
+441914,"Davis, James",In-state,212575.0
+441914,"Davis, James",Out-of-state,23948.0
+446421,"Perez, Juan  M",In-state,48300.0
+446421,"Perez, Juan  M",Out-of-state,7625.0
+446426,"La Pelusa, Gary Sr",In-state,103623.99
+446426,"La Pelusa, Gary Sr",Out-of-state,6922.0
+448965,"Gerbasio, John",Undisclosed,0.0
+448966,"Tringali, Orietta",Undisclosed,0.0
+448967,"Clancy, James",Undisclosed,0.0
+448968,Gerbasio Tringali & Clancy,Undisclosed,0.0
+459096,"Booker, Loyad",In-state,76750.0
+459096,"Booker, Loyad",Out-of-state,9675.0
+459284,"Baselice, Robert P",In-state,78550.0
+459966,"O'Dea, William",In-state,71389.0
+459966,"O'Dea, William",Out-of-state,6400.0
+459974,"Kopacz, Kenneth",In-state,188850.0
+459974,"Kopacz, Kenneth",Out-of-state,7100.0
+460816,"Romano, Anthony L Jr",In-state,94900.87
+460816,"Romano, Anthony L Jr",Out-of-state,5150.0
+461382,"Fife, James A",In-state,47605.0
+461382,"Fife, James A",Out-of-state,400.0
+465816,"Weimmer, Jacqueline",In-state,79778.94
+465816,"Weimmer, Jacqueline",Out-of-state,1750.0
+466032,"Turner, Richard F",Undisclosed,0.0
+466033,"Silvestri-Ehret, Carmela",Undisclosed,0.0
+466035,"Curtis, David J",Undisclosed,0.0
+466036,"Sosa, Robert J",Undisclosed,0.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,In-state,176000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Out-of-state,2500.0
+466308,"Rodriguez, Caridad",In-state,23000.0
+466308,"Rodriguez, Caridad",Out-of-state,600.0
+466348,"Aponte-Lipski, Yraida",In-state,11150.0
+475396,"Ghainda, Adrian",Undisclosed,0.0
+481744,"Lucarelli, Lance",Undisclosed,0.0
+502634,"Ashe Nadrowski, Sharon",In-state,215386.0
+502634,"Ashe Nadrowski, Sharon",Out-of-state,19350.0
+502755,"Walker, Erica",Undisclosed,0.0
+502790,"Sabry Guirgis, David",In-state,2112.51
+502790,"Sabry Guirgis, David",Out-of-state,3250.0
+502820,"Theodoropoulos, Stathis",In-state,3100.0
+502840,"Perry, Gene E",Undisclosed,0.0
+502841,"Bottino, Mark A",Undisclosed,0.0
+502842,Perry Bottino Salama Godesky & Gillen Team Sharon Cte,In-state,148200.0
+502842,Perry Bottino Salama Godesky & Gillen Team Sharon Cte,Out-of-state,900.0
+502876,"Elgarhi, Omar",In-state,30565.0
+502893,"Gullace, Salvatore",In-state,10000.0
+502937,"Salama, Mariam",Undisclosed,0.0
+502938,"Godesky-Rodriguez, Melissa",Undisclosed,0.0
+503034,"Eniquez-Rada, Melissa",Undisclosed,0.0
+503035,"Veloz, Ramon",Undisclosed,0.0
+503036,Booker Carroll Rada Veloz Gullace & La Pelusa Team Booker,In-state,101572.31
+503036,Booker Carroll Rada Veloz Gullace & La Pelusa Team Booker,Out-of-state,8740.0
+503104,"Stack, Brian P",Undisclosed,0.0
+503105,"Martinetti, Maryury A",Undisclosed,0.0
+503106,"Grullon, Wendy A",Undisclosed,0.0
+503107,"Fernandez, Lucio P",Undisclosed,0.0
+503108,"Valdivia, Celin J",Undisclosed,0.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,In-state,399490.93
+503109,Stack Martinetti Grullon Fernandez & Valdivia,Out-of-state,92910.0
+503124,"Ekladious, Mina",In-state,38600.0
+503124,"Ekladious, Mina",Out-of-state,4200.0
+503165,"Dublin, Jeffrey",In-state,27020.0
+503283,"Gillen, Thomas",Undisclosed,0.0
+503444,"Valdez, Alex",In-state,27239.25
+503444,"Valdez, Alex",Out-of-state,1050.0
+503454,"Desmond, Mary Jane",Undisclosed,0.0
+503455,"Acosta, Anthony",Undisclosed,0.0
+503456,"Fiermonte, Karen",Undisclosed,0.0
+503457,"Lavelle, Dawn",Undisclosed,0.0
+503458,Desmond Acosta Fiermonte & Lavelle,In-state,50363.71
+503499,"Hector, Lorgia",Undisclosed,0.0
+503500,"Jimenez, Karina",Undisclosed,0.0
+503501,"Patel, Kanaiyalal",Undisclosed,0.0
+503536,"Bautista, Ronald",In-state,27447.0
+503536,"Bautista, Ronald",Out-of-state,4050.0
+503558,"Sebik, John Milan",Undisclosed,0.0
+503570,"Zapata, George",Undisclosed,0.0
+503571,"Solano, Dennis",Undisclosed,0.0
+503572,"Bonilla, Sarah",Undisclosed,0.0
+503573,Zapata Solano Bonilla & Theodoropoulos,In-state,24057.1
+503573,Zapata Solano Bonilla & Theodoropoulos,Out-of-state,1000.0
+503579,"Johnson, Pam",In-state,4587.0
+503610,"Cannata, John",Undisclosed,0.0
+503611,"Cabrera, Linda",Undisclosed,0.0
+503612,"Pinal, Richard",Undisclosed,0.0
+503613,"Codina, Henry",Undisclosed,0.0
+503614,"Jover, Aylen",Undisclosed,0.0
+503615,"Pfeil, Sandra",Undisclosed,0.0
+503623,"Morales-Jennings, Susan",Undisclosed,0.0
+503624,"Iordamlis, Tina",Undisclosed,0.0
+503630,"Ritorto, Dominick",Undisclosed,0.0
+503746,"Pearl, Jim",Undisclosed,0.0
+503747,"Devaney, Patrick Sr",Undisclosed,0.0
+503783,"Verile, Michael P",Undisclosed,0.0
+503989,"Cedeno, Fanny",Undisclosed,0.0
+504232,"Alexander, Melissa",Undisclosed,0.0
+504233,"Raza, Qamar",Undisclosed,0.0
+504234,"Bennett, Lawrence M",In-state,16146.01
+504234,"Bennett, Lawrence M",Out-of-state,2500.0
+504235,"Gopalak, Anmol",Undisclosed,0.0
+504236,"De Oliveira, Acacio",Undisclosed,0.0
+504237,"Zincavage, Jeanne",Undisclosed,0.0
+504238,"Malave, Juana",Undisclosed,0.0
+504239,"Huaranga, Jesus R",Undisclosed,0.0
+504240,"Diaco, Joseph",Undisclosed,0.0
+504241,"Woods, James T",Undisclosed,0.0
+504242,"Doran, James P",Undisclosed,0.0
+504243,"Balcazar, Zayda",Undisclosed,0.0
+504244,"Huancaya, Julio",Undisclosed,0.0
+504245,"Miranda, Orlando",Undisclosed,0.0
+504246,"Hokien, William",Undisclosed,0.0
+504247,"Shea, Edmund J",Undisclosed,0.0
+505051,Hector Jimenez & Patel,Undisclosed,0.0
+505315,"Manuel, Emily",Undisclosed,0.0
+505544,"Godesky-Rodriguez, Melissa",Undisclosed,0.0
+505589,Zincavage & De Oliveira,Undisclosed,0.0
+505610,"Gillen, Tommy",Undisclosed,0.0
+505637,"Weiner, Aaron",Undisclosed,0.0
+507214,"Raza, Qamar",Undisclosed,0.0
+507219,"Cedeno, Fanny",Undisclosed,0.0
+507223,"Gopalak, Anmol",Undisclosed,0.0
+507224,"De Oliveira, Acacio",Undisclosed,0.0
+507225,"Zincavage, Jeanne",Undisclosed,0.0
+507226,"Malave, Juana",Undisclosed,0.0
+507227,"Hokien, William",Undisclosed,0.0
+507229,"Huaranga, Jesus R",Undisclosed,0.0
+507230,"Diaco, Joseph",Undisclosed,0.0
+507231,"Woods, James T",Undisclosed,0.0
+507232,"Doran, James P",Undisclosed,0.0
+507233,"Zapata, George",Undisclosed,0.0
+507234,"Huancaya, Julio",Undisclosed,0.0
+507235,"Bonilla, Sarah",Undisclosed,0.0
+507236,"Bystrowski, Darius",Undisclosed,0.0
+507237,"Miranda, Orlando",Undisclosed,0.0
+507242,"Tehfa, Sukaina",Undisclosed,0.0
+507256,"Klich, Amanda",Undisclosed,0.0
+509364,"Kopacz, Robyn",Undisclosed,0.0
+509365,"Cubberly, Scott",Undisclosed,0.0
+509366,"Yacoub, Remonda",Undisclosed,0.0
+509367,"Hladik, John",Undisclosed,0.0
+509368,"Alexander, Melissa",Undisclosed,0.0
+509369,"Santos, Genesis",Undisclosed,0.0
+509370,"Ditchkus, Lisa",Undisclosed,0.0
+509371,"Leone, Heather",Undisclosed,0.0
+509372,"Angley, Sharyn",Undisclosed,0.0
+509373,"Oxman, Adrian",Undisclosed,0.0
+509374,"Dallara, Sheillah",Undisclosed,0.0
+509375,"Waiters, Patricia",Undisclosed,0.0
+509376,"Verdibello, Gina",Undisclosed,0.0
+509377,"Taube, Jessica",Undisclosed,0.0
+509378,"Williams, Chloe",Undisclosed,0.0
+509379,"Walker, Danielle",Undisclosed,0.0
+509380,"Patel, Alpa B",Undisclosed,0.0
+509381,"Blount, George P",Undisclosed,0.0
+509382,"Morris, De'Jon",Undisclosed,0.0
+509383,"Rodriguez, Vanessa",Undisclosed,0.0
+509384,"Vogt, Julietta",Undisclosed,0.0
+509385,"Bahadur, Videsh A",Undisclosed,0.0
+509386,"Garcia, Fernando",Undisclosed,0.0
+509387,"Masongo, Zebedayo",Undisclosed,0.0
+509388,"Paris, Samantha",Undisclosed,0.0
+509389,"Viscuso, Sj Zibbie",Undisclosed,0.0
+509390,"Cifelli-Pettigrew, Laura",Undisclosed,0.0
+509391,"Rodrigues, Ann",Undisclosed,0.0
+509392,"Elliot, Mackenzie",Undisclosed,0.0
+509393,"Graniere, Anthony",Undisclosed,0.0
+509394,"Nguyen, Katherine",Undisclosed,0.0
+509395,"Khiry Gerbasio, Dina",Undisclosed,0.0
+509396,Patel Blount Morris Rodriguez Education Matters,Undisclosed,0.0
+509500,Taube Verdibello Williams Walker For Stronger School,Undisclosed,0.0

@@ -12,7 +12,7 @@ backing JSON APIs:
                             (endpoint: /api/VWEntity/Entities20)
   - Contribution detail:   POST /api/VWContributionDetail/GetContBitsDataByObject
 
-Selenium is used to load the search page once to read the Location and Office 
+Selenium is used to load the search page once to read the Location and Office
 dropdowns' codes which aren't present in the plain page HTML. Once
 those codes are collected, everything runs as plain HTTP calls.
 
@@ -82,10 +82,10 @@ CONTRIBUTION_COLUMNS = [
     ("CONTRIB_S", "CONTRIB_S"),
 ]
 
-# The exact set of fields written to each candidate's contribution-detail TSV. 
+# The exact set of fields written to each candidate's contribution-detail TSV.
 OUTPUT_CONTRIBUTION_FIELDS = [
     "IsIndividual",
-    "CONTRIBUTOR", # name of contributor -- either individual or business name
+    "CONTRIBUTOR",  # name of contributor -- either individual or business name
     "STREET1",
     "STREET2",
     "CITY",
@@ -129,7 +129,8 @@ def get_dropdown_codes(driver):
     office_select = driver.find_element(By.ID, "ddlOfficeCodes")
 
     location_options = [
-        (opt.get_attribute("value"), opt.text) for opt in Select(location_select).options
+        (opt.get_attribute("value"), opt.text)
+        for opt in Select(location_select).options
     ]
     office_options = [
         (opt.get_attribute("value"), opt.text) for opt in Select(office_select).options
@@ -138,7 +139,9 @@ def get_dropdown_codes(driver):
     return location_options, office_options
 
 
-def get_location_codes_for_county(location_options, county_text, include_county_wide=True):
+def get_location_codes_for_county(
+    location_options, county_text, include_county_wide=True
+):
     """Given the (value, text) pairs read from the Location dropdown, find
     the county heading and every subdivision/municipality grouped under
     it (options whose text is prefixed with "----"), and return a list of
@@ -168,7 +171,12 @@ def get_location_codes_for_county(location_options, county_text, include_county_
 
     codes = []
     if include_county_wide:
-        codes.append((location_options[county_index][0], location_options[county_index][1].strip("- ")))
+        codes.append(
+            (
+                location_options[county_index][0],
+                location_options[county_index][1].strip("- "),
+            )
+        )
     codes.extend(subdivisions)
 
     return codes
@@ -186,9 +194,7 @@ def get_office_code(office_options, office_text):
     for value, text in office_options:
         if office_norm in text.strip().upper():
             return value or ""
-    raise ValueError(
-        f"Could not find office '{office_text}' in the Office dropdown."
-    )
+    raise ValueError(f"Could not find office '{office_text}' in the Office dropdown.")
 
 
 # ------------------------------ requests API -----------------------------
@@ -252,7 +258,9 @@ def build_entities_payload(location_code, year_text, office_code, start, length,
             "PartyCodes": "",
             "LocationCodes": str(location_code) if location_code else "",
             "ElectionTypeCodes": "",
-            "ElectionYears": "" if year_text.strip().upper() == "ALL" else str(year_text),
+            "ElectionYears": ""
+            if year_text.strip().upper() == "ALL"
+            else str(year_text),
             "SortColumn": "ElectionYear",
             "SortBy": "desc",
         }
@@ -284,7 +292,9 @@ def extract_entity_id(row):
     return None
 
 
-def fetch_candidates_for_location(session, location_code, location_name, year_text, office_code):
+def fetch_candidates_for_location(
+    session, location_code, location_name, year_text, office_code
+):
     """Page through the Entities20 API for a given location code and
     return a list of candidate dicts."""
     candidates = []
@@ -362,7 +372,6 @@ def write_contribution_tsv(rows, name, eid):
     safe_name = re.sub(r"[^A-Za-z0-9_-]+", "_", name).strip("_")
     dest = os.path.join(OUTPUT_DIR, f"{safe_name}_{eid}_contribution_detail.tsv")
 
-
     if not rows:
         # with open(dest, "w", newline="", encoding="utf-8") as f:
         #     writer = csv.DictWriter(f, fieldnames=OUTPUT_CONTRIBUTION_FIELDS, delimiter="\t")
@@ -371,11 +380,19 @@ def write_contribution_tsv(rows, name, eid):
         return "skipped"
 
     with open(dest, "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=OUTPUT_CONTRIBUTION_FIELDS, delimiter="\t", extrasaction="ignore")
+        writer = csv.DictWriter(
+            f,
+            fieldnames=OUTPUT_CONTRIBUTION_FIELDS,
+            delimiter="\t",
+            extrasaction="ignore",
+        )
         writer.writeheader()
         for row in rows:
             writer.writerow(
-                {k: ("" if row.get(k) is None else row.get(k, "")) for k in OUTPUT_CONTRIBUTION_FIELDS}
+                {
+                    k: ("" if row.get(k) is None else row.get(k, ""))
+                    for k in OUTPUT_CONTRIBUTION_FIELDS
+                }
             )
 
     print(f"  [OK] Saved {len(rows)} row(s): {dest}")
@@ -446,8 +463,10 @@ def main():
     session = make_api_session()
 
     all_candidates = {}  # eid -> candidate dict
-    print(f"\nSearching each location for YEAR='{YEAR_TEXT}', OFFICE='{OFFICE_TEXT}' ...\n")
-    for code, name in locations[0:2]:
+    print(
+        f"\nSearching each location for YEAR='{YEAR_TEXT}', OFFICE='{OFFICE_TEXT}' ...\n"
+    )
+    for code, name in locations:
         print(f"--- {name} ---")
         try:
             candidates = fetch_candidates_for_location(

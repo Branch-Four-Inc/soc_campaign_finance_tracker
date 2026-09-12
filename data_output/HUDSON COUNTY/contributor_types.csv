@@ -25,6 +25,10 @@ CandidateID,Candidate,Contributor Type,Total Contributions,Number of Contributio
 446426,"La Pelusa, Gary Sr",Individual,74796.0,217
 446426,"La Pelusa, Gary Sr",Union,1800.0,5
 446426,"La Pelusa, Gary Sr",Union PAC,5000.0,5
+448965,"Gerbasio, John",(Unknown),0.0,1
+448966,"Tringali, Orietta",(Unknown),0.0,1
+448967,"Clancy, James",(Unknown),0.0,1
+448968,Gerbasio Tringali & Clancy,(Unknown),0.0,1
 459096,"Booker, Loyad",(Unknown),12250.0,6
 459096,"Booker, Loyad",Business/Corp,18950.0,11
 459096,"Booker, Loyad",Candidate Committee,1600.0,2
@@ -55,6 +59,11 @@ CandidateID,Candidate,Contributor Type,Total Contributions,Number of Contributio
 460816,"Romano, Anthony L Jr",Professional PAC,2000.0,2
 460816,"Romano, Anthony L Jr",Union,1750.0,3
 460816,"Romano, Anthony L Jr",Union PAC,16300.0,15
+461382,"Fife, James A",(Unknown),4200.0,7
+461382,"Fife, James A",Business/Corp,4400.0,7
+461382,"Fife, James A",Individual,38255.0,120
+461382,"Fife, James A",Political Cmte,250.0,1
+461382,"Fife, James A",Union,900.0,2
 465816,"Weimmer, Jacqueline",(Unknown),8586.0,5
 465816,"Weimmer, Jacqueline",Business/Corp,10025.0,14
 465816,"Weimmer, Jacqueline",Candidate Committee,825.0,4
@@ -63,6 +72,13 @@ CandidateID,Candidate,Contributor Type,Total Contributions,Number of Contributio
 465816,"Weimmer, Jacqueline",Political Party Cmte,350.0,2
 465816,"Weimmer, Jacqueline",Union,250.0,1
 465816,"Weimmer, Jacqueline",Union PAC,1750.0,4
+466032,"Turner, Richard F",(Unknown),0.0,1
+466033,"Silvestri-Ehret, Carmela",(Unknown),0.0,1
+466035,"Curtis, David J",(Unknown),0.0,1
+466036,"Sosa, Robert J",(Unknown),0.0,1
+466037,Turner Silvestri-Erhet Curtis & Sosa,Business/Corp,83500.0,61
+466037,Turner Silvestri-Erhet Curtis & Sosa,Candidate Committee,12000.0,4
+466037,Turner Silvestri-Erhet Curtis & Sosa,Individual,83000.0,109
 466308,"Rodriguez, Caridad",Individual,23600.0,59
 466348,"Aponte-Lipski, Yraida",(Unknown),1000.0,1
 466348,"Aponte-Lipski, Yraida",Business/Corp,500.0,1
@@ -80,6 +96,7 @@ CandidateID,Candidate,Contributor Type,Total Contributions,Number of Contributio
 502634,"Ashe Nadrowski, Sharon",Union PAC,12500.0,4
 502755,"Walker, Erica",(Unknown),0.0,1
 502790,"Sabry Guirgis, David",Individual,5363.0,27
+502820,"Theodoropoulos, Stathis",Business/Corp,3100.0,1
 502840,"Perry, Gene E",(Unknown),0.0,1
 502841,"Bottino, Mark A",(Unknown),0.0,1
 502842,Perry Bottino Salama Godesky & Gillen Team Sharon Cte,Business/Corp,32750.0,6
@@ -97,6 +114,18 @@ CandidateID,Candidate,Contributor Type,Total Contributions,Number of Contributio
 503036,Booker Carroll Rada Veloz Gullace & La Pelusa Team Booker,Candidate Committee,28049.0,15
 503036,Booker Carroll Rada Veloz Gullace & La Pelusa Team Booker,Individual,59188.0,67
 503036,Booker Carroll Rada Veloz Gullace & La Pelusa Team Booker,Union,500.0,1
+503104,"Stack, Brian P",(Unknown),0.0,1
+503105,"Martinetti, Maryury A",(Unknown),0.0,1
+503106,"Grullon, Wendy A",(Unknown),0.0,1
+503107,"Fernandez, Lucio P",(Unknown),0.0,1
+503108,"Valdivia, Celin J",(Unknown),0.0,1
+503109,Stack Martinetti Grullon Fernandez & Valdivia,Business/Corp,124990.0,34
+503109,Stack Martinetti Grullon Fernandez & Valdivia,Ideological Assoc/ PAC,1000.0,1
+503109,Stack Martinetti Grullon Fernandez & Valdivia,Individual,282410.0,146
+503109,Stack Martinetti Grullon Fernandez & Valdivia,Interest,1.0,2
+503109,Stack Martinetti Grullon Fernandez & Valdivia,Political Cmte,81000.0,4
+503109,Stack Martinetti Grullon Fernandez & Valdivia,Trade Association PAC,1000.0,1
+503109,Stack Martinetti Grullon Fernandez & Valdivia,Union,2000.0,2
 503124,"Ekladious, Mina",(Unknown),500.0,1
 503124,"Ekladious, Mina",Business/ Corp Assoc/ PAC,2000.0,1
 503124,"Ekladious, Mina",Business/Corp,24550.0,18
@@ -123,14 +152,34 @@ CandidateID,Candidate,Contributor Type,Total Contributions,Number of Contributio
 503458,Desmond Acosta Fiermonte & Lavelle,Business/Corp,2000.0,1
 503458,Desmond Acosta Fiermonte & Lavelle,Individual,47364.0,36
 503458,Desmond Acosta Fiermonte & Lavelle,Union,1000.0,2
+503499,"Hector, Lorgia",(Unknown),0.0,1
+503500,"Jimenez, Karina",(Unknown),0.0,1
+503501,"Patel, Kanaiyalal",(Unknown),0.0,1
 503536,"Bautista, Ronald",Individual,31497.0,100
 503558,"Sebik, John Milan",(Unknown),0.0,1
+503570,"Zapata, George",(Unknown),0.0,1
+503571,"Solano, Dennis",(Unknown),0.0,1
+503572,"Bonilla, Sarah",(Unknown),0.0,1
+503573,Zapata Solano Bonilla & Theodoropoulos,Business/Corp,1700.0,4
+503573,Zapata Solano Bonilla & Theodoropoulos,Individual,14457.0,36
+503573,Zapata Solano Bonilla & Theodoropoulos,Interest,0.0,2
+503573,Zapata Solano Bonilla & Theodoropoulos,Political Party Cmte,8900.0,6
 503579,"Johnson, Pam",Business/Corp,500.0,1
 503579,"Johnson, Pam",Individual,2050.0,3
 503579,"Johnson, Pam",Political Cmte,1000.0,1
 503579,"Johnson, Pam",Union,1037.0,1
+503610,"Cannata, John",(Unknown),0.0,1
+503611,"Cabrera, Linda",(Unknown),0.0,1
+503612,"Pinal, Richard",(Unknown),0.0,1
+503613,"Codina, Henry",(Unknown),0.0,1
+503614,"Jover, Aylen",(Unknown),0.0,1
+503615,"Pfeil, Sandra",(Unknown),0.0,1
+503623,"Morales-Jennings, Susan",(Unknown),0.0,1
+503624,"Iordamlis, Tina",(Unknown),0.0,1
+503630,"Ritorto, Dominick",(Unknown),0.0,1
 503746,"Pearl, Jim",(Unknown),0.0,1
 503747,"Devaney, Patrick Sr",(Unknown),0.0,1
+503783,"Verile, Michael P",(Unknown),0.0,1
 503989,"Cedeno, Fanny",(Unknown),0.0,1
 504232,"Alexander, Melissa",(Unknown),0.0,1
 504233,"Raza, Qamar",(Unknown),0.0,1
@@ -139,15 +188,73 @@ CandidateID,Candidate,Contributor Type,Total Contributions,Number of Contributio
 504234,"Bennett, Lawrence M",Individual,7300.0,11
 504234,"Bennett, Lawrence M",Union,500.0,1
 504235,"Gopalak, Anmol",(Unknown),0.0,1
+504236,"De Oliveira, Acacio",(Unknown),0.0,1
+504237,"Zincavage, Jeanne",(Unknown),0.0,1
+504238,"Malave, Juana",(Unknown),0.0,1
+504239,"Huaranga, Jesus R",(Unknown),0.0,1
+504240,"Diaco, Joseph",(Unknown),0.0,1
+504241,"Woods, James T",(Unknown),0.0,1
+504242,"Doran, James P",(Unknown),0.0,1
+504243,"Balcazar, Zayda",(Unknown),0.0,1
+504244,"Huancaya, Julio",(Unknown),0.0,1
+504245,"Miranda, Orlando",(Unknown),0.0,1
+504246,"Hokien, William",(Unknown),0.0,1
+504247,"Shea, Edmund J",(Unknown),0.0,1
+505051,Hector Jimenez & Patel,(Unknown),0.0,1
+505315,"Manuel, Emily",(Unknown),0.0,1
 505544,"Godesky-Rodriguez, Melissa",(Unknown),0.0,1
+505589,Zincavage & De Oliveira,(Unknown),0.0,1
 505610,"Gillen, Tommy",(Unknown),0.0,1
 505637,"Weiner, Aaron",(Unknown),0.0,1
 507214,"Raza, Qamar",(Unknown),0.0,1
 507219,"Cedeno, Fanny",(Unknown),0.0,1
 507223,"Gopalak, Anmol",(Unknown),0.0,1
+507224,"De Oliveira, Acacio",(Unknown),0.0,1
+507225,"Zincavage, Jeanne",(Unknown),0.0,1
+507226,"Malave, Juana",(Unknown),0.0,1
+507227,"Hokien, William",(Unknown),0.0,1
+507229,"Huaranga, Jesus R",(Unknown),0.0,1
+507230,"Diaco, Joseph",(Unknown),0.0,1
+507231,"Woods, James T",(Unknown),0.0,1
+507232,"Doran, James P",(Unknown),0.0,1
+507233,"Zapata, George",(Unknown),0.0,1
+507234,"Huancaya, Julio",(Unknown),0.0,1
+507235,"Bonilla, Sarah",(Unknown),0.0,1
+507236,"Bystrowski, Darius",(Unknown),0.0,1
+507237,"Miranda, Orlando",(Unknown),0.0,1
+507242,"Tehfa, Sukaina",(Unknown),0.0,1
 507256,"Klich, Amanda",(Unknown),0.0,1
 509364,"Kopacz, Robyn",(Unknown),0.0,1
 509365,"Cubberly, Scott",(Unknown),0.0,1
 509366,"Yacoub, Remonda",(Unknown),0.0,1
 509367,"Hladik, John",(Unknown),0.0,1
 509368,"Alexander, Melissa",(Unknown),0.0,1
+509369,"Santos, Genesis",(Unknown),0.0,1
+509370,"Ditchkus, Lisa",(Unknown),0.0,1
+509371,"Leone, Heather",(Unknown),0.0,1
+509372,"Angley, Sharyn",(Unknown),0.0,1
+509373,"Oxman, Adrian",(Unknown),0.0,1
+509374,"Dallara, Sheillah",(Unknown),0.0,1
+509375,"Waiters, Patricia",(Unknown),0.0,1
+509376,"Verdibello, Gina",(Unknown),0.0,1
+509377,"Taube, Jessica",(Unknown),0.0,1
+509378,"Williams, Chloe",(Unknown),0.0,1
+509379,"Walker, Danielle",(Unknown),0.0,1
+509380,"Patel, Alpa B",(Unknown),0.0,1
+509381,"Blount, George P",(Unknown),0.0,1
+509382,"Morris, De'Jon",(Unknown),0.0,1
+509383,"Rodriguez, Vanessa",(Unknown),0.0,1
+509384,"Vogt, Julietta",(Unknown),0.0,1
+509385,"Bahadur, Videsh A",(Unknown),0.0,1
+509386,"Garcia, Fernando",(Unknown),0.0,1
+509387,"Masongo, Zebedayo",(Unknown),0.0,1
+509388,"Paris, Samantha",(Unknown),0.0,1
+509389,"Viscuso, Sj Zibbie",(Unknown),0.0,1
+509390,"Cifelli-Pettigrew, Laura",(Unknown),0.0,1
+509391,"Rodrigues, Ann",(Unknown),0.0,1
+509392,"Elliot, Mackenzie",(Unknown),0.0,1
+509393,"Graniere, Anthony",(Unknown),0.0,1
+509394,"Nguyen, Katherine",(Unknown),0.0,1
+509395,"Khiry Gerbasio, Dina",(Unknown),0.0,1
+509396,Patel Blount Morris Rodriguez Education Matters,(Unknown),0.0,1
+509500,Taube Verdibello Williams Walker For Stronger School,(Unknown),0.0,1
