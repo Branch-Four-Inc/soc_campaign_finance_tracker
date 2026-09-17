@@ -74,7 +74,10 @@ def main(file_format="tsv"):
 
     # Clean up the names so that we're grouping the primary and general elections together
     # have to do this manually
-    HC_NAME_MAPPING = {"BAUTISTA, RON": "BAUTISTA, RONALD"}
+    HC_NAME_MAPPING = {
+        "BAUTISTA, RON": "BAUTISTA, RONALD",
+        "ZAPATA, GEORGE A": "ZAPATA, GEORGE",
+    }
     EC_NAME_MAPPING = {
         "DIVINCENZO, JOSEPH N JR": "DIVINCENZO, JOSEPH",
         "MATHEWS, MARITIZA": "MATHEWS, MARITZA",
@@ -229,12 +232,12 @@ def main(file_format="tsv"):
             }
         )
         .sort_values(
-            ["Total Contributions", "Contributor Name"], ascending=False
+            ["Total Contributions", "ContributorName"], ascending=False
         )  # sort by amount and name to keep top 10 list stable
         .groupby(["CandidateID", "Candidate"], group_keys=False)
         .apply(lambda g: g.nlargest(10, "Total Contributions"))
         .reset_index(drop=False)
-        .drop(columns=["Contributor Name"])
+        .drop(columns=["ContributorName"])
     )
 
     donor_summary["Total Contributions"] = round_amount(
@@ -249,16 +252,20 @@ def main(file_format="tsv"):
         .str.contains("pac|political action committee")
     ]
     pacs_summary = (
-        pacs.groupby(["CandidateID", "Candidate", "ContributorName"])
-        .agg(**{"Total Contributions": pd.NamedAgg(column="Amount", aggfunc="sum")})
-        .groupby(["CandidateID", "Candidate"], group_keys=False)
-        # sort by amount and name to keep list stable
-        .apply(
-            lambda x: x.sort_values(
-                ["Total Contributions", "ContributorName"], ascending=False
+        (
+            pacs.groupby(["CandidateID", "Candidate", "ContributorName"])
+            .agg(**{"Total Contributions": pd.NamedAgg(column="Amount", aggfunc="sum")})
+            .groupby(["CandidateID", "Candidate"], group_keys=False)
+            # sort by amount and name to keep list stable
+            .apply(
+                lambda x: x.sort_values(
+                    ["Total Contributions", "ContributorName"], ascending=False
+                )
             )
         )
-    ).reset_index(drop=False)
+        .reset_index(drop=False)
+        .rename(columns={"ContributorName": " Contributor Name"})
+    )
 
     pacs_summary["Total Contributions"] = round_amount(
         pacs_summary["Total Contributions"]
@@ -269,15 +276,19 @@ def main(file_format="tsv"):
         df["Contributor Type"].str.strip().str.lower().str.contains("business/corp")
     ]
     corporates_summary = (
-        corporates.groupby(["CandidateID", "Candidate", "ContributorName"])
-        .agg(**{"Total Contributions": pd.NamedAgg(column="Amount", aggfunc="sum")})
-        .groupby(["CandidateID", "Candidate"], group_keys=False)
-        .apply(
-            lambda x: x.sort_values(
-                ["Total Contributions", "ContributorName"], ascending=False
+        (
+            corporates.groupby(["CandidateID", "Candidate", "ContributorName"])
+            .agg(**{"Total Contributions": pd.NamedAgg(column="Amount", aggfunc="sum")})
+            .groupby(["CandidateID", "Candidate"], group_keys=False)
+            .apply(
+                lambda x: x.sort_values(
+                    ["Total Contributions", "ContributorName"], ascending=False
+                )
             )
         )
-    ).reset_index(drop=False)
+        .reset_index(drop=False)
+        .rename(columns={"ContributorName": " Contributor Name"})
+    )
 
     corporates_summary["Total Contributions"] = round_amount(
         corporates_summary["Total Contributions"]
@@ -294,12 +305,14 @@ def main(file_format="tsv"):
     )
 
     instate_contr = (
-        df.groupby(["Candidate", "Contributor Location"])["Amount"]
+        df.groupby(["CandidateID", "Candidate", "Contributor Location"])["Amount"]
         .sum()
         .reset_index(drop=False)
     )
     state_contr = (
-        df.groupby(["Candidate", "STATE"])["Amount"].sum().reset_index(drop=False)
+        df.groupby(["CandidateID", "Candidate", "STATE"])["Amount"]
+        .sum()
+        .reset_index(drop=False)
     )
     # state_contr['STATE'] = state_contr['STATE'].str.upper()
     state_contr = state_contr.rename({"STATE": "State"}, axis=1)

@@ -1,4 +1,4 @@
-CandidateID,Candidate,ContributorName,Total Contributions
+CandidateID,Candidate, Contributor Name,Total Contributions
 441534,"Carroll, Cornelius J",Sicilian Citizen'S Club Inc,1000.0
 441534,"Carroll, Cornelius J","Waters, Mcpherson, Mcneill Pc",750.0
 441534,"Carroll, Cornelius J",Alphadog Solutions Inc,700.0
@@ -177,6 +177,13 @@ CandidateID,Candidate,ContributorName,Total Contributions
 460816,"Romano, Anthony L Jr","Leemark Electric, Inc",250.0
 460816,"Romano, Anthony L Jr",Chasan Lamparello Mallon & Cappuzzo Pc,250.0
 460816,"Romano, Anthony L Jr",B Tulko Inc,250.0
+461382,"Fife, James A","Remington & Vernic Engineers, Inc.",1000.0
+461382,"Fife, James A",610 Wortington Realty Corp,1000.0
+461382,"Fife, James A",Arlindo J Calva Enterprises Inc.,900.0
+461382,"Fife, James A","Moran Automotive And Towing, Inc.",500.0
+461382,"Fife, James A","Arlindo Calva Enterprises, Inc",500.0
+461382,"Fife, James A",Marwah Academy,300.0
+461382,"Fife, James A",Sol-Mar,200.0
 465816,"Weimmer, Jacqueline","Waters, Mcpherson, Mcneill Pc",3750.0
 465816,"Weimmer, Jacqueline",C & A Development Co,2500.0
 465816,"Weimmer, Jacqueline",Brr Corp,2000.0
@@ -185,6 +192,60 @@ CandidateID,Candidate,ContributorName,Total Contributions
 465816,"Weimmer, Jacqueline",Chasan Lamparello Mallon & Cappuzzo Pc,375.0
 465816,"Weimmer, Jacqueline",Advance Together PAC Inc,250.0
 465816,"Weimmer, Jacqueline",Kuhl'S Tavern Inc,150.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Rsc Architects,10000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Boswell Engineering Inc,7500.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Pleasure Pool & Spa Management LLC,4000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Overlook Terrace South LLC,4000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Florio Kenny Raval LLP,2500.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,The Alamo Insurance Group Inc,2000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Precision Construction,2000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,North Jersey Exterminating,2000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,North Hudson Firefighters Association PAC,2000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,North Hudson Firefighters Assoc PAC Nhfa PAC,2000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,North Hudson Fire Officers Association,2000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Crest Point Development LLC,2000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Bruno Associates,2000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Bruno & Associates,2000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,5308 Palisade Holding LLC,2000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Nj Humane Society,1500.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Jp Capizzi LLC,1500.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Hudson Gas & Auto Service,1500.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,"Chasan Lamparello Mallon & Cappuzzo, Pc",1500.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Willilam Katchen Cpa LLC,1000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,William Katchen Cpa LLC,1000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Weehawken Luxury Homes LLC,1000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Weehawken Apartments LLC,1000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Vitale Real Estate LLC,1000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,The Alamo Insurance Group Inc.,1000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Stan'S Sports Center,1000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Smart Realty Inc,1000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Law Office Of Carmine R. Alampi LLC,1000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Las Palmas Restaurant,1000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Jp Capizzi,1000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,J. Alvaro Alonso LLC,1000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Garbarini & Co. Pc Cpas,1000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Far Planning,1000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Echevarria Industries Inc,1000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,"East Hudson Primary Care, P.C.",1000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Donohue Girona Doria Tomkins LLC,1000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Cpa Architecture LLC,1000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Blackstone Builders LLC,1000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Bettina Equities,1000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,"210 63Rd Realty, LLC",1000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,16 Oak Weehawken LLC,1000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,14 Oak Weehawken LLC,1000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,1300 Manhattan Avenue Urban Renewal LLC,1000.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Weehawken Pba Local 15,500.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,The Appelo Law Firm LLC,500.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Reliable Tree Service,500.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,North Jersey Exterminating Co. Inc,500.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Nemco Landscaping Inc,500.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Maca Security LLC,500.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,"Krivit & Krivit, Pc",500.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,"James J. Burke & Associates, LLC",500.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Donohue Gironda Dorita Tomkins LLC,500.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Craig Guy For Hudson County Ex,500.0
+466037,Turner Silvestri-Erhet Curtis & Sosa,Central Paint & Building Supply,500.0
 466348,"Aponte-Lipski, Yraida",Rasoi Restaurant Inc,500.0
 502634,"Ashe Nadrowski, Sharon",Fairview Insurance Agency Associates Dba Foundatio N Risk Partners Corp,5500.0
 502634,"Ashe Nadrowski, Sharon",Greater Nj Carpenters Pec,5000.0
@@ -203,6 +264,7 @@ CandidateID,Candidate,ContributorName,Total Contributions
 502634,"Ashe Nadrowski, Sharon",Markos Creative Ink Inc Bayonne Press Printing,250.0
 502634,"Ashe Nadrowski, Sharon","M & R 'S Miller Auto Gear & Parts, Inc",250.0
 502634,"Ashe Nadrowski, Sharon",William J Guarini Inc,0.0
+502820,"Theodoropoulos, Stathis",Regular Democratic Organization Of Kearny,3100.0
 502842,Perry Bottino Salama Godesky & Gillen Team Sharon Cte,Colliers Engineering And Design,10000.0
 502842,Perry Bottino Salama Godesky & Gillen Team Sharon Cte,Business & Governmental Insurance Agency Inc,10000.0
 502842,Perry Bottino Salama Godesky & Gillen Team Sharon Cte,Boswell Engineering Inc,10000.0
@@ -219,6 +281,40 @@ CandidateID,Candidate,ContributorName,Total Contributions
 503036,Booker Carroll Rada Veloz Gullace & La Pelusa Team Booker,Advanced Together PAC Inc,350.0
 503036,Booker Carroll Rada Veloz Gullace & La Pelusa Team Booker,M & R'S Miller Auto Gear & Parts Inc,250.0
 503036,Booker Carroll Rada Veloz Gullace & La Pelusa Team Booker,Alphadog Solutions Inc,125.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,Fairview Insurance Agency Associates,25000.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,Colliers Engineering & Design,25000.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,Boswell Engineering Inc,25000.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,William J Guarini Inc,12500.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,Fedway Associates Inc,5640.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,"Chasan Lamparello Mallon & Cappuzzo, Pc",5000.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,Hudson Gas And Auto Service Inc,2750.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,Union City Car Wash Inc,1000.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,Trilon Services C-Corp Holdings Inc,1000.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,Tata'S Kids Inc,1000.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,Strategic Media Group Inc,1000.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,Stan'S Sport Center Inc,1000.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,Shefah Corporation,1000.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,S.W. Lock And Doorcheck Co.,1000.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,Rodriguez Painting & Carpentry Corp,1000.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,R & J Supermarket Corp,1000.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,Orden Familia De La Luz,1000.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,North Jersey Exterminating Co Inc,1000.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,New Jersey Priorities Inc,1000.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,Neuman Insurance Solutions Inc,1000.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,National Distributors & Services Inc.,1000.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,Kbds Enterprises Inc.,1000.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,Harbour Auto Body Corp,1000.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,H & M Food Of Nj Corp,1000.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,Don Luis Restaurant,1000.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,Community Housing & Planning Associates Inc,1000.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,Cappelletti Florist Corp,1000.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,Buy Right Inc,1000.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,Alphadog Solutions Inc,1000.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,Kikiriki No 2 Inc,500.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,Daisy'S Design Inc,500.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,Angel'S World Day Care Inc,500.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,Manuel A Rodriguez Income Tax Service Inc,300.0
+503109,Stack Martinetti Grullon Fernandez & Valdivia,Apple Number One Inc,300.0
 503124,"Ekladious, Mina",Gasparano & Associates,3000.0
 503124,"Ekladious, Mina",Newark Pd Soa,2600.0
 503124,"Ekladious, Mina",Hhi Heliport,2600.0
@@ -241,6 +337,10 @@ CandidateID,Candidate,ContributorName,Total Contributions
 503165,"Dublin, Jeffrey",Remington & Vernick Engineers,300.0
 503444,"Valdez, Alex",Jct Solutions,500.0
 503458,Desmond Acosta Fiermonte & Lavelle,Waters Mcpherson Mcneill Pc,2000.0
+503573,Zapata Solano Bonilla & Theodoropoulos,Neglia Group,500.0
+503573,Zapata Solano Bonilla & Theodoropoulos,Law Office Of Albert J. Cifelli,500.0
+503573,Zapata Solano Bonilla & Theodoropoulos,Pic-Nic Restaurant,450.0
+503573,Zapata Solano Bonilla & Theodoropoulos,Gregg F. Paster & Associates,250.0
 503579,"Johnson, Pam",Mervel Corporation,500.0
 504234,"Bennett, Lawrence M",170 Garfield Assoc LLC,4500.0
 504234,"Bennett, Lawrence M",Assoc. Towing & Recovery,2500.0
