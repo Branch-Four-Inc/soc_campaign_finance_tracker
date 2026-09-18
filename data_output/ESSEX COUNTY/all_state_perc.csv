@@ -3,16 +3,16 @@ CandidateID,Candidate,State,Amount
 437001,"Melham, Michael A",FL,1540.92
 437001,"Melham, Michael A",MO,1000.0
 437001,"Melham, Michael A",MS,800.0
-437001,"Melham, Michael A",NJ,285884.11
+437001,"Melham, Michael A",NJ,288884.11
 437001,"Melham, Michael A",NY,4654.79
 437001,"Melham, Michael A",PA,1000.0
 437005,Luna & Depena (Graziano Melham)  Belleville Victory 2026,CO,300.0
 437005,Luna & Depena (Graziano Melham)  Belleville Victory 2026,FL,700.0
-437005,Luna & Depena (Graziano Melham)  Belleville Victory 2026,NJ,89860.26
+437005,Luna & Depena (Graziano Melham)  Belleville Victory 2026,NJ,90710.26
 437005,Luna & Depena (Graziano Melham)  Belleville Victory 2026,NY,2950.0
 437005,Luna & Depena (Graziano Melham)  Belleville Victory 2026,PA,250.0
 437063,"Vauss, Anthony",DC,5000.0
-437063,"Vauss, Anthony",NJ,143250.0
+437063,"Vauss, Anthony",NJ,146650.0
 437063,"Vauss, Anthony",NY,8400.0
 438228,"Ramos, Anibal Jr",CA,1300.0
 438228,"Ramos, Anibal Jr",CO,2000.0
@@ -23,36 +23,36 @@ CandidateID,Candidate,State,Amount
 438228,"Ramos, Anibal Jr",MA,0.0
 438228,"Ramos, Anibal Jr",MO,500.0
 438228,"Ramos, Anibal Jr",MS,3000.0
-438228,"Ramos, Anibal Jr",NJ,627261.87
-438228,"Ramos, Anibal Jr",NY,52300.0
+438228,"Ramos, Anibal Jr",NJ,630461.87
+438228,"Ramos, Anibal Jr",NY,53100.0
 438228,"Ramos, Anibal Jr",PA,19900.0
 441239,"Council, Patrick O",GA,1000.0
 441239,"Council, Patrick O",MD,500.0
 441239,"Council, Patrick O",NC,500.0
 441239,"Council, Patrick O",NH,500.0
-441239,"Council, Patrick O",NJ,303762.83
+441239,"Council, Patrick O",NJ,306462.83
 441239,"Council, Patrick O",NY,10600.0
 441239,"Council, Patrick O",PA,18600.0
 441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,AZ,1050.0
 441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,DC,4000.0
 441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,MS,7200.0
-441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,NC,2000.0
-441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,NJ,275150.0
+441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,NC,4000.0
+441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,NJ,289250.0
 441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,NY,20850.0
 442017,"Crump, Cecil Lawrence",DC,1000.0
 442017,"Crump, Cecil Lawrence",IL,500.0
 442017,"Crump, Cecil Lawrence",MD,500.0
 442017,"Crump, Cecil Lawrence",MN,500.0
-442017,"Crump, Cecil Lawrence",NJ,245800.0
+442017,"Crump, Cecil Lawrence",NJ,249150.0
 442017,"Crump, Cecil Lawrence",NV,250.0
 442017,"Crump, Cecil Lawrence",NY,3800.0
 442017,"Crump, Cecil Lawrence",PA,450.0
 442150,"Spango, James R",DC,4250.0
 442150,"Spango, James R",FL,83.34
-442150,"Spango, James R",NJ,194160.02
+442150,"Spango, James R",NJ,194660.02
 442150,"Spango, James R",NY,950.0
 442150,"Spango, James R",PA,800.0
-447217,"Silva, Michael J",NJ,207880.0
+447217,"Silva, Michael J",NJ,208380.0
 447217,"Silva, Michael J",NY,10500.0
 447217,"Silva, Michael J",PA,16300.0
 447217,"Silva, Michael J",RI,1500.0
@@ -64,7 +64,7 @@ CandidateID,Candidate,State,Amount
 447717,"Baraka, Ras J",MD,1050.0
 447717,"Baraka, Ras J",MI,2300.0
 447717,"Baraka, Ras J",MN,5000.0
-447717,"Baraka, Ras J",NJ,569820.6
+447717,"Baraka, Ras J",NJ,596470.6
 447717,"Baraka, Ras J",NY,19150.0
 447717,"Baraka, Ras J",PA,7166.67
 447717,"Baraka, Ras J",VA,9100.0
@@ -76,7 +76,7 @@ CandidateID,Candidate,State,Amount
 454589,"Mercado, Robert",NJ,250.0
 459513,"Richardson, Wayne",DC,5250.0
 459513,"Richardson, Wayne",MD,300.0
-459513,"Richardson, Wayne",NJ,132590.0
+459513,"Richardson, Wayne",NJ,136090.0
 459513,"Richardson, Wayne",NY,11050.0
 459513,"Richardson, Wayne",PA,7900.0
 460962,"Pomares, Carlos",DC,3500.0
@@ -90,7 +90,7 @@ CandidateID,Candidate,State,Amount
 461379,"Murray-Thomas, A'Dorian",NJ,7750.0
 461379,"Murray-Thomas, A'Dorian",NY,1000.0
 461613,"Gill, Brendan",DC,1000.0
-461613,"Gill, Brendan",NJ,30150.0
+461613,"Gill, Brendan",NJ,31650.0
 461613,"Gill, Brendan",NY,500.0
 461613,"Gill, Brendan",PA,1000.0
 470812,"Tempesta, Joseph Jr",NJ,24200.0
@@ -99,11 +99,11 @@ CandidateID,Candidate,State,Amount
 473650,"Ogbourne, Lynn",NJ,250.0
 473650,"Ogbourne, Lynn",NY,6235.0
 477217,"White, Altarik B Sr",NJ,1250.0
-502667,"Jackson, Donald L",NJ,2800.0
+502667,"Jackson, Donald L",NJ,3300.0
 502673,Gonzalez Martinez & Cruz Team Mundell For Bloomfield,CO,6150.0
 502673,Gonzalez Martinez & Cruz Team Mundell For Bloomfield,DC,5000.0
 502673,Gonzalez Martinez & Cruz Team Mundell For Bloomfield,FL,1150.0
-502673,Gonzalez Martinez & Cruz Team Mundell For Bloomfield,NJ,156481.7
+502673,Gonzalez Martinez & Cruz Team Mundell For Bloomfield,NJ,161481.7
 502673,Gonzalez Martinez & Cruz Team Mundell For Bloomfield,PA,4000.0
 502751,"Rock, Brian",CO,500.0
 502751,"Rock, Brian",NJ,1950.0
@@ -116,35 +116,35 @@ CandidateID,Candidate,State,Amount
 502817,"Scott-Rountree Bey Council Crump & Kelly (Baraka, Quiles) Team Baraka 2026",CA,2500.0
 502817,"Scott-Rountree Bey Council Crump & Kelly (Baraka, Quiles) Team Baraka 2026",DC,1000.0
 502817,"Scott-Rountree Bey Council Crump & Kelly (Baraka, Quiles) Team Baraka 2026",FL,500.0
-502817,"Scott-Rountree Bey Council Crump & Kelly (Baraka, Quiles) Team Baraka 2026",NJ,304416.67
+502817,"Scott-Rountree Bey Council Crump & Kelly (Baraka, Quiles) Team Baraka 2026",NJ,306416.67
 502817,"Scott-Rountree Bey Council Crump & Kelly (Baraka, Quiles) Team Baraka 2026",NY,17333.33
 502828,"Jones, Trenton E",NJ,2552.0
 502888,"Garner, Tanisha  H",NJ,605.0
 502899,"Santiago, Stefanie",NJ,1915.48
 502899,"Santiago, Stefanie",NY,3500.0
-502935,Vauss Frederic & Brown Team Irvington Strong 2026,NJ,124650.0
+502935,Vauss Frederic & Brown Team Irvington Strong 2026,NJ,133150.0
 502935,Vauss Frederic & Brown Team Irvington Strong 2026,NY,10000.0
 502935,Vauss Frederic & Brown Team Irvington Strong 2026,PA,5000.0
-502949,"Mcgrath, Christine",NJ,31102.07
+502949,"Mcgrath, Christine",NJ,31227.07
 502949,"Mcgrath, Christine",NY,800.0
 502949,"Mcgrath, Christine",PA,5000.0
 502953,"Williams, Tammy M",CO,2600.0
 502953,"Williams, Tammy M",NJ,35530.0
 502953,"Williams, Tammy M",PA,2000.0
 502953,"Williams, Tammy M",TX,250.0
-503008,"Garcia, Josephine C",NJ,64450.0
+503008,"Garcia, Josephine C",NJ,65350.0
 503008,"Garcia, Josephine C",NY,17300.0
 503008,"Garcia, Josephine C",PA,17300.0
 503010,"Childs, Quamid",NJ,500.0
 503103,"Council, Hassani K",NJ,8335.0
 503117,Save Montclair Schools,NJ,533.13
 503394,"Yasin, Abdur R",NJ,33068.0
-503394,"Yasin, Abdur R",NY,1250.0
+503394,"Yasin, Abdur R",NY,1450.0
 503394,"Yasin, Abdur R",PA,5000.0
 503422,"Lebron, Maria E",NJ,4000.01
 503422,"Lebron, Maria E",NY,2500.0
 503423,"Klein, Shawn",FL,2500.0
-503423,"Klein, Shawn",NJ,68657.27
+503423,"Klein, Shawn",NJ,68910.95
 503423,"Klein, Shawn",NY,3500.0
 503423,"Klein, Shawn",PA,5000.0
 503443,"Peppers, Rasheen M",NJ,62050.0
@@ -157,23 +157,24 @@ CandidateID,Candidate,State,Amount
 503553,"Quintana, Luis A",FL,1000.0
 503553,"Quintana, Luis A",IL,250.0
 503553,"Quintana, Luis A",NC,500.0
-503553,"Quintana, Luis A",NJ,77200.0
+503553,"Quintana, Luis A",NJ,79300.0
 503553,"Quintana, Luis A",NY,1825.0
 503553,"Quintana, Luis A",PA,17600.0
-503605,"Muhammad, Medinah",NJ,10430.0
+503605,"Muhammad, Medinah",NJ,10730.0
 503605,"Muhammad, Medinah",NY,500.0
 503605,"Muhammad, Medinah",PA,1300.0
 503627,"Russo, Robert J",NJ,1500.0
 503645,Council Childs Comesanas & Nivar Moving Newark Schools Forward 2026,NJ,39250.0
 503649,Tempesta Docteroff & Canale,NJ,42900.0
-503653,Zall & Brazell,NJ,3800.0
+503653,Zall & Brazell,NJ,6800.0
 503653,Zall & Brazell,NY,660.0
 503677,"Wells, Danyale P",NJ,6505.139999999999
+503678,"Rodriguez, Michelle M",NJ,6505.139999999999
 503679,"Hendy, Jackie",GA,700.0
 503679,"Hendy, Jackie",NJ,5425.0
 503681,"Davis, Douglas R",FL,250.0
 503683,"Singleton, Nasheedah S",NJ,100.0
-503684,"Hinnant, Joanette",NJ,4621.0
+503684,"Hinnant, Joanette",NJ,4671.0
 503692,"Sanchez, Marcos M",NJ,950.0
 503693,"Norton, Asia J",FL,250.0
 503693,"Norton, Asia J",NJ,4158.3099999999995
@@ -182,7 +183,7 @@ CandidateID,Candidate,State,Amount
 503700,"Summers-Johnson, Jamie B",NJ,400.0
 503700,"Summers-Johnson, Jamie B",NY,4500.0
 503704,"Vauss, Anthony A Jr",GA,300.0
-503704,"Vauss, Anthony A Jr",NJ,83725.0
+503704,"Vauss, Anthony A Jr",NJ,87225.0
 503704,"Vauss, Anthony A Jr",NY,14250.0
 503732,Benbow Geffard & Lyon,NJ,17400.0
 503732,Benbow Geffard & Lyon,NY,1000.0
@@ -192,43 +193,44 @@ CandidateID,Candidate,State,Amount
 503762,Kahn & Abenstein,PA,500.0
 503873,"Ceperley, Martin",NJ,19050.0
 503879,"Engel, Deborah",FL,11000.0
-503879,"Engel, Deborah",NJ,3250.0
+503879,"Engel, Deborah",NJ,3916.7200000000003
 503889,Meinhardt & Bhuptani,NJ,50305.59
 503889,Meinhardt & Bhuptani,PA,2600.0
 503889,Meinhardt & Bhuptani,TX,250.0
 503902,"Wang, Daphne Dan",NJ,6250.0
 503993,Jurgensen Sagalow & Alcorta,CA,250.0
-503993,Jurgensen Sagalow & Alcorta,NJ,1710.0
+503993,Jurgensen Sagalow & Alcorta,NJ,1990.0
 503994,"Sullivan, John T",NJ,13082.58
 504072,"Pichardo, Wilson A",NJ,1500.0
 505170,"Divincenzo, Joseph",AZ,900.0
 505170,"Divincenzo, Joseph",CO,500.0
 505170,"Divincenzo, Joseph",DC,18800.0
 505170,"Divincenzo, Joseph",FL,25800.0
+505170,"Divincenzo, Joseph",GA,1000.0
 505170,"Divincenzo, Joseph",MA,500.0
 505170,"Divincenzo, Joseph",NC,4100.0
-505170,"Divincenzo, Joseph",NJ,683085.32
+505170,"Divincenzo, Joseph",NJ,721288.24
 505170,"Divincenzo, Joseph",NY,22500.0
 505170,"Divincenzo, Joseph",OH,1000.0
 505170,"Divincenzo, Joseph",PA,20500.0
-505170,"Divincenzo, Joseph",TN,2000.0
+505170,"Divincenzo, Joseph",TN,4000.0
 505170,"Divincenzo, Joseph",TX,2000.0
-505171,"Lewis, Marqes-Aquil",NJ,16893.27
+505171,"Lewis, Marqes-Aquil",NJ,17143.27
 505175,"Kraemer, Adam",NJ,5000.0
 505177,"Babula, Greg",DC,1000.0
-505177,"Babula, Greg",NJ,17391.72
+505177,"Babula, Greg",NJ,17691.72
 505177,"Babula, Greg",PA,500.0
 505179,"Bootwala, Stef",AZ,750.0
 505179,"Bootwala, Stef",NJ,2461.04
 505179,"Bootwala, Stef",NY,1000.0
 505189,"Lam, Bill",NJ,5001.52
 505189,"Lam, Bill",NY,350.0
-505191,"De Luca, Victor",NJ,6544.3
+505191,"De Luca, Victor",NJ,6794.3
 505235,"Goldsman, Justin",NJ,1118.0
 505340,Millburn Residents For Non Partisan Positive Change,NJ,20951.0
 505371,Residents For Transparency And Affordability,NJ,20842.59
 505371,Residents For Transparency And Affordability,NM,400.84
-505387,Pichardo Muhammad Luciano Pomares Klein Mcgrath Richardson & Yasin,NJ,50000.0
+505387,Pichardo Muhammad Luciano Pomares Klein Mcgrath Richardson & Yasin,NJ,52500.0
 505446,"Bennett, Micaela",CA,125.0
 505446,"Bennett, Micaela",GA,150.0
 505446,"Bennett, Micaela",IL,50.0

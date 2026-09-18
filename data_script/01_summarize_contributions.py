@@ -39,8 +39,6 @@ def main(file_format="tsv"):
                             "CONTRIBUTOR": "ContributorName",
                         }
                     )
-                    # remove any duplicate contributions
-                    .drop_duplicates()
                     .reset_index(drop=True)
                 )
                 df_list += [temp_df]
@@ -96,20 +94,13 @@ def main(file_format="tsv"):
     #     505387: [504072, 507886, 503605, 508277, 461343, 507889, 505885, 460962, 503423, 502949, 505886, 459513, 507881, 503394, 507880]
     # }
 
-    # There are multiple rows for the same candidate based on primary vs full election,
-    # so need to merge on ID and then sum across Candidate name
-    all_info = pd.merge(contributions, cand_info, on="CandidateID", how="outer")
-
-    # Group and sum to collapse GENERAL and PRIMARY
-    no_grp = ["election_type", "Amount", "STREET1", "STREET2"]
-    agg_cols = [col for col in all_info.columns if col not in no_grp]
-    df = all_info.groupby(agg_cols, as_index=False)["Amount"].sum()
-
-    # Manually add back candidates with no contributions
-    total_cont = all_info.groupby("Candidate")["Amount"].sum()
-    zero = total_cont[total_cont == 0].index.to_list()
-    df = pd.concat([df, all_info.loc[all_info["Candidate"].isin(zero), df.columns]])
-    df["Amount"] = df["Amount"].fillna(0)
+    # There are multiple rows for the same candidate based on primary vs general
+    # Drop election_type and collapse IDs to one per person
+    # drop STREET2 -- basically no data
+    df = pd.merge(contributions, cand_info, on="CandidateID", how="outer").drop(
+        columns=["election_type", "STREET2"]
+    )
+    df["CandidateID"] = df.groupby("Candidate")["CandidateID"].transform("min")
 
     # ----------------------------------------------
     # ADD EXTRA COLUMNS, CLEAN STRINGS

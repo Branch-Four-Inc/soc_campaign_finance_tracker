@@ -74,6 +74,7 @@ CandidateID,Candidate, Contributor Name,Total Contributions
 460962,"Pomares, Carlos",Local 68 Iuoe Political Action Committee,950.0
 460962,"Pomares, Carlos",Njea Political Action Committee,500.0
 460962,"Pomares, Carlos",Modjeski & Masters Inc Transportation Alliance PAC,500.0
+460962,"Pomares, Carlos",Essex County Building And Construction,300.0
 460962,"Pomares, Carlos",Essex County Building & Construction,300.0
 461343,"Luciano, Leonard M",Ibew 164,4000.0
 461343,"Luciano, Leonard M",Cwa 1037,3637.0
@@ -81,10 +82,12 @@ CandidateID,Candidate, Contributor Name,Total Contributions
 461343,"Luciano, Leonard M",Ila Local 1235,2500.0
 461343,"Luciano, Leonard M",Steamfitters Local 475,2000.0
 461343,"Luciano, Leonard M",Newark Teachers Union Local 481,2000.0
+461343,"Luciano, Leonard M",Ibew 1158 Educational PAC,2000.0
 461343,"Luciano, Leonard M",Greater Nj Carpenters,2000.0
 461343,"Luciano, Leonard M",Cwa 1031,1100.0
 461343,"Luciano, Leonard M",Operating Engineers Local 68,1000.0
 461343,"Luciano, Leonard M",Laborers Local 472,1000.0
+461343,"Luciano, Leonard M",Ibew PAC Educational Fund,1000.0
 461343,"Luciano, Leonard M",Ibew Local 164,600.0
 461343,"Luciano, Leonard M",Cwa 1036,500.0
 461343,"Luciano, Leonard M",Essex County Building And Construction,300.0
@@ -92,6 +95,7 @@ CandidateID,Candidate, Contributor Name,Total Contributions
 461379,"Murray-Thomas, A'Dorian",32Bj United Adf,1000.0
 461613,"Gill, Brendan",Connell Foley PAC,5000.0
 461613,"Gill, Brendan",Heavy & General Construction Laborers Union Local  472 PAC,2000.0
+461613,"Gill, Brendan",Ibew Local Union 164 Cope - International Brotherh Ood Of Electrical Workers,1500.0
 461613,"Gill, Brendan",Sheet Metal Workers Local No 25 Pal Fund,1000.0
 461613,"Gill, Brendan",Ibew PAC Educational Fund,1000.0
 461613,"Gill, Brendan",Greater Nj Carpenters Pec,1000.0
@@ -99,7 +103,6 @@ CandidateID,Candidate, Contributor Name,Total Contributions
 461613,"Gill, Brendan",New Jersey State Firefighter`S Mutual Benevolent A Ssociation (Fmba) PAC,500.0
 461613,"Gill, Brendan",Essex-West Hudson Labor Council Cope,500.0
 461613,"Gill, Brendan",32Bj United Adf,500.0
-461613,"Gill, Brendan",Ibew Local Union 164 Cope - International Brotherh Ood Of Electrical Workers,0.0
 502673,Gonzalez Martinez & Cruz Team Mundell For Bloomfield,Ibew Local Union #164 Cope Account,8500.0
 502673,Gonzalez Martinez & Cruz Team Mundell For Bloomfield,Engineers Political Education Committee Separate E Ducation Fund,5000.0
 502673,Gonzalez Martinez & Cruz Team Mundell For Bloomfield,Greater Nj Carpenters Pec,3500.0

@@ -1,52 +1,66 @@
 CandidateID,Candidate,Contributor Location,Amount
-437001,"Melham, Michael A",In-state,285884.11
+437001,"Melham, Michael A",In-state,288884.11
 437001,"Melham, Michael A",Out-of-state,10995.71
+437001,"Melham, Michael A",Undisclosed,500.0
 437003,"Depena, Noamy",Undisclosed,0.0
 437004,"Graziano, Thomas",Undisclosed,0.0
-437005,Luna & Depena (Graziano Melham)  Belleville Victory 2026,In-state,89860.26
+437005,Luna & Depena (Graziano Melham)  Belleville Victory 2026,In-state,90710.26
 437005,Luna & Depena (Graziano Melham)  Belleville Victory 2026,Out-of-state,4200.0
-437063,"Vauss, Anthony",In-state,143250.0
+437005,Luna & Depena (Graziano Melham)  Belleville Victory 2026,Undisclosed,1300.0
+437063,"Vauss, Anthony",In-state,146650.0
 437063,"Vauss, Anthony",Out-of-state,13400.0
-438228,"Ramos, Anibal Jr",In-state,627261.87
-438228,"Ramos, Anibal Jr",Out-of-state,82850.0
-441239,"Council, Patrick O",In-state,303762.83
+437063,"Vauss, Anthony",Undisclosed,4600.0
+438228,"Ramos, Anibal Jr",In-state,630461.87
+438228,"Ramos, Anibal Jr",Out-of-state,83650.0
+441239,"Council, Patrick O",In-state,306462.83
 441239,"Council, Patrick O",Out-of-state,31700.0
+441239,"Council, Patrick O",Undisclosed,19931.9
 441756,"Frederic, Charnette",Undisclosed,0.0
 441757,"Hudley, October",Undisclosed,0.0
-441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,In-state,275150.0
-441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,Out-of-state,35100.0
-442017,"Crump, Cecil Lawrence",In-state,245800.0
+441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,In-state,289250.0
+441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,Out-of-state,37100.0
+442017,"Crump, Cecil Lawrence",In-state,249150.0
 442017,"Crump, Cecil Lawrence",Out-of-state,7000.0
-442150,"Spango, James R",In-state,194160.02
+442017,"Crump, Cecil Lawrence",Undisclosed,6700.0
+442150,"Spango, James R",In-state,194660.02
 442150,"Spango, James R",Out-of-state,6083.34
-447217,"Silva, Michael J",In-state,207880.0
+442150,"Spango, James R",Undisclosed,0.0
+447217,"Silva, Michael J",In-state,208380.0
 447217,"Silva, Michael J",Out-of-state,28300.0
-447717,"Baraka, Ras J",In-state,569820.6
+447217,"Silva, Michael J",Undisclosed,6500.0
+447717,"Baraka, Ras J",In-state,596470.6
 447717,"Baraka, Ras J",Out-of-state,61766.67
+447717,"Baraka, Ras J",Undisclosed,8230.0
 448273,"Mccartney, Susan",In-state,1000.0
 453829,"Scott-Rountree, Louise",In-state,53780.0
 453829,"Scott-Rountree, Louise",Out-of-state,5000.0
+453829,"Scott-Rountree, Louise",Undisclosed,500.0
 454582,"Sebold, Patricia",In-state,5665.0
+454582,"Sebold, Patricia",Undisclosed,3760.0
 454589,"Mercado, Robert",In-state,250.0
 459043,"Brown, Darlene",Undisclosed,0.0
 459044,"Evans, Sean",Undisclosed,0.0
-459513,"Richardson, Wayne",In-state,132590.0
+459513,"Richardson, Wayne",In-state,136090.0
 459513,"Richardson, Wayne",Out-of-state,24500.0
+459513,"Richardson, Wayne",Undisclosed,0.0
 460791,"Talmadge, Ryan",Undisclosed,0.0
 460864,"Bardi, Christopher",Undisclosed,0.0
-460885,"Bardi, Christopher",Undisclosed,0.0
 460962,"Pomares, Carlos",In-state,41374.59
 460962,"Pomares, Carlos",Out-of-state,14600.0
+460962,"Pomares, Carlos",Undisclosed,300.0
 461281,"Mciver, Lamonica",In-state,2006.46
 461343,"Luciano, Leonard M",In-state,56737.0
 461343,"Luciano, Leonard M",Out-of-state,3200.0
+461343,"Luciano, Leonard M",Undisclosed,3000.0
 461375,"Graham Sermons, Romaine",In-state,22542.0
 461379,"Murray-Thomas, A'Dorian",In-state,7750.0
 461379,"Murray-Thomas, A'Dorian",Out-of-state,1000.0
-461613,"Gill, Brendan",In-state,30150.0
+461379,"Murray-Thomas, A'Dorian",Undisclosed,0.0
+461613,"Gill, Brendan",In-state,31650.0
 461613,"Gill, Brendan",Out-of-state,2500.0
 466297,"Klein, Shawn R",Undisclosed,0.0
 470812,"Tempesta, Joseph Jr",In-state,24200.0
+470812,"Tempesta, Joseph Jr",Undisclosed,0.0
 470814,"Hollaway, Tammy",Undisclosed,0.0
 473245,"Charris Tabares, Monica M",Undisclosed,0.0
 473413,"Adams, Eric",Undisclosed,0.0
@@ -61,36 +75,45 @@ CandidateID,Candidate,Contributor Location,Amount
 475395,"Mccoy, Jimmy L",Undisclosed,0.0
 475410,"Kelly, Ade'Kamil",Undisclosed,0.0
 477217,"White, Altarik B Sr",In-state,1250.0
+477217,"White, Altarik B Sr",Undisclosed,12250.0
 481046,"Lloyd, Lynda A",Undisclosed,0.0
-502667,"Jackson, Donald L",In-state,2800.0
+482040,"Youngblood, Jhamar D",Undisclosed,5453.61
+502667,"Jackson, Donald L",In-state,3300.0
 502671,"Gonzalez, Rosalee",Undisclosed,0.0
 502672,"Cruz, Sarah",Undisclosed,0.0
-502673,Gonzalez Martinez & Cruz Team Mundell For Bloomfield,In-state,156481.7
+502673,Gonzalez Martinez & Cruz Team Mundell For Bloomfield,In-state,161481.7
 502673,Gonzalez Martinez & Cruz Team Mundell For Bloomfield,Out-of-state,16300.0
 502751,"Rock, Brian",In-state,1950.0
 502751,"Rock, Brian",Out-of-state,500.0
 502776,"Velez, Frank Iii",In-state,9237.5
+502776,"Velez, Frank Iii",Undisclosed,1099.0
 502808,"Chaneyfield Jenkins, Gayle",Undisclosed,0.0
 502813,"Bey, Amina",In-state,31565.0
 502813,"Bey, Amina",Out-of-state,600.0
+502813,"Bey, Amina",Undisclosed,1000.0
 502814,"Quiles, Jacqueline",Undisclosed,0.0
 502815,"Kelly, Dupre L",In-state,52555.0
 502815,"Kelly, Dupre L",Out-of-state,1450.0
-502817,"Scott-Rountree Bey Council Crump & Kelly (Baraka, Quiles) Team Baraka 2026",In-state,304416.67
+502815,"Kelly, Dupre L",Undisclosed,2521.0
+502817,"Scott-Rountree Bey Council Crump & Kelly (Baraka, Quiles) Team Baraka 2026",In-state,306416.67
 502817,"Scott-Rountree Bey Council Crump & Kelly (Baraka, Quiles) Team Baraka 2026",Out-of-state,21333.33
+502817,"Scott-Rountree Bey Council Crump & Kelly (Baraka, Quiles) Team Baraka 2026",Undisclosed,250.0
 502828,"Jones, Trenton E",In-state,2552.0
 502879,"Kettles, Khalil T",Undisclosed,0.0
 502888,"Garner, Tanisha  H",In-state,605.0
 502899,"Santiago, Stefanie",In-state,1915.48
 502899,"Santiago, Stefanie",Out-of-state,3500.0
+502899,"Santiago, Stefanie",Undisclosed,3415.92
 502902,"Victor Hinds, Wynnie-Fred",Undisclosed,0.0
-502935,Vauss Frederic & Brown Team Irvington Strong 2026,In-state,124650.0
+502935,Vauss Frederic & Brown Team Irvington Strong 2026,In-state,133150.0
 502935,Vauss Frederic & Brown Team Irvington Strong 2026,Out-of-state,15000.0
-502949,"Mcgrath, Christine",In-state,31102.07
+502935,Vauss Frederic & Brown Team Irvington Strong 2026,Undisclosed,1000.0
+502949,"Mcgrath, Christine",In-state,31227.07
 502949,"Mcgrath, Christine",Out-of-state,5800.0
+502949,"Mcgrath, Christine",Undisclosed,0.0
 502953,"Williams, Tammy M",In-state,35530.0
 502953,"Williams, Tammy M",Out-of-state,4850.0
-503008,"Garcia, Josephine C",In-state,64450.0
+503008,"Garcia, Josephine C",In-state,65350.0
 503008,"Garcia, Josephine C",Out-of-state,34600.0
 503009,"Santana, Vereliz",Undisclosed,0.0
 503010,"Childs, Quamid",In-state,500.0
@@ -99,19 +122,24 @@ CandidateID,Candidate,Contributor Location,Amount
 503072,Desir & Quizhpi,Undisclosed,0.0
 503103,"Council, Hassani K",In-state,8335.0
 503117,Save Montclair Schools,In-state,533.13
+503117,Save Montclair Schools,Undisclosed,552.92
 503354,"Martinez, Jason",Undisclosed,0.0
 503394,"Yasin, Abdur R",In-state,33068.0
-503394,"Yasin, Abdur R",Out-of-state,6250.0
+503394,"Yasin, Abdur R",Out-of-state,6450.0
+503394,"Yasin, Abdur R",Undisclosed,3180.0
 503401,"James, Lynval H",Undisclosed,0.0
 503407,"Rivera, Edden O",Undisclosed,0.0
 503419,"Luna, Yolanda",Undisclosed,0.0
 503422,"Lebron, Maria E",In-state,4000.01
 503422,"Lebron, Maria E",Out-of-state,2500.0
-503423,"Klein, Shawn",In-state,68657.27
+503423,"Klein, Shawn",In-state,68910.95
 503423,"Klein, Shawn",Out-of-state,11000.0
+503423,"Klein, Shawn",Undisclosed,10816.0
 503443,"Peppers, Rasheen M",In-state,62050.0
 503443,"Peppers, Rasheen M",Out-of-state,7000.0
+503443,"Peppers, Rasheen M",Undisclosed,10378.810000000001
 503445,"Comesanas, Mark",In-state,5650.0
+503462,"Ward, James H Iii",Undisclosed,850.0
 503463,"Anderson, Corey",Undisclosed,0.0
 503467,"Watford, Durrell",Undisclosed,0.0
 503468,"Ogu, Jude N",Undisclosed,0.0
@@ -120,33 +148,37 @@ CandidateID,Candidate,Contributor Location,Amount
 503472,"Lyon, Audrey",Undisclosed,0.0
 503487,"Farrell, John",Undisclosed,0.0
 503488,"Gray, Lisa A",Undisclosed,0.0
-503489,"Hollaway, Tammy",Undisclosed,0.0
 503490,"Peters, Tawheed",Undisclosed,0.0
 503529,"Jackson, Latoya",Undisclosed,0.0
 503530,"Nivar, Jordy",Undisclosed,0.0
-503553,"Quintana, Luis A",In-state,77200.0
+503553,"Quintana, Luis A",In-state,79300.0
 503553,"Quintana, Luis A",Out-of-state,24775.0
-503581,"Nivar, Jordy",Undisclosed,0.0
-503605,"Muhammad, Medinah",In-state,10430.0
+503553,"Quintana, Luis A",Undisclosed,2475.0
+503605,"Muhammad, Medinah",In-state,10730.0
 503605,"Muhammad, Medinah",Out-of-state,1800.0
+503605,"Muhammad, Medinah",Undisclosed,0.0
 503606,"Khanna, Vineeta",Undisclosed,0.0
 503627,"Russo, Robert J",In-state,1500.0
 503645,Council Childs Comesanas & Nivar Moving Newark Schools Forward 2026,In-state,39250.0
 503647,"Docteroff, Michael",Undisclosed,0.0
 503648,"Canale, Kathy L",Undisclosed,0.0
 503649,Tempesta Docteroff & Canale,In-state,42900.0
+503649,Tempesta Docteroff & Canale,Undisclosed,0.0
 503651,"Zall, Beth",Undisclosed,0.0
 503652,"Brazell, William",Undisclosed,0.0
-503653,Zall & Brazell,In-state,3800.0
+503653,Zall & Brazell,In-state,6800.0
 503653,Zall & Brazell,Out-of-state,660.0
 503677,"Wells, Danyale P",In-state,6505.139999999999
+503678,"Rodriguez, Michelle M",In-state,6505.139999999999
 503679,"Hendy, Jackie",In-state,5425.0
 503679,"Hendy, Jackie",Out-of-state,700.0
+503679,"Hendy, Jackie",Undisclosed,105.0
 503680,"Salters, Debra L",Undisclosed,0.0
 503681,"Davis, Douglas R",Out-of-state,250.0
 503682,"Milton, Noble D",Undisclosed,0.0
 503683,"Singleton, Nasheedah S",In-state,100.0
-503684,"Hinnant, Joanette",In-state,4621.0
+503684,"Hinnant, Joanette",In-state,4671.0
+503685,"Jackson, Donna",Undisclosed,250.0
 503686,"Brown, Nadirah A",Undisclosed,0.0
 503687,"Olivera, Pablo A",Undisclosed,0.0
 503688,"Cooper, Malik H",Undisclosed,0.0
@@ -156,6 +188,7 @@ CandidateID,Candidate,Contributor Location,Amount
 503692,"Sanchez, Marcos M",In-state,950.0
 503693,"Norton, Asia J",In-state,4158.3099999999995
 503693,"Norton, Asia J",Out-of-state,491.64
+503693,"Norton, Asia J",Undisclosed,0.0
 503694,"Jetti, Willie S",In-state,650.0
 503695,"Baker, Lonnie T",Undisclosed,0.0
 503696,"Ahmad, Abdush",Undisclosed,0.0
@@ -167,7 +200,7 @@ CandidateID,Candidate,Contributor Location,Amount
 503701,"Coley, Kerry",Undisclosed,0.0
 503702,"Hall, Antoinett A",Undisclosed,0.0
 503703,"Hilbert, Quantavia L",Undisclosed,0.0
-503704,"Vauss, Anthony A Jr",In-state,83725.0
+503704,"Vauss, Anthony A Jr",In-state,87225.0
 503704,"Vauss, Anthony A Jr",Out-of-state,14550.0
 503732,Benbow Geffard & Lyon,In-state,17400.0
 503732,Benbow Geffard & Lyon,Out-of-state,3000.0
@@ -175,34 +208,44 @@ CandidateID,Candidate,Contributor Location,Amount
 503761,"Kahn, Laurie",Undisclosed,0.0
 503762,Kahn & Abenstein,In-state,12650.0
 503762,Kahn & Abenstein,Out-of-state,750.0
+503762,Kahn & Abenstein,Undisclosed,3935.0
 503873,"Ceperley, Martin",In-state,19050.0
-503879,"Engel, Deborah",In-state,3250.0
+503879,"Engel, Deborah",In-state,3916.7200000000003
 503879,"Engel, Deborah",Out-of-state,11000.0
+503879,"Engel, Deborah",Undisclosed,0.0
 503887,"Meinhardt, Edward",Undisclosed,0.0
 503888,"Bhuptani, Ketan K",Undisclosed,0.0
 503889,Meinhardt & Bhuptani,In-state,50305.59
 503889,Meinhardt & Bhuptani,Out-of-state,2850.0
+503889,Meinhardt & Bhuptani,Undisclosed,5525.0
 503902,"Wang, Daphne Dan",In-state,6250.0
+503902,"Wang, Daphne Dan",Undisclosed,9820.0
 503990,"Jurgensen, Kenneth",Undisclosed,0.0
 503991,"Sagalow, Jonathan R",Undisclosed,0.0
 503992,"Alcorta, Ricardo",Undisclosed,0.0
-503993,Jurgensen Sagalow & Alcorta,In-state,1710.0
+503993,Jurgensen Sagalow & Alcorta,In-state,1990.0
 503993,Jurgensen Sagalow & Alcorta,Out-of-state,250.0
 503994,"Sullivan, John T",In-state,13082.58
+503994,"Sullivan, John T",Undisclosed,4433.0
 503995,"Mathews, Maritza",Undisclosed,0.0
 503996,"Ferreira Almeida, Daniela",Undisclosed,0.0
 504072,"Pichardo, Wilson A",In-state,1500.0
+504072,"Pichardo, Wilson A",Undisclosed,0.0
 504662,Millburn Residents For Non-Partisan Positive Change,Undisclosed,0.0
-505170,"Divincenzo, Joseph",In-state,683085.32
-505170,"Divincenzo, Joseph",Out-of-state,98600.0
-505171,"Lewis, Marqes-Aquil",In-state,16893.27
+505170,"Divincenzo, Joseph",In-state,721288.24
+505170,"Divincenzo, Joseph",Out-of-state,101600.0
+505170,"Divincenzo, Joseph",Undisclosed,5900.0
+505171,"Lewis, Marqes-Aquil",In-state,17143.27
+505171,"Lewis, Marqes-Aquil",Undisclosed,10451.24
 505172,"Eley, Demetrius",Undisclosed,0.0
 505173,"Freeman, Douglas",Undisclosed,0.0
 505174,"Defrank, Sahwa",Undisclosed,0.0
 505175,"Kraemer, Adam",In-state,5000.0
+505175,"Kraemer, Adam",Undisclosed,0.0
 505176,"Contella, Frank",Undisclosed,0.0
-505177,"Babula, Greg",In-state,17391.72
+505177,"Babula, Greg",In-state,17691.72
 505177,"Babula, Greg",Out-of-state,1500.0
+505177,"Babula, Greg",Undisclosed,0.0
 505178,"Bonica, Paul",Undisclosed,0.0
 505179,"Bootwala, Stef",In-state,2461.04
 505179,"Bootwala, Stef",Out-of-state,1750.0
@@ -216,7 +259,8 @@ CandidateID,Candidate,Contributor Location,Amount
 505189,"Lam, Bill",In-state,5001.52
 505189,"Lam, Bill",Out-of-state,350.0
 505190,"Foley, Timothy S",Undisclosed,0.0
-505191,"De Luca, Victor",In-state,6544.3
+505191,"De Luca, Victor",In-state,6794.3
+505191,"De Luca, Victor",Undisclosed,0.0
 505192,"Saccomandi, Frank Iv",Undisclosed,0.0
 505193,"Stoller, Ben",Undisclosed,0.0
 505194,"Floria-Callori, Anthony",Undisclosed,0.0
@@ -227,15 +271,17 @@ CandidateID,Candidate,Contributor Location,Amount
 505331,"Zeblow , Aaron",Undisclosed,0.0
 505332,"Zeblow, Jennifer",Undisclosed,0.0
 505340,Millburn Residents For Non Partisan Positive Change,In-state,20951.0
+505340,Millburn Residents For Non Partisan Positive Change,Undisclosed,1175.0
 505354,"Krakoviak, Joe",Undisclosed,0.0
 505371,Residents For Transparency And Affordability,In-state,20842.59
 505371,Residents For Transparency And Affordability,Out-of-state,400.84
-505387,Pichardo Muhammad Luciano Pomares Klein Mcgrath Richardson & Yasin,In-state,50000.0
+505371,Residents For Transparency And Affordability,Undisclosed,1110.0
+505387,Pichardo Muhammad Luciano Pomares Klein Mcgrath Richardson & Yasin,In-state,52500.0
 505446,"Bennett, Micaela",In-state,9730.0
 505446,"Bennett, Micaela",Out-of-state,685.0
 505500,Saccomandi & Stoller,Undisclosed,0.0
 505521,"Council, Patrick",In-state,60210.0
-505552,"King, John",Undisclosed,0.0
+505521,"Council, Patrick",Undisclosed,500.0
 505616,"Dvorin, Matthew",Undisclosed,0.0
 505617,"Rudin, Joyce L",Undisclosed,0.0
 505634,Zeblow & Zeblow,Undisclosed,0.0
@@ -244,50 +290,23 @@ CandidateID,Candidate,Contributor Location,Amount
 505803,"Zablow, Aaron",Undisclosed,0.0
 505804,"Zablow, Jennifer",Undisclosed,0.0
 505805,Zablow & Zablow,Undisclosed,0.0
-505964,"Docteroff, Michael",Undisclosed,0.0
-505965,"Canale, Kathy L",Undisclosed,0.0
-506162,"Saccomandi, Frank Iv",Undisclosed,0.0
-506163,"Stoller, Ben",Undisclosed,0.0
 506164,Saccomandi & Stoller For Millburn Tc,Undisclosed,0.0
-506260,"Foley, Timothy S",Undisclosed,0.0
 506290,"Schor, Corey",Undisclosed,0.0
-506349,"Gonzalez, Rosalee",Undisclosed,0.0
-506350,"Cruz, Sarah",Undisclosed,0.0
 506351,Gonzalez & Cruz,Undisclosed,0.0
 506783,"Callahan, Elizabeth",Undisclosed,0.0
 506784,"Meyer, William",Undisclosed,0.0
 506785,Callahan & Meyer For Board Of Education,Undisclosed,0.0
-506872,"Zall, Beth",Undisclosed,0.0
 506873,"Brazell, Bill",Undisclosed,0.0
 506874,Zall & Brazell Cte,Undisclosed,0.0
 506982,"Scarpa, Susan",Undisclosed,0.0
 507177,"Frenklakh, Daniel",Undisclosed,0.0
-507250,"Meinhardt, Edward",Undisclosed,0.0
-507251,"Bhuptani, Ketan K",Undisclosed,0.0
-507252,"Abenstein, Stacey",Undisclosed,0.0
 507253,Meinhardt Bhuptani & Abenstein,Undisclosed,0.0
 507608,"Weintraub, Lawrence",Undisclosed,0.0
-507878,"Mathews, Maritza",Undisclosed,0.0
-507882,"Eley, Demetrius",Undisclosed,0.0
 507883,"Ferriera Almeida, Daniela",Undisclosed,0.0
-507884,"Freeman, Douglas",Undisclosed,0.0
-507885,"Defrank, Sahwa",Undisclosed,0.0
-507891,"Contella, Frank",Undisclosed,0.0
-507893,"Jurgensen, Kenneth",Undisclosed,0.0
-507894,"Jones, Garrett C",Undisclosed,0.0
-507895,"Sagalow, Jonathan R",Undisclosed,0.0
 507896,"Heftler, Mark",Undisclosed,0.0
-507897,"Pollara, Andrew",Undisclosed,0.0
-507898,"Bambrick, Brian",Undisclosed,0.0
 507899,"Davella, Bernard J",Undisclosed,0.0
-507900,"Campisi, Peter",Undisclosed,0.0
-507901,"Lattimer, Michael",Undisclosed,0.0
 507902,"Lefkovits, David",Undisclosed,0.0
 507903,"Moody, Lorijeane",Undisclosed,0.0
-507909,"Tilton, Kenneth",Undisclosed,0.0
-507910,"Floria-Callori, Anthony",Undisclosed,0.0
-507911,"Luers-Franco, Aimee",Undisclosed,0.0
-507913,"Biront, John",Undisclosed,0.0
 508276,"Woods, Jason J",Undisclosed,0.0
 508671,"Diaz, Kevin",Undisclosed,0.0
 508997,"Bennett Meany, Gabrielle",Undisclosed,0.0
