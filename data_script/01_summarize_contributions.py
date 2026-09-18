@@ -2,15 +2,17 @@ import numpy as np
 import pandas as pd
 from pathlib import Path
 from utils import round_amount
+from datetime import date 
+from dateutil.relativedelta import relativedelta
 
 
 def main(file_format="tsv"):
 
     ############# CONFIG ##########################
-    county = "ESSEX COUNTY"
-    contribution_start = "2020-01-01"
+    county = "HUDSON COUNTY"
     newsroom = "Slice of Culture"
-    pull_date = "2026-09-01"
+    pull_date = date.today().strftime("%Y-%m-%d")
+    contribution_start = (date.today() - relativedelta(years = 5)).strftime("%Y-%m-%d")
     contribution_end = pull_date
     state = "NJ"
     ###############################################
