@@ -34,6 +34,7 @@ CandidateID,Candidate, Contributor Name,Total Contributions
 437001,"Melham, Michael A",Fun Ghoul Costume Inc,500.0
 437001,"Melham, Michael A",Ferry Carpet Inc,500.0
 437001,"Melham, Michael A",Ricova Inc,300.0
+437005,Luna & Depena (Graziano Melham)  Belleville Victory 2026,Natural Apothecary,1000.0
 437005,Luna & Depena (Graziano Melham)  Belleville Victory 2026,Lincoln Equities,1000.0
 437005,Luna & Depena (Graziano Melham)  Belleville Victory 2026,Colliers Engineering & Design Inc,700.0
 437005,Luna & Depena (Graziano Melham)  Belleville Victory 2026,Jct Solutions,600.0
@@ -50,6 +51,7 @@ CandidateID,Candidate, Contributor Name,Total Contributions
 437063,"Vauss, Anthony",Antonelli Kantor Rivera,5550.0
 437063,"Vauss, Anthony",Seasons Of Learning,3600.0
 437063,"Vauss, Anthony",My Smile Dental,3600.0
+437063,"Vauss, Anthony",Afor African Mkt,3600.0
 437063,"Vauss, Anthony",Adams Rehmann & Heggan Associates Inc,2400.0
 437063,"Vauss, Anthony",Christian Pentecostal After School,2000.0
 437063,"Vauss, Anthony",Van Charles Corporation,1250.0
@@ -176,9 +178,11 @@ CandidateID,Candidate, Contributor Name,Total Contributions
 438228,"Ramos, Anibal Jr",519 Sumiraj Corporation,500.0
 438228,"Ramos, Anibal Jr","Villa Americas Funeral Home, Incorporated",400.0
 438228,"Ramos, Anibal Jr",Voyager Trucking Corp.,300.0
+438228,"Ramos, Anibal Jr","Nj Students Succeed, Incorporated",300.0
 438228,"Ramos, Anibal Jr","Manny Restaurant Ii, Incorporated",300.0
 438228,"Ramos, Anibal Jr","Lucky Realty Associates, Inc.",300.0
 438228,"Ramos, Anibal Jr",Lou'S Corner Liquormat Corporation,300.0
+438228,"Ramos, Anibal Jr",La Conga Corporation,300.0
 438228,"Ramos, Anibal Jr","Krivit & Krivit, P.C.",300.0
 438228,"Ramos, Anibal Jr","Jersey City Hospitalty, Inc.",300.0
 438228,"Ramos, Anibal Jr","Go Car Service, Incorporated",300.0
@@ -187,8 +191,6 @@ CandidateID,Candidate, Contributor Name,Total Contributions
 438228,"Ramos, Anibal Jr","Berto Construction, Inc.",300.0
 438228,"Ramos, Anibal Jr","100 Ways Of Cleaning, Incorporated",175.0
 438228,"Ramos, Anibal Jr",Lusamer Auto Body Corporation,150.0
-438228,"Ramos, Anibal Jr",La Conga Corporation,150.0
-438228,"Ramos, Anibal Jr","Nj Students Succeed, Incorporated",0.0
 441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,Mts Towing Inc,10000.0
 441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,Christian Pentecostal After School,7400.0
 441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,Fairview Insurance Agency,6500.0
@@ -200,6 +202,7 @@ CandidateID,Candidate, Contributor Name,Total Contributions
 441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,Hunt Hamlin And Ridley,3600.0
 441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,Divine Direction Learning Center,2700.0
 441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,"Adams Rehmann & Heggan Associates, Inc",2000.0
+441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,All Health Services,1800.0
 441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,Estate Realty Group,1400.0
 441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,Estate Reality Group,1400.0
 441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,Mariela Inc,1000.0
@@ -311,6 +314,7 @@ CandidateID,Candidate, Contributor Name,Total Contributions
 447217,"Silva, Michael J","Phil Neto Construction Co., Inc.",2500.0
 447217,"Silva, Michael J",Fernandes Steak House Inc.,2500.0
 447217,"Silva, Michael J",Concrete Systems Inc.,2500.0
+447217,"Silva, Michael J","Pimentel Investments, Inc.",2000.0
 447217,"Silva, Michael J",Ocean Seafood Depot Inc.,2000.0
 447217,"Silva, Michael J",Oak Builders Inc.,2000.0
 447217,"Silva, Michael J",Lencor Inc.,2000.0
@@ -320,12 +324,12 @@ CandidateID,Candidate, Contributor Name,Total Contributions
 447217,"Silva, Michael J",Sumo Real Estate Holdings Inc.,1500.0
 447217,"Silva, Michael J",M Silvestre Contracting Inc.,1500.0
 447217,"Silva, Michael J",Gardian Fence Company Inc.,1500.0
+447217,"Silva, Michael J",Crossroads Paving Contracting Corp.,1500.0
 447217,"Silva, Michael J",True Home Inspections Corp,1000.0
 447217,"Silva, Michael J",The Alomo Insurance Group Inc,1000.0
 447217,"Silva, Michael J",Solmar Corporation,1000.0
 447217,"Silva, Michael J",Seabra Group Inc.,1000.0
 447217,"Silva, Michael J",Portugalia Corp.,1000.0
-447217,"Silva, Michael J","Pimentel Investments, Inc.",1000.0
 447217,"Silva, Michael J",Msp Construction Corp.,1000.0
 447217,"Silva, Michael J",Montana Construction Group Inc.,1000.0
 447217,"Silva, Michael J",Jtg Construction Inc.,1000.0
@@ -346,6 +350,7 @@ CandidateID,Candidate, Contributor Name,Total Contributions
 447217,"Silva, Michael J",Vilainis Market Inc.,500.0
 447217,"Silva, Michael J",Vieira'S Bakery Inc.,500.0
 447217,"Silva, Michael J",South Street Auto Sales,500.0
+447217,"Silva, Michael J",Sol Auto Body Corp,500.0
 447217,"Silva, Michael J",Seafon Inc.,500.0
 447217,"Silva, Michael J",Sabor Latino Diner & Restaurant,500.0
 447217,"Silva, Michael J",Rino Contracting Corporation,500.0
@@ -374,6 +379,7 @@ CandidateID,Candidate, Contributor Name,Total Contributions
 447217,"Silva, Michael J",Motor City Inc.,250.0
 447217,"Silva, Michael J",Lopes & Sons Hardware Inc.,250.0
 447217,"Silva, Michael J",Lisbon Wines And Liqours,250.0
+447217,"Silva, Michael J","Leslie Dinettes, Inc.",250.0
 447217,"Silva, Michael J",Daybreak Express Inc.,250.0
 447717,"Baraka, Ras J",Villanis Market Inc,5500.0
 447717,"Baraka, Ras J",Mts Staffing Incorporated,5500.0
@@ -396,6 +402,7 @@ CandidateID,Candidate, Contributor Name,Total Contributions
 447717,"Baraka, Ras J","Martinez Plumbing & Heating, Inc.",1500.0
 447717,"Baraka, Ras J",International Used Auto Parts Inc,1500.0
 447717,"Baraka, Ras J",L.A. Parking Corp,1450.0
+447717,"Baraka, Ras J",Viera'S Bakery,1000.0
 447717,"Baraka, Ras J",Nj Students Succeed,1000.0
 447717,"Baraka, Ras J",Nj Public Charter Schools Action Fund,1000.0
 447717,"Baraka, Ras J",Mdl Consulting Inc,1000.0
@@ -483,8 +490,8 @@ CandidateID,Candidate, Contributor Name,Total Contributions
 461613,"Gill, Brendan",Gibbons Pc,500.0
 461613,"Gill, Brendan",Boswell Engineering Inc,500.0
 461613,"Gill, Brendan",Calandra Products Inc,250.0
+502673,Gonzalez Martinez & Cruz Team Mundell For Bloomfield,T & M Associates,8500.0
 502673,Gonzalez Martinez & Cruz Team Mundell For Bloomfield,"Trilon Services C-Corp Holdings, Inc",6150.0
-502673,Gonzalez Martinez & Cruz Team Mundell For Bloomfield,T & M Associates,6000.0
 502673,Gonzalez Martinez & Cruz Team Mundell For Bloomfield,Richard A. Alaimo Associates,6000.0
 502673,Gonzalez Martinez & Cruz Team Mundell For Bloomfield,Fairview Insurance Agency Associates,6000.0
 502673,Gonzalez Martinez & Cruz Team Mundell For Bloomfield,Remington & Vernick Engineers [Rve],5000.0
@@ -588,6 +595,7 @@ CandidateID,Candidate, Contributor Name,Total Contributions
 503649,Tempesta Docteroff & Canale,Colliers Engineering & Design Inc,15600.0
 503649,Tempesta Docteroff & Canale,Quagen Pharma,10000.0
 503677,"Wells, Danyale P",Frank Velez For Mayor,6505.0
+503678,"Rodriguez, Michelle M",Frank Velez For Mayor,6505.0
 503692,"Sanchez, Marcos M",Milton'S Auto Body LLC,600.0
 503692,"Sanchez, Marcos M",Colteal LLC,200.0
 503704,"Vauss, Anthony A Jr",Fairview Insurance Agency,5500.0
@@ -607,7 +615,7 @@ CandidateID,Candidate, Contributor Name,Total Contributions
 503889,Meinhardt & Bhuptani,"Sills Cummis & Gross, Pc",1000.0
 503889,Meinhardt & Bhuptani,"Adams, Rehmann & Heggan Associates, Inc.",500.0
 503993,Jurgensen Sagalow & Alcorta,Jeffery Gates For Assemply,200.0
-505170,"Divincenzo, Joseph",Our Healthy Nj Inc,15000.0
+505170,"Divincenzo, Joseph",Our Healthy Nj Inc,30000.0
 505170,"Divincenzo, Joseph",N American Eagle Construction Inc,11000.0
 505170,"Divincenzo, Joseph",Resource Search Company Inc,5500.0
 505170,"Divincenzo, Joseph",Premio Foods Inc,5500.0
@@ -617,6 +625,7 @@ CandidateID,Candidate, Contributor Name,Total Contributions
 505170,"Divincenzo, Joseph",Nj Public Charter Schools Action Fund Inc,5000.0
 505170,"Divincenzo, Joseph",Impact Zone Fitness & Sports,5000.0
 505170,"Divincenzo, Joseph","Great Schools For All, Inc",5000.0
+505170,"Divincenzo, Joseph",Wellpath,4000.0
 505170,"Divincenzo, Joseph",Jersey City Hospital Inc,3000.0
 505170,"Divincenzo, Joseph",Bogies Lounge,3000.0
 505170,"Divincenzo, Joseph",Atlantic Uniform Co,2600.0
@@ -625,7 +634,6 @@ CandidateID,Candidate, Contributor Name,Total Contributions
 505170,"Divincenzo, Joseph",Boswell Engineering Inc,2500.0
 505170,"Divincenzo, Joseph","Schumacher Cherolet, Inc",2300.0
 505170,"Divincenzo, Joseph",Zenith Construction Inc,2000.0
-505170,"Divincenzo, Joseph",Wellpath,2000.0
 505170,"Divincenzo, Joseph",Sonny Electric,2000.0
 505170,"Divincenzo, Joseph","Robert Treat Hotel, Inc",2000.0
 505170,"Divincenzo, Joseph",Lku Group Inc,2000.0
@@ -686,12 +694,15 @@ CandidateID,Candidate, Contributor Name,Total Contributions
 505170,"Divincenzo, Joseph",Colliers Engneering & Design,300.0
 505170,"Divincenzo, Joseph",Atlas Desk & Office Equipment Corp,300.0
 505170,"Divincenzo, Joseph",Direct Waste Services Inc,250.0
+505171,"Lewis, Marqes-Aquil",Ssw LLC,1500.0
 505171,"Lewis, Marqes-Aquil","Taylor Law Group, LLC",1000.0
 505171,"Lewis, Marqes-Aquil",Robert Treat Hotel Inc.,1000.0
 505171,"Lewis, Marqes-Aquil",Robert Treat Ho†El,750.0
 505171,"Lewis, Marqes-Aquil",Pro Cops Security Limited Liability Comp,700.0
+505171,"Lewis, Marqes-Aquil",Sh Of Newark LLC,500.0
 505171,"Lewis, Marqes-Aquil",Preferred Local Government Consulting LLC,500.0
 505171,"Lewis, Marqes-Aquil",Avon Supermarket Corp,500.0
+505171,"Lewis, Marqes-Aquil",Well Fargo Bank,350.0
 505171,"Lewis, Marqes-Aquil",Jww &Associates,250.0
 505177,"Babula, Greg",Nicholas Joanow Campaign Account,2400.0
 505177,"Babula, Greg",Jl For Nj 2026,1000.0

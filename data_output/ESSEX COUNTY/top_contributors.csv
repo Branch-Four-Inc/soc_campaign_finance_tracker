@@ -9,8 +9,8 @@ CandidateID,Candidate,Contributor Type,Contributor Name,Total Contributions,Numb
 437001,"Melham, Michael A",Individual,"Dimaria, Frank",4863.0,10
 437001,"Melham, Michael A",Individual,"Dorcely, James",4542.0,9
 437001,"Melham, Michael A",Individual,"Muniz, Joseph M",4500.0,5
-437003,"Depena, Noamy",(Unknown),,0.0,1
-437004,"Graziano, Thomas",(Unknown),,0.0,1
+437003,"Depena, Noamy",(Unknown),,0.0,0
+437004,"Graziano, Thomas",(Unknown),,0.0,0
 437005,Luna & Depena (Graziano Melham)  Belleville Victory 2026,Political Cmte,Belleville Victory 2022,10506.0,1
 437005,Luna & Depena (Graziano Melham)  Belleville Victory 2026,Union,Ibew,5000.0,2
 437005,Luna & Depena (Graziano Melham)  Belleville Victory 2026,Individual,"Mcneil, Dennis",4500.0,2
@@ -18,9 +18,9 @@ CandidateID,Candidate,Contributor Type,Contributor Name,Total Contributions,Numb
 437005,Luna & Depena (Graziano Melham)  Belleville Victory 2026,Individual,"Muniz, Joseph",3600.0,5
 437005,Luna & Depena (Graziano Melham)  Belleville Victory 2026,Individual,"Neglia, Michael",2950.0,4
 437005,Luna & Depena (Graziano Melham)  Belleville Victory 2026,Individual,"Feldman, Warren",2700.0,5
+437005,Luna & Depena (Graziano Melham)  Belleville Victory 2026,Individual,"Tiflinsky, Peter",2000.0,3
+437005,Luna & Depena (Graziano Melham)  Belleville Victory 2026,Individual,"Otovic, Michael",1700.0,3
 437005,Luna & Depena (Graziano Melham)  Belleville Victory 2026,Individual,"Farmer, Ed",1650.0,4
-437005,Luna & Depena (Graziano Melham)  Belleville Victory 2026,Individual,"Tiflinsky, Peter",1500.0,2
-437005,Luna & Depena (Graziano Melham)  Belleville Victory 2026,Candidate Committee,Esteban Leon For Boe,1452.0,1
 437063,"Vauss, Anthony",Candidate Committee,Team Irvington Strong 2026,9500.0,3
 437063,"Vauss, Anthony",Business/Corp,Mts Towing,7400.0,2
 437063,"Vauss, Anthony",Business/Corp,Antonelli Kantor Rivera,5550.0,2
@@ -43,6 +43,7 @@ CandidateID,Candidate,Contributor Type,Contributor Name,Total Contributions,Numb
 438228,"Ramos, Anibal Jr",Business/Corp,"Alman Supermarkets, Inc.",6000.0,6
 441239,"Council, Patrick O",Individual,"Matuschat, Art",26000.0,2
 441239,"Council, Patrick O",Individual,"Sproule, William",16300.0,1
+441239,"Council, Patrick O",Individual,"Actblue, Actblue",14729.0,8
 441239,"Council, Patrick O",Individual,"Nassiruddin, Khalil",6000.0,2
 441239,"Council, Patrick O",Individual,"Gomes, Jose",6000.0,2
 441239,"Council, Patrick O",Individual,"Grainger, Michael",5700.0,5
@@ -50,19 +51,18 @@ CandidateID,Candidate,Contributor Type,Contributor Name,Total Contributions,Numb
 441239,"Council, Patrick O",Individual,"Soliman, Mona",5500.0,3
 441239,"Council, Patrick O",Individual,"Quan, Jim",5500.0,1
 441239,"Council, Patrick O",Individual,"Rosa, James",4500.0,3
-441239,"Council, Patrick O",Individual,"Lembo, Armand",4000.0,3
-441756,"Frederic, Charnette",(Unknown),,0.0,1
-441757,"Hudley, October",(Unknown),,0.0,1
+441756,"Frederic, Charnette",(Unknown),,0.0,0
+441757,"Hudley, October",(Unknown),,0.0,0
 441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,Candidate Committee,Team Irvington Proud,16400.0,1
+441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,Individual,"Parisi, Robert",10000.0,2
 441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,Business/Corp,Mts Towing Inc,10000.0,2
 441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,Individual,"Monel, Roger",10000.0,2
 441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,Union PAC,Irvington Policemen'S Benevolent Assoc. Local 29,9000.0,3
-441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,Individual,"Evans, Sean",7975.0,2
+441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,Individual,"Evans, Sean",7975.0,4
 441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,Business/Corp,Christian Pentecostal After School,7400.0,2
 441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,Individual,"Weiss, Josh",7200.0,2
 441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,Individual,"Correia, Edna",7200.0,1
 441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,Individual,"Biagini, David",7200.0,2
-441758,Frederic Brown & Evans (Hudley) Team Irvington Strong,Individual,"Shah, Pankil",6500.0,2
 442017,"Crump, Cecil Lawrence",(Unknown),Richard A. Alaimo Associates,5500.0,1
 442017,"Crump, Cecil Lawrence",Union PAC,New Jersey State Laborers',5500.0,1
 442017,"Crump, Cecil Lawrence",Individual,"Jacobs, Joseph",5200.0,1
@@ -90,7 +90,7 @@ CandidateID,Candidate,Contributor Type,Contributor Name,Total Contributions,Numb
 447217,"Silva, Michael J",Individual,"Vecchio-Campo, Susana",5000.0,2
 447217,"Silva, Michael J",Individual,"Coronado, Josheph",5000.0,1
 447217,"Silva, Michael J",Individual,"Ferreira, Jack",3600.0,2
-447217,"Silva, Michael J",Individual,"Airoso, John",3250.0,3
+447217,"Silva, Michael J",Individual,"Airoso, John",3250.0,4
 447217,"Silva, Michael J",Individual,"Garcia, Juan",3000.0,2
 447217,"Silva, Michael J",Business/Corp,Underground Utilities Corp,2500.0,2
 447717,"Baraka, Ras J",Candidate Committee,Committee To Re Elect Ras Baraka,24162.0,1
@@ -117,7 +117,8 @@ CandidateID,Candidate,Contributor Type,Contributor Name,Total Contributions,Numb
 453829,"Scott-Rountree, Louise",Individual,"Morgenstern, Moshe",2000.0,1
 453829,"Scott-Rountree, Louise",Individual,"Katz, Natan",2000.0,1
 453829,"Scott-Rountree, Louise",Individual,"Rodrigues, David",1500.0,1
-454582,"Sebold, Patricia",Individual,"Williams, Michele",1115.0,3
+454582,"Sebold, Patricia",Misc/ Other,Monetary Contributions,3760.0,1
+454582,"Sebold, Patricia",Individual,"Williams, Michele",1115.0,4
 454582,"Sebold, Patricia",Business/Corp,Antonelli Kantor Rivera,1000.0,1
 454582,"Sebold, Patricia",Individual,"Klein, Shawn",950.0,3
 454582,"Sebold, Patricia",Candidate Committee,Election Fund Of Michael Viera,700.0,2
@@ -127,21 +128,20 @@ CandidateID,Candidate,Contributor Type,Contributor Name,Total Contributions,Numb
 454582,"Sebold, Patricia",(Unknown),Elcee Inc. Dba Star Parking,350.0,1
 454582,"Sebold, Patricia",Individual,"Bhuptani, Ketan",350.0,1
 454589,"Mercado, Robert",Union,Essex County Building & Construction,250.0,1
-459043,"Brown, Darlene",(Unknown),,0.0,1
-459044,"Evans, Sean",(Unknown),,0.0,1
+459043,"Brown, Darlene",(Unknown),,0.0,0
+459044,"Evans, Sean",(Unknown),,0.0,0
 459513,"Richardson, Wayne",Union PAC,Nj State Laborers PAC,17300.0,2
 459513,"Richardson, Wayne",Union PAC,Heavy And General Construction Laborers Union Loca L 472 PAC,17300.0,3
 459513,"Richardson, Wayne",Candidate Committee,Friends Of Carl Styles,10000.0,1
 459513,"Richardson, Wayne",Union PAC,Ibew PAC Educational Fund,5250.0,4
 459513,"Richardson, Wayne",Individual,"Naeem, Mohammed",5000.0,1
+459513,"Richardson, Wayne",Individual,"Harris, Shavon",5000.0,2
 459513,"Richardson, Wayne",Union PAC,Greater Nj Carpenters Pec,5000.0,1
 459513,"Richardson, Wayne",Individual,"Sosa, Ricardo",3500.0,2
 459513,"Richardson, Wayne",Individual,"Alexandre, Dandley",3500.0,2
 459513,"Richardson, Wayne",Union PAC,32Bj United Adf,3500.0,3
-459513,"Richardson, Wayne",Individual,"Dunn, Richard",3000.0,3
-460791,"Talmadge, Ryan",(Unknown),,0.0,1
-460864,"Bardi, Christopher",(Unknown),,0.0,1
-460885,"Bardi, Christopher",(Unknown),,0.0,1
+460791,"Talmadge, Ryan",(Unknown),,0.0,0
+460864,"Bardi, Christopher",(Unknown),,0.0,0
 460962,"Pomares, Carlos",Candidate Committee,Pomares For Essex County Freeholder,5700.0,1
 460962,"Pomares, Carlos",Union,Greater Nj Carpenters Pec,5600.0,4
 460962,"Pomares, Carlos",Union,Greater Carpenters Nj Pec,4000.0,1
@@ -174,7 +174,7 @@ CandidateID,Candidate,Contributor Type,Contributor Name,Total Contributions,Numb
 461343,"Luciano, Leonard M",Individual,"Argote, Guillermo",2500.0,2
 461375,"Graham Sermons, Romaine",Candidate Committee,Team Irvington Strong 2026,8000.0,2
 461375,"Graham Sermons, Romaine",Candidate Committee,Tony Vauss For Mayor,5000.0,1
-461375,"Graham Sermons, Romaine",Individual,"Sermons, Romaine",4142.0,3
+461375,"Graham Sermons, Romaine",Individual,"Sermons, Romaine",4142.0,5
 461375,"Graham Sermons, Romaine",Candidate Committee,Team Irvington Strong 2024,2500.0,1
 461375,"Graham Sermons, Romaine",Candidate Committee,Team Irvington Proud 2025,1000.0,1
 461375,"Graham Sermons, Romaine",Business/Corp,Mts Towing Inc,600.0,1
@@ -193,28 +193,29 @@ CandidateID,Candidate,Contributor Type,Contributor Name,Total Contributions,Numb
 461379,"Murray-Thomas, A'Dorian",Individual,"Bell, Desiree",500.0,1
 461613,"Gill, Brendan",Professional PAC,Connell Foley PAC,5000.0,1
 461613,"Gill, Brendan",Union,"International Longshoremen'S Association, Local Un Ion 1235",3500.0,1
-461613,"Gill, Brendan",Individual,"Maurillo, Barry",2500.0,2
+461613,"Gill, Brendan",Individual,"Maurillo, Barry",2500.0,3
 461613,"Gill, Brendan",Union PAC,Heavy & General Construction Laborers Union Local  472 PAC,2000.0,1
+461613,"Gill, Brendan",Union PAC,Ibew Local Union 164 Cope - International Brotherh Ood Of Electrical Workers,1500.0,3
 461613,"Gill, Brendan",Union PAC,Sheet Metal Workers Local No 25 Pal Fund,1000.0,1
 461613,"Gill, Brendan",Individual,"Rothman, Steven R",1000.0,2
 461613,"Gill, Brendan",Union PAC,Ibew PAC Educational Fund,1000.0,2
 461613,"Gill, Brendan",Union PAC,Greater Nj Carpenters Pec,1000.0,1
 461613,"Gill, Brendan",Individual,"Gill, Daniel F",1000.0,2
-461613,"Gill, Brendan",Individual,"Yustein, Ross L",800.0,2
-466297,"Klein, Shawn R",(Unknown),,0.0,1
+466297,"Klein, Shawn R",(Unknown),,0.0,0
 470812,"Tempesta, Joseph Jr",Candidate Committee,Efo Crudele & Schott,16400.0,1
 470812,"Tempesta, Joseph Jr",Candidate Committee,Efo Canale & Docteroff,7800.0,1
-470814,"Hollaway, Tammy",(Unknown),,0.0,1
-473245,"Charris Tabares, Monica M",(Unknown),,0.0,1
-473413,"Adams, Eric",(Unknown),,0.0,1
+470812,"Tempesta, Joseph Jr",(Unknown),,0.0,0
+470814,"Hollaway, Tammy",(Unknown),,0.0,0
+473245,"Charris Tabares, Monica M",(Unknown),,0.0,0
+473413,"Adams, Eric",(Unknown),,0.0,0
 473414,"Herran, Alonzo Jr",Individual,"Herran, Alonzo",30000.0,1
 473414,"Herran, Alonzo Jr",Individual,"Morales, Vieshia D",1000.0,1
 473414,"Herran, Alonzo Jr",Individual,"Littles, Evelyn",1000.0,1
 473414,"Herran, Alonzo Jr",Individual,"Herran, Jacqueline",1000.0,1
 473414,"Herran, Alonzo Jr",(Unknown),Bloomfield Wholesale Exotic Snacks Inc.,500.0,1
-473506,"Baptiste, Ruth",(Unknown),,0.0,1
-473507,"Inman, Paul",(Unknown),,0.0,1
-473508,Inman Baptiste Watford & Ogu Team Inman 2026,Individual,"Inman, Paul",10757.0,4
+473506,"Baptiste, Ruth",(Unknown),,0.0,0
+473507,"Inman, Paul",(Unknown),,0.0,0
+473508,Inman Baptiste Watford & Ogu Team Inman 2026,Individual,"Inman, Paul",10757.0,5
 473508,Inman Baptiste Watford & Ogu Team Inman 2026,Individual,"Watford, Durrell",7300.0,3
 473508,Inman Baptiste Watford & Ogu Team Inman 2026,Individual,"Baptiste, Ruth",4000.0,2
 473508,Inman Baptiste Watford & Ogu Team Inman 2026,Individual,"Ogu, Jude",3500.0,2
@@ -229,22 +230,31 @@ CandidateID,Candidate,Contributor Type,Contributor Name,Total Contributions,Numb
 473650,"Ogbourne, Lynn",Individual,"Griffin, Lasharn",400.0,1
 473650,"Ogbourne, Lynn",Individual,"Smith, Sharon",300.0,1
 473650,"Ogbourne, Lynn",Individual,"Tennant, Rachael",250.0,1
-473663,"Tillman, George  Jr",(Unknown),,0.0,1
-473962,"Montague, Sheila A",(Unknown),,0.0,1
-475395,"Mccoy, Jimmy L",(Unknown),,0.0,1
-475410,"Kelly, Ade'Kamil",(Unknown),,0.0,1
+473663,"Tillman, George  Jr",(Unknown),,0.0,0
+473962,"Montague, Sheila A",(Unknown),,0.0,0
+475395,"Mccoy, Jimmy L",(Unknown),,0.0,0
+475410,"Kelly, Ade'Kamil",(Unknown),,0.0,0
+477217,"White, Altarik B Sr",Individual,"Freeman, Edna",4000.0,1
+477217,"White, Altarik B Sr",Individual,"Sawyer, Sakeynah",2000.0,1
 477217,"White, Altarik B Sr",Individual,"Wallace, Edward",1000.0,2
-477217,"White, Altarik B Sr",Individual,"Drinkard, Craig And Khadijah",250.0,1
-481046,"Lloyd, Lynda A",(Unknown),,0.0,1
-502667,"Jackson, Donald L",Individual,"Jackson, Donald",2000.0,3
+477217,"White, Altarik B Sr",Individual,"Ukwu, Victor Md",1000.0,1
+477217,"White, Altarik B Sr",Individual,"Mccombs, David",500.0,1
+477217,"White, Altarik B Sr",Individual,"Dunnwilliams, Kawanna",500.0,1
+477217,"White, Altarik B Sr",Individual,"Chambers, Sandra",500.0,1
+477217,"White, Altarik B Sr",Individual,"Wallace, Amir",250.0,1
+477217,"White, Altarik B Sr",Individual,"Thompson, Kerry",250.0,1
+477217,"White, Altarik B Sr",Individual,"Thom, Salana",250.0,1
+481046,"Lloyd, Lynda A",(Unknown),,0.0,0
+482040,"Youngblood, Jhamar D",Individual,"Rob, Eddy",5454.0,1
+502667,"Jackson, Donald L",Individual,"Jackson, Donald",2500.0,4
 502667,"Jackson, Donald L",Individual,"Clark, Cryshaad",800.0,1
-502671,"Gonzalez, Rosalee",(Unknown),,0.0,1
-502672,"Cruz, Sarah",(Unknown),,0.0,1
+502671,"Gonzalez, Rosalee",(Unknown),,0.0,0
+502672,"Cruz, Sarah",(Unknown),,0.0,0
+502673,Gonzalez Martinez & Cruz Team Mundell For Bloomfield,Business/Corp,T & M Associates,8500.0,4
+502673,Gonzalez Martinez & Cruz Team Mundell For Bloomfield,Individual,"Shabazz-Charles, Khalifah",8500.0,4
 502673,Gonzalez Martinez & Cruz Team Mundell For Bloomfield,Union PAC,Ibew Local Union #164 Cope Account,8500.0,3
 502673,Gonzalez Martinez & Cruz Team Mundell For Bloomfield,Individual,"Wielkotz, Steven",8000.0,3
-502673,Gonzalez Martinez & Cruz Team Mundell For Bloomfield,Business/Corp,"Trilon Services C-Corp Holdings, Inc",6150.0,3
-502673,Gonzalez Martinez & Cruz Team Mundell For Bloomfield,Business/Corp,T & M Associates,6000.0,3
-502673,Gonzalez Martinez & Cruz Team Mundell For Bloomfield,Individual,"Shabazz-Charles, Khalifah",6000.0,3
+502673,Gonzalez Martinez & Cruz Team Mundell For Bloomfield,Business/Corp,"Trilon Services C-Corp Holdings, Inc",6150.0,4
 502673,Gonzalez Martinez & Cruz Team Mundell For Bloomfield,Business/Corp,Richard A. Alaimo Associates,6000.0,3
 502673,Gonzalez Martinez & Cruz Team Mundell For Bloomfield,Individual,"Martino, Steven J",6000.0,3
 502673,Gonzalez Martinez & Cruz Team Mundell For Bloomfield,Business/Corp,Fairview Insurance Agency Associates,6000.0,3
@@ -259,12 +269,13 @@ CandidateID,Candidate,Contributor Type,Contributor Name,Total Contributions,Numb
 502776,"Velez, Frank Iii",Individual,"Canto, Mauricio",3000.0,1
 502776,"Velez, Frank Iii",Individual,"Gilani, Arsalan",2500.0,1
 502776,"Velez, Frank Iii",Individual,"Kuykendall, Joseph",1500.0,1
+502776,"Velez, Frank Iii",Misc/ Other,Lump Sum Under 200,1099.0,1
 502776,"Velez, Frank Iii",Individual,"Borges, Alexander",1000.0,1
 502776,"Velez, Frank Iii",Individual,"Swibinski, Philip",500.0,1
 502776,"Velez, Frank Iii",Individual,"Tighe, Stephen",250.0,1
 502776,"Velez, Frank Iii",Individual,"Hood, Charles G",250.0,1
 502776,"Velez, Frank Iii",Individual,"Velez, Frank Iii",238.0,1
-502808,"Chaneyfield Jenkins, Gayle",(Unknown),,0.0,1
+502808,"Chaneyfield Jenkins, Gayle",(Unknown),,0.0,0
 502813,"Bey, Amina",Individual,"For All Inc, Great Schools",3000.0,1
 502813,"Bey, Amina",Individual,"Berger, Miles",3000.0,1
 502813,"Bey, Amina",Business/Corp,Pennoni,2500.0,1
@@ -273,19 +284,19 @@ CandidateID,Candidate,Contributor Type,Contributor Name,Total Contributions,Numb
 502813,"Bey, Amina",Business/Corp,Wilentz Attorneys At Law,1000.0,1
 502813,"Bey, Amina",Individual,"Starghill, Catherine",1000.0,1
 502813,"Bey, Amina",Individual,"Lembo, Armand",1000.0,1
+502813,"Bey, Amina",Individual,"James, Jermaine",1000.0,1
 502813,"Bey, Amina",Individual,"Finney, George",1000.0,1
-502813,"Bey, Amina",Individual,"Hasan, Shareefah",900.0,1
-502814,"Quiles, Jacqueline",(Unknown),,0.0,1
+502814,"Quiles, Jacqueline",(Unknown),,0.0,0
 502815,"Kelly, Dupre L",Individual,"Military Park Building, LLC, Members",5000.0,1
 502815,"Kelly, Dupre L",Individual,"Lake, Kyle",2500.0,2
 502815,"Kelly, Dupre L",Individual,"Gonzalez, George",2500.0,2
 502815,"Kelly, Dupre L",Individual,"Corchado, Hector",2055.0,2
+502815,"Kelly, Dupre L",Individual,"Sosa, Ricardo",2000.0,2
 502815,"Kelly, Dupre L",Individual,"Sosa, Inette L",2000.0,1
 502815,"Kelly, Dupre L",Individual,"Morris, Ayana",2000.0,1
 502815,"Kelly, Dupre L",Individual,"Michael Susan, Vezza",1720.0,3
 502815,"Kelly, Dupre L",Individual,"Rosa, Mannuel",1500.0,2
 502815,"Kelly, Dupre L",Individual,"Morgenstern, Moshe",1500.0,2
-502815,"Kelly, Dupre L",Individual,"Bell, Muhammad",1500.0,1
 502817,"Scott-Rountree Bey Council Crump & Kelly (Baraka, Quiles) Team Baraka 2026",Business/Corp,Mts Staffing Incorporated,21000.0,1
 502817,"Scott-Rountree Bey Council Crump & Kelly (Baraka, Quiles) Team Baraka 2026",Individual,"Soliman, Mona",18000.0,1
 502817,"Scott-Rountree Bey Council Crump & Kelly (Baraka, Quiles) Team Baraka 2026",Candidate Committee,Friends Of Dupre Kelly,17500.0,1
@@ -299,27 +310,30 @@ CandidateID,Candidate,Contributor Type,Contributor Name,Total Contributions,Numb
 502828,"Jones, Trenton E",Business/Corp,Akshar Liquors LLC Hometown Liquors,1000.0,1
 502828,"Jones, Trenton E",Individual,"Trenton, Jones",902.0,2
 502828,"Jones, Trenton E",Business/Corp,Akshar Liquor LLC Hometown Liquors,650.0,1
-502879,"Kettles, Khalil T",(Unknown),,0.0,1
+502879,"Kettles, Khalil T",(Unknown),,0.0,0
 502888,"Garner, Tanisha  H",Individual,"Garner, Tanisha",400.0,2
 502888,"Garner, Tanisha  H",Individual,"Sousa, David",100.0,1
 502888,"Garner, Tanisha  H",Individual,"Rivera, Gilberto",50.0,1
 502888,"Garner, Tanisha  H",Individual,"Abreu, Johanna",50.0,1
 502888,"Garner, Tanisha  H",Individual,"Hill, Bridget",5.0,1
 502899,"Santiago, Stefanie",Ideological Assoc/ PAC,In Our Hands PAC,3500.0,1
+502899,"Santiago, Stefanie",Misc/ Other,Feb 2026-May 1 2026 Donations Under 200,1857.0,1
+502899,"Santiago, Stefanie",Misc/ Other,Act Blue/Check Donations,1198.0,1
 502899,"Santiago, Stefanie",Candidate Committee,Jl For Nj 2026,1000.0,1
 502899,"Santiago, Stefanie",Individual,"Santiago, Stefanie",615.0,4
+502899,"Santiago, Stefanie",Misc/ Other,May 2-19,361.0,1
 502899,"Santiago, Stefanie",Individual,"Toler-Phillips, Tracy",300.0,1
-502902,"Victor Hinds, Wynnie-Fred",(Unknown),,0.0,1
+502902,"Victor Hinds, Wynnie-Fred",(Unknown),,0.0,0
 502935,Vauss Frederic & Brown Team Irvington Strong 2026,Business/Corp,Fairview Insurance,9000.0,1
 502935,Vauss Frederic & Brown Team Irvington Strong 2026,Business/Corp,Rd Parisi Associates Inc,8000.0,2
 502935,Vauss Frederic & Brown Team Irvington Strong 2026,Individual,"Lucky, Brandon",8000.0,1
 502935,Vauss Frederic & Brown Team Irvington Strong 2026,Business/Corp,"Arh Associates, Inc",7000.0,2
+502935,Vauss Frederic & Brown Team Irvington Strong 2026,Individual,"Roth, Allan",5500.0,2
 502935,Vauss Frederic & Brown Team Irvington Strong 2026,Business/Corp,Pennoni,5000.0,1
 502935,Vauss Frederic & Brown Team Irvington Strong 2026,Individual,"Neumann, Moshe",5000.0,1
 502935,Vauss Frederic & Brown Team Irvington Strong 2026,Individual,"Neuman, Zev",5000.0,1
 502935,Vauss Frederic & Brown Team Irvington Strong 2026,Individual,"Monel, Roger",5000.0,1
 502935,Vauss Frederic & Brown Team Irvington Strong 2026,Individual,"Johnson, Joseph",5000.0,1
-502935,Vauss Frederic & Brown Team Irvington Strong 2026,Business/Corp,Hunt Hamlin And Ridley,5000.0,1
 502949,"Mcgrath, Christine",Business/Corp,Fairview Insurance,5500.0,1
 502949,"Mcgrath, Christine",Individual,"Mcgrath, Christine",5052.0,2
 502949,"Mcgrath, Christine",Union PAC,Greater Nj Carpenters Pec,5000.0,1
@@ -350,11 +364,11 @@ CandidateID,Candidate,Contributor Type,Contributor Name,Total Contributions,Numb
 503008,"Garcia, Josephine C",Candidate Committee,Committee To Elect Michael J. Silva,2500.0,1
 503008,"Garcia, Josephine C",Individual,"Denis, Peter",1750.0,2
 503008,"Garcia, Josephine C",Individual,"Paucar, Bolter",1500.0,2
-503009,"Santana, Vereliz",(Unknown),,0.0,1
+503009,"Santana, Vereliz",(Unknown),,0.0,0
 503010,"Childs, Quamid",Union,Citizenship Fund Local 108 R.W.D.S.U. Afl-Cio,500.0,1
-503070,"Desir, Danouchka",(Unknown),,0.0,1
-503071,"Quizhpi, Jennifer",(Unknown),,0.0,1
-503072,Desir & Quizhpi,(Unknown),,0.0,1
+503070,"Desir, Danouchka",(Unknown),,0.0,0
+503071,"Quizhpi, Jennifer",(Unknown),,0.0,0
+503072,Desir & Quizhpi,(Unknown),,0.0,0
 503103,"Council, Hassani K",Individual,"Properties, Hrk",2000.0,1
 503103,"Council, Hassani K",Individual,"Williams, Gary C",1250.0,1
 503103,"Council, Hassani K",Individual,"Freeman, Edna",1000.0,1
@@ -365,50 +379,51 @@ CandidateID,Candidate,Contributor Type,Contributor Name,Total Contributions,Numb
 503103,"Council, Hassani K",Individual,"Speight, Andre L",300.0,1
 503103,"Council, Hassani K",Individual,"Firemans Union, Newark",300.0,1
 503103,"Council, Hassani K",Individual,"Crump, Cecil",300.0,1
+503117,Save Montclair Schools,Misc/ Other,Lump 1,553.0,1
 503117,Save Montclair Schools,Individual,"Nagy, Karl",533.0,1
-503354,"Martinez, Jason",(Unknown),,0.0,1
+503354,"Martinez, Jason",(Unknown),,0.0,0
 503394,"Yasin, Abdur R",Union PAC,New Jersey State Firefighter'S Mutual Benevolent A Ssociation,5000.0,1
 503394,"Yasin, Abdur R",Union PAC,Greater Nj Carpenters Pec,5000.0,1
 503394,"Yasin, Abdur R",Individual,"Yasin, Abdur R",4100.0,2
+503394,"Yasin, Abdur R",Misc/ Other,"36 Donations Totaling $2,880 Actblue",2880.0,1
 503394,"Yasin, Abdur R",Union PAC,Local 194 Voluntary Fund,2500.0,1
 503394,"Yasin, Abdur R",Candidate Committee,John F Mckeon For Senate,2500.0,1
 503394,"Yasin, Abdur R",Candidate Committee,Election Fund Of Rosie Bagolie,2500.0,1
 503394,"Yasin, Abdur R",Candidate Committee,Luciano4Commissioner,2206.0,3
 503394,"Yasin, Abdur R",Union PAC,Cwa Nj Political Education Committee,2000.0,1
 503394,"Yasin, Abdur R",Individual,"Henry, John",1500.0,2
-503394,"Yasin, Abdur R",Union PAC,Cwa Local 1037 - 527 Account,1037.0,1
-503401,"James, Lynval H",(Unknown),,0.0,1
-503407,"Rivera, Edden O",(Unknown),,0.0,1
-503419,"Luna, Yolanda",(Unknown),,0.0,1
+503401,"James, Lynval H",(Unknown),,0.0,0
+503407,"Rivera, Edden O",(Unknown),,0.0,0
+503419,"Luna, Yolanda",(Unknown),,0.0,0
 503422,"Lebron, Maria E",Individual,"Bloomstone, Adam",2000.0,1
 503422,"Lebron, Maria E",Individual,"Hasan, Airaj",1200.0,1
 503422,"Lebron, Maria E",Individual,"Patel, Roshni",1000.0,1
 503422,"Lebron, Maria E",Individual,"Devis, Wilma",600.0,2
 503422,"Lebron, Maria E",Political Cmte,Latino PAC,500.0,1
 503422,"Lebron, Maria E",Individual,"Glieitman, Marc",500.0,1
-503422,"Lebron, Maria E",Individual,"Lee, Richard",450.0,1
+503422,"Lebron, Maria E",Individual,"Lee, Richard",450.0,2
 503422,"Lebron, Maria E",Candidate Committee,Vertreese For Mayor,250.0,1
 503422,"Lebron, Maria E",Interest,Valley Bank,0.0,1
 503423,"Klein, Shawn",Individual,"Graham, John",6000.0,2
 503423,"Klein, Shawn",Individual,"Graham, Michael",5500.0,1
 503423,"Klein, Shawn",Individual,"Goldberg, Michael",5500.0,1
 503423,"Klein, Shawn",Business/Corp,Fairview Insurance Agency Associates,5500.0,1
+503423,"Klein, Shawn",Misc/ Other,Winter 2024 Fundraiser,5050.0,9
 503423,"Klein, Shawn",Union,Greater Nj Carpenters Pec,5000.0,1
 503423,"Klein, Shawn",Individual,"Klein, Shawn",4798.0,2
-503423,"Klein, Shawn",Interest,Somerset Regal Bank,2634.0,18
+503423,"Klein, Shawn",Misc/ Other,Primary Fundraiser,3266.0,6
+503423,"Klein, Shawn",Interest,Somerset Regal Bank,2888.0,19
 503423,"Klein, Shawn",Individual,"Scannapiego, Saveren",2500.0,1
-503423,"Klein, Shawn",Individual,"Mandelbaum, Karen",2500.0,1
-503423,"Klein, Shawn",Candidate Committee,Election Fund Of Rosy Bagolie,2500.0,1
 503443,"Peppers, Rasheen M",Business/Corp,Wilentz Attorneys At Law,5500.0,1
 503443,"Peppers, Rasheen M",Individual,"Johnson, Kim",5500.0,2
-503443,"Peppers, Rasheen M",Individual,"Johnson, Everett",5500.0,1
+503443,"Peppers, Rasheen M",Individual,"Johnson, Everett",5500.0,3
 503443,"Peppers, Rasheen M",Individual,"Coombs, Andrew",5500.0,1
+503443,"Peppers, Rasheen M",Political Party Cmte,Jeffries Team Of Newark  2018,5379.0,1
 503443,"Peppers, Rasheen M",Individual,"Clark, Robert",5300.0,2
 503443,"Peppers, Rasheen M",Individual,"Haygood, Ryan",5000.0,2
 503443,"Peppers, Rasheen M",Business/Corp,Greater Nj Carpenters,5000.0,1
+503443,"Peppers, Rasheen M",Political Party Cmte,Jeffereies Team For Newark 2018,4000.0,1
 503443,"Peppers, Rasheen M",Individual,"Peppers, Rasheen",3500.0,2
-503443,"Peppers, Rasheen M",Business/Corp,"Great Schools For All, Inc.",3000.0,1
-503443,"Peppers, Rasheen M",Individual,"Sampson, Schuyler",2000.0,2
 503445,"Comesanas, Mark",Business/Corp,"Great Schools For All, Incorporated",2500.0,1
 503445,"Comesanas, Mark",Candidate Committee,Committee To Elect Quamid H. Childs,600.0,1
 503445,"Comesanas, Mark",Individual,"Jacobs, Gina",500.0,1
@@ -419,29 +434,31 @@ CandidateID,Candidate,Contributor Type,Contributor Name,Total Contributions,Numb
 503445,"Comesanas, Mark",Individual,"Crump, Cecil",250.0,1
 503445,"Comesanas, Mark",Individual,"Bey, Amina",250.0,1
 503445,"Comesanas, Mark",Individual,"Berry, Alia",250.0,1
-503463,"Anderson, Corey",(Unknown),,0.0,1
-503467,"Watford, Durrell",(Unknown),,0.0,1
-503468,"Ogu, Jude N",(Unknown),,0.0,1
-503470,"Benbow, Syesha",(Unknown),,0.0,1
-503471,"Geffrard, Jordan",(Unknown),,0.0,1
-503472,"Lyon, Audrey",(Unknown),,0.0,1
-503487,"Farrell, John",(Unknown),,0.0,1
-503488,"Gray, Lisa A",(Unknown),,0.0,1
-503489,"Hollaway, Tammy",(Unknown),,0.0,1
-503490,"Peters, Tawheed",(Unknown),,0.0,1
-503529,"Jackson, Latoya",(Unknown),,0.0,1
-503530,"Nivar, Jordy",(Unknown),,0.0,1
+503462,"Ward, James H Iii",Individual,"Young, Jamar",350.0,1
+503462,"Ward, James H Iii",Individual,"Wilson, Murphy",250.0,1
+503462,"Ward, James H Iii",Individual,"Tennant, Rachael",250.0,1
+503462,"Ward, James H Iii",Individual,"Ward, Sterling",0.0,1
+503463,"Anderson, Corey",(Unknown),,0.0,0
+503467,"Watford, Durrell",(Unknown),,0.0,0
+503468,"Ogu, Jude N",(Unknown),,0.0,0
+503470,"Benbow, Syesha",(Unknown),,0.0,0
+503471,"Geffrard, Jordan",(Unknown),,0.0,0
+503472,"Lyon, Audrey",(Unknown),,0.0,0
+503487,"Farrell, John",(Unknown),,0.0,0
+503488,"Gray, Lisa A",(Unknown),,0.0,0
+503490,"Peters, Tawheed",(Unknown),,0.0,0
+503529,"Jackson, Latoya",(Unknown),,0.0,0
+503530,"Nivar, Jordy",(Unknown),,0.0,0
 503553,"Quintana, Luis A",Union PAC,Greater Nj Carpenters Pec     -  William Sproule,17300.0,1
 503553,"Quintana, Luis A",(Unknown),"Daybreak Fast Freight, Inc.  Owner Scott Fields",5500.0,1
 503553,"Quintana, Luis A",Political Cmte,Nj Jersey State Laborers',4500.0,1
 503553,"Quintana, Luis A",Business/Corp,Robert Treat Hotel Inc.     -  Miles Berger,3650.0,2
 503553,"Quintana, Luis A",(Unknown),"Jersey City Hospitality Inc., C/O Bergers Organiza Tion",2500.0,1
 503553,"Quintana, Luis A",Union PAC,International Union Of Operating Engineers Local 8 25,2500.0,1
+503553,"Quintana, Luis A",Individual,"Montella, John",2000.0,2
 503553,"Quintana, Luis A",Individual,"Gottesman, Jane L",2000.0,1
 503553,"Quintana, Luis A",Union PAC,Citizenship Fund Local 108 R.W.D.S.U. Afl-Cio,2000.0,1
 503553,"Quintana, Luis A",Legislative Leadership Cmte,Akwaaba Meat & Fish LLC      /  Darshan Rangasammy /      Nadira Jaiprashad,2000.0,1
-503553,"Quintana, Luis A",(Unknown),O'Toole  Scrivo LLC     -Kevin  O'Toole    $750.00    & Thomas P. Scrivo  $750.00,1500.0,1
-503581,"Nivar, Jordy",(Unknown),,0.0,1
 503605,"Muhammad, Medinah",Individual,"Muhammad, Medinah",1630.0,4
 503605,"Muhammad, Medinah",Individual,"Shauger, Donald& Lisa",1000.0,1
 503605,"Muhammad, Medinah",Individual,"Mcneil, Dennis",1000.0,1
@@ -452,29 +469,31 @@ CandidateID,Candidate,Contributor Type,Contributor Name,Total Contributions,Numb
 503605,"Muhammad, Medinah",Individual,"Warren, Dwayne",500.0,1
 503605,"Muhammad, Medinah",Individual,"Jones, Amir",500.0,1
 503605,"Muhammad, Medinah",Business/Corp,Fairview Insurance Agency Associates,500.0,1
-503606,"Khanna, Vineeta",(Unknown),,0.0,1
+503606,"Khanna, Vineeta",(Unknown),,0.0,0
 503627,"Russo, Robert J",Individual,"Russo, Robert",1500.0,1
 503645,Council Childs Comesanas & Nivar Moving Newark Schools Forward 2026,Business/Corp,"Great Schools For All, Incorporated",15000.0,1
 503645,Council Childs Comesanas & Nivar Moving Newark Schools Forward 2026,Candidate Committee,Election Fund Of Hasani Council,10000.0,1
 503645,Council Childs Comesanas & Nivar Moving Newark Schools Forward 2026,Candidate Committee,Committee To Elect Jordy Nivar,10000.0,2
 503645,Council Childs Comesanas & Nivar Moving Newark Schools Forward 2026,Candidate Committee,Committee To Elect Mark Comesanas,4000.0,1
 503645,Council Childs Comesanas & Nivar Moving Newark Schools Forward 2026,Union,"Laundry, Distribution And Food Service Joint Board",250.0,1
-503647,"Docteroff, Michael",(Unknown),,0.0,1
-503648,"Canale, Kathy L",(Unknown),,0.0,1
+503647,"Docteroff, Michael",(Unknown),,0.0,0
+503648,"Canale, Kathy L",(Unknown),,0.0,0
 503649,Tempesta Docteroff & Canale,Candidate Committee,Committee To Elect Wolsky And Cecere The Election  Fund,17300.0,1
 503649,Tempesta Docteroff & Canale,Business/Corp,Colliers Engineering & Design Inc,15600.0,1
 503649,Tempesta Docteroff & Canale,Business/Corp,Quagen Pharma,10000.0,1
-503651,"Zall, Beth",(Unknown),,0.0,1
-503652,"Brazell, William",(Unknown),,0.0,1
-503653,Zall & Brazell,Individual,"Zall, Beth",1000.0,1
-503653,Zall & Brazell,Individual,"Brazell, William",1000.0,1
-503653,Zall & Brazell,Individual,"Smith, Lucia",660.0,1
+503649,Tempesta Docteroff & Canale,(Unknown),,0.0,0
+503651,"Zall, Beth",(Unknown),,0.0,0
+503652,"Brazell, William",(Unknown),,0.0,0
+503653,Zall & Brazell,Individual,"Zall, Beth",2000.0,2
+503653,Zall & Brazell,Individual,"Brazell, William",2000.0,2
+503653,Zall & Brazell,Individual,"Desmarais, Cheryl",1000.0,2
+503653,Zall & Brazell,Individual,"Smith, Lucia",660.0,2
 503653,Zall & Brazell,Individual,"Lieberberg, Jacqueline",500.0,1
-503653,Zall & Brazell,Individual,"Desmarais, Cheryl",500.0,1
+503653,Zall & Brazell,Individual,"Kramer, Bruce",500.0,2
+503653,Zall & Brazell,Individual,"Cosgrove, David",500.0,2
 503653,Zall & Brazell,Individual,"Feins, James",300.0,1
-503653,Zall & Brazell,Individual,"Kramer, Bruce",250.0,1
-503653,Zall & Brazell,Individual,"Cosgrove, David",250.0,1
 503677,"Wells, Danyale P",Business/Corp,Frank Velez For Mayor,6505.0,3
+503678,"Rodriguez, Michelle M",Business/Corp,Frank Velez For Mayor,6505.0,3
 503679,"Hendy, Jackie",Individual,"Lipera, Sylvia",700.0,2
 503679,"Hendy, Jackie",Individual,"Cureton, Jeff",600.0,2
 503679,"Hendy, Jackie",Individual,"Redwine, Jonathan",550.0,2
@@ -485,22 +504,24 @@ CandidateID,Candidate,Contributor Type,Contributor Name,Total Contributions,Numb
 503679,"Hendy, Jackie",Individual,"Irving, Drederick",500.0,1
 503679,"Hendy, Jackie",Individual,"Caraballo, Wilfredo",500.0,1
 503679,"Hendy, Jackie",Individual,"Jaeger-Thomas, Katherine",475.0,2
-503680,"Salters, Debra L",(Unknown),,0.0,1
+503680,"Salters, Debra L",(Unknown),,0.0,0
 503681,"Davis, Douglas R",Individual,"Malanga, Rocco",250.0,1
-503682,"Milton, Noble D",(Unknown),,0.0,1
+503682,"Milton, Noble D",(Unknown),,0.0,0
 503683,"Singleton, Nasheedah S",Individual,"Singleton, Nasheedah",100.0,1
 503684,"Hinnant, Joanette",Individual,"Hinnant, Joanette",4305.0,6
 503684,"Hinnant, Joanette",Individual,"Hinnant, Rasheeda",150.0,1
 503684,"Hinnant, Joanette",Individual,"Brewster, Patricia",100.0,1
 503684,"Hinnant, Joanette",Individual,"Steele, Tanzania",50.0,1
+503684,"Hinnant, Joanette",Individual,"Broomer, Sharon",50.0,1
 503684,"Hinnant, Joanette",Individual,"Echols, Terrell",15.0,1
 503684,"Hinnant, Joanette",Individual,"Hinnant, Tauron",1.0,1
-503686,"Brown, Nadirah A",(Unknown),,0.0,1
-503687,"Olivera, Pablo A",(Unknown),,0.0,1
-503688,"Cooper, Malik H",(Unknown),,0.0,1
-503689,"Shabazz, Yusuf A",(Unknown),,0.0,1
-503690,"Vaughn, Lamont T",(Unknown),,0.0,1
-503691,"Cherry, Christina G",(Unknown),,0.0,1
+503685,"Jackson, Donna",Individual,"Robinson, Stacey",250.0,1
+503686,"Brown, Nadirah A",(Unknown),,0.0,0
+503687,"Olivera, Pablo A",(Unknown),,0.0,0
+503688,"Cooper, Malik H",(Unknown),,0.0,0
+503689,"Shabazz, Yusuf A",(Unknown),,0.0,0
+503690,"Vaughn, Lamont T",(Unknown),,0.0,0
+503691,"Cherry, Christina G",(Unknown),,0.0,0
 503692,"Sanchez, Marcos M",Business/Corp,Milton'S Auto Body LLC,600.0,2
 503692,"Sanchez, Marcos M",Business/Corp,Colteal LLC,200.0,1
 503692,"Sanchez, Marcos M",Individual,"Morales, Nelson",100.0,1
@@ -516,18 +537,18 @@ CandidateID,Candidate,Contributor Type,Contributor Name,Total Contributions,Numb
 503693,"Norton, Asia J",Individual,"Pinckney, Leon",242.0,1
 503693,"Norton, Asia J",Individual,"Jablonski, Kyle",242.0,1
 503694,"Jetti, Willie S",(Unknown),Willie Sinai Jetti,650.0,1
-503695,"Baker, Lonnie T",(Unknown),,0.0,1
-503696,"Ahmad, Abdush",(Unknown),,0.0,1
-503697,"Outlaw, Malcolm X Sr",(Unknown),,0.0,1
-503698,"El-Amin, Muta N",(Unknown),,0.0,1
-503699,"Eason, Tency",(Unknown),,0.0,1
+503695,"Baker, Lonnie T",(Unknown),,0.0,0
+503696,"Ahmad, Abdush",(Unknown),,0.0,0
+503697,"Outlaw, Malcolm X Sr",(Unknown),,0.0,0
+503698,"El-Amin, Muta N",(Unknown),,0.0,0
+503699,"Eason, Tency",(Unknown),,0.0,0
 503700,"Summers-Johnson, Jamie B",Individual,"Sobel, Reuven",1500.0,1
 503700,"Summers-Johnson, Jamie B",Individual,"Grunbaum, Miriam",1500.0,1
 503700,"Summers-Johnson, Jamie B",Individual,"Goldberger, Solomon",1500.0,1
 503700,"Summers-Johnson, Jamie B",Individual,"Swan, Anthony",400.0,1
-503701,"Coley, Kerry",(Unknown),,0.0,1
-503702,"Hall, Antoinett A",(Unknown),,0.0,1
-503703,"Hilbert, Quantavia L",(Unknown),,0.0,1
+503701,"Coley, Kerry",(Unknown),,0.0,0
+503702,"Hall, Antoinett A",(Unknown),,0.0,0
+503703,"Hilbert, Quantavia L",(Unknown),,0.0,0
 503704,"Vauss, Anthony A Jr",Business/Corp,Fairview Insurance Agency,5500.0,1
 503704,"Vauss, Anthony A Jr",Individual,"Frei, Meir",5000.0,1
 503704,"Vauss, Anthony A Jr",Individual,"Whitcomb, Paul",3000.0,1
@@ -544,9 +565,10 @@ CandidateID,Candidate,Contributor Type,Contributor Name,Total Contributions,Numb
 503732,Benbow Geffard & Lyon,Individual,"Gottheim, Arthur",1000.0,1
 503732,Benbow Geffard & Lyon,Individual,"Jonas, Keistan",200.0,1
 503732,Benbow Geffard & Lyon,Individual,"Holder, Stanton",200.0,1
-503760,"Abenstein, Stacey",(Unknown),,0.0,1
-503761,"Kahn, Laurie",(Unknown),,0.0,1
+503760,"Abenstein, Stacey",(Unknown),,0.0,0
+503761,"Kahn, Laurie",(Unknown),,0.0,0
 503762,Kahn & Abenstein,(Unknown),Efo Of Rosy Bagolie,5000.0,1
+503762,Kahn & Abenstein,Misc/ Other,Contributions Under $200,3935.0,1
 503762,Kahn & Abenstein,Individual,"Seguinot, Raquel",3300.0,2
 503762,Kahn & Abenstein,Business/Corp,Jack Kahn Realty Services Corp.,1000.0,1
 503762,Kahn & Abenstein,Individual,"Gavin, John",1000.0,1
@@ -555,7 +577,6 @@ CandidateID,Candidate,Contributor Type,Contributor Name,Total Contributions,Numb
 503762,Kahn & Abenstein,(Unknown),Election Fund Of Patricia Sebold,500.0,1
 503762,Kahn & Abenstein,Individual,"Abenstein, Stacey",350.0,1
 503762,Kahn & Abenstein,Individual,"Steinman, Peter",250.0,1
-503762,Kahn & Abenstein,Political Cmte,Luciano 4 Freeholder,250.0,1
 503873,"Ceperley, Martin",Individual,"Shandler, Fred",5500.0,1
 503873,"Ceperley, Martin",Individual,"Pauly, Thomas",3800.0,3
 503873,"Ceperley, Martin",Individual,"Shandler, Lauren",2500.0,1
@@ -570,12 +591,15 @@ CandidateID,Candidate,Contributor Type,Contributor Name,Total Contributions,Numb
 503879,"Engel, Deborah",Individual,"Winikoff, Enid",5500.0,1
 503879,"Engel, Deborah",Individual,"Rospars, Joseph",1250.0,2
 503879,"Engel, Deborah",Individual,"Shandler, Fred",1000.0,1
+503879,"Engel, Deborah",Individual,"Engel, Deborah",667.0,7
 503879,"Engel, Deborah",Business/Corp,Pallett Brewing Company,400.0,1
 503879,"Engel, Deborah",Individual,"Haskns, William",250.0,1
 503879,"Engel, Deborah",Individual,"Foley, Elizabeth",250.0,1
 503879,"Engel, Deborah",Individual,"Stephan, Paul",100.0,1
-503887,"Meinhardt, Edward",(Unknown),,0.0,1
-503888,"Bhuptani, Ketan K",(Unknown),,0.0,1
+503879,"Engel, Deborah",(Unknown),,0.0,0
+503887,"Meinhardt, Edward",(Unknown),,0.0,0
+503888,"Bhuptani, Ketan K",(Unknown),,0.0,0
+503889,Meinhardt & Bhuptani,Misc/ Other,Primary Fundraiser,5525.0,2
 503889,Meinhardt & Bhuptani,Individual,"Gomes, Pedro",5500.0,1
 503889,Meinhardt & Bhuptani,Individual,"Goldberg, Michael",5500.0,1
 503889,Meinhardt & Bhuptani,Trade Association PAC,Greater Nj Carpenters Pec,2600.0,1
@@ -585,80 +609,81 @@ CandidateID,Candidate,Contributor Type,Contributor Name,Total Contributions,Numb
 503889,Meinhardt & Bhuptani,Business/Corp,Crystal Plaza,2000.0,1
 503889,Meinhardt & Bhuptani,Individual,"Klein, Jacob",1500.0,1
 503889,Meinhardt & Bhuptani,Individual,"Varma, Rocco",1000.0,1
-503889,Meinhardt & Bhuptani,Business/Corp,"Sills Cummis & Gross, Pc",1000.0,1
+503902,"Wang, Daphne Dan",Misc/ Other,29 Day Pre Election 5-1-2026,9270.0,1
 503902,"Wang, Daphne Dan",Individual,"Song, Wenhua",1000.0,1
 503902,"Wang, Daphne Dan",Individual,"Li, Yue",1000.0,1
+503902,"Wang, Daphne Dan",Misc/ Other,11 Day Pre-Election Report,550.0,1
 503902,"Wang, Daphne Dan",Individual,"Shen, Xiaole",500.0,1
 503902,"Wang, Daphne Dan",Individual,"Shen, Susanna",500.0,1
 503902,"Wang, Daphne Dan",Individual,"Lu, Xin",500.0,1
 503902,"Wang, Daphne Dan",Individual,"Li, Tao",500.0,1
 503902,"Wang, Daphne Dan",Individual,"Dang, Suyun",500.0,1
 503902,"Wang, Daphne Dan",Individual,"Zhang, Feng",300.0,1
-503902,"Wang, Daphne Dan",Individual,"Xiao, Qingjun",300.0,1
-503902,"Wang, Daphne Dan",Individual,"Wang, Michael",300.0,1
-503990,"Jurgensen, Kenneth",(Unknown),,0.0,1
-503991,"Sagalow, Jonathan R",(Unknown),,0.0,1
-503992,"Alcorta, Ricardo",(Unknown),,0.0,1
+503990,"Jurgensen, Kenneth",(Unknown),,0.0,0
+503991,"Sagalow, Jonathan R",(Unknown),,0.0,0
+503992,"Alcorta, Ricardo",(Unknown),,0.0,0
 503993,Jurgensen Sagalow & Alcorta,Individual,"Jurgensen, Ken",500.0,1
+503993,Jurgensen Sagalow & Alcorta,Individual,"Mickend, Michael",250.0,1
 503993,Jurgensen Sagalow & Alcorta,Individual,"Birnbaum, Ian",250.0,1
 503993,Jurgensen Sagalow & Alcorta,Individual,"Flack, Stephen",220.0,2
 503993,Jurgensen Sagalow & Alcorta,Individual,"Shimada, Beverly",200.0,1
 503993,Jurgensen Sagalow & Alcorta,Business/Corp,Jeffery Gates For Assemply,200.0,1
 503993,Jurgensen Sagalow & Alcorta,Individual,"Cole, Hendersen",200.0,1
-503993,Jurgensen Sagalow & Alcorta,Individual,"Tompkins, Mark",140.0,1
+503993,Jurgensen Sagalow & Alcorta,Individual,"Tompkins, Mark",140.0,2
 503993,Jurgensen Sagalow & Alcorta,Individual,"Whetton, Rita",100.0,1
 503993,Jurgensen Sagalow & Alcorta,Individual,"Tompkins, Christopher",50.0,1
-503993,Jurgensen Sagalow & Alcorta,Individual,"Quinn, Jenifer",50.0,1
 503994,"Sullivan, John T",Individual,"Shandler, Fred",5500.0,1
+503994,"Sullivan, John T",Misc/ Other,Donations From March 31 - April 30,3183.0,1
 503994,"Sullivan, John T",Individual,"Shandler, Lauren",2500.0,1
 503994,"Sullivan, John T",Individual,"Sullivan, John T",1500.0,2
+503994,"Sullivan, John T",Misc/ Other,May 21 - June 2,750.0,1
 503994,"Sullivan, John T",Individual,"Triska, Morgan",700.0,2
 503994,"Sullivan, John T",Individual,"Lomuscio, Michelle",633.0,2
 503994,"Sullivan, John T",Individual,"Rowland, Tom",500.0,1
+503994,"Sullivan, John T",Misc/ Other,"Contributions From May 1-20, 2026",500.0,1
 503994,"Sullivan, John T",Individual,"Aaron, Elizabeth",450.0,1
-503994,"Sullivan, John T",Individual,"Helmkamp, David",300.0,1
-503994,"Sullivan, John T",Individual,"Schmidt, Joseph",250.0,1
-503994,"Sullivan, John T",Individual,"Policastro, Theresa",250.0,1
-503995,"Mathews, Maritza",(Unknown),,0.0,1
-503996,"Ferreira Almeida, Daniela",(Unknown),,0.0,1
+503995,"Mathews, Maritza",(Unknown),,0.0,0
+503996,"Ferreira Almeida, Daniela",(Unknown),,0.0,0
 504072,"Pichardo, Wilson A",Political Party Cmte,Newark North Ward Democratic Committee,1500.0,1
-504662,Millburn Residents For Non-Partisan Positive Change,(Unknown),,0.0,1
-505170,"Divincenzo, Joseph",Interest,Td Bank,31542.0,80
+504072,"Pichardo, Wilson A",(Unknown),,0.0,0
+504662,Millburn Residents For Non-Partisan Positive Change,(Unknown),,0.0,0
+505170,"Divincenzo, Joseph",Interest,Td Bank,52245.0,110
+505170,"Divincenzo, Joseph",Business/Corp,Our Healthy Nj Inc,30000.0,2
 505170,"Divincenzo, Joseph",Union PAC,Operating Engineers Local 825,22300.0,3
 505170,"Divincenzo, Joseph",Union PAC,Ibew PAC Educational Fund,17300.0,3
 505170,"Divincenzo, Joseph",Union | Union PAC,Greater Nj Carpenters Pec,17300.0,2
-505170,"Divincenzo, Joseph",Business/Corp,Our Healthy Nj Inc,15000.0,1
 505170,"Divincenzo, Joseph",Business/Corp,N American Eagle Construction Inc,11000.0,1
 505170,"Divincenzo, Joseph",Union PAC,Local 68 Iuoe Political Action Committee,5900.0,3
 505170,"Divincenzo, Joseph",Business/Corp,Resource Search Company Inc,5500.0,1
 505170,"Divincenzo, Joseph",Business/Corp,Premio Foods Inc,5500.0,1
 505170,"Divincenzo, Joseph",Individual,"Maurillo, Barry Jr",5500.0,1
 505171,"Lewis, Marqes-Aquil",Union,Newark Teachers Union Local 481,2000.0,2
+505171,"Lewis, Marqes-Aquil",Business/Corp,Ssw LLC,1500.0,1
+505171,"Lewis, Marqes-Aquil",Individual,"Tucker, Kiburi",1055.0,1
+505171,"Lewis, Marqes-Aquil",Individual,"Souder, Calvin",1055.0,1
+505171,"Lewis, Marqes-Aquil",Individual,"Pierre, Mark",1055.0,1
+505171,"Lewis, Marqes-Aquil",Individual,"Perdomo, Orlando",1055.0,1
+505171,"Lewis, Marqes-Aquil",Individual,"Gill, Elisa",1055.0,1
 505171,"Lewis, Marqes-Aquil",Individual,"Smith, Jerry",1002.0,1
 505171,"Lewis, Marqes-Aquil",Business/Corp,"Taylor Law Group, LLC",1000.0,1
 505171,"Lewis, Marqes-Aquil",Business/Corp,Robert Treat Hotel Inc.,1000.0,1
-505171,"Lewis, Marqes-Aquil",Individual,"Logan, Brian",1000.0,2
-505171,"Lewis, Marqes-Aquil",Union,Local 68 Iuoe,1000.0,1
-505171,"Lewis, Marqes-Aquil",Political Cmte,Friends Of Dupree Kelly,1000.0,1
-505171,"Lewis, Marqes-Aquil",Union PAC,Active PAC,1000.0,1
-505171,"Lewis, Marqes-Aquil",Individual,"Crump, Cecil",791.0,2
-505171,"Lewis, Marqes-Aquil",Business/Corp,Robert Treat Ho†El,750.0,1
-505172,"Eley, Demetrius",(Unknown),,0.0,1
-505173,"Freeman, Douglas",(Unknown),,0.0,1
-505174,"Defrank, Sahwa",(Unknown),,0.0,1
+505172,"Eley, Demetrius",(Unknown),,0.0,0
+505173,"Freeman, Douglas",(Unknown),,0.0,0
+505174,"Defrank, Sahwa",(Unknown),,0.0,0
 505175,"Kraemer, Adam",Individual,"Kraemer, Adam",5000.0,1
-505176,"Contella, Frank",(Unknown),,0.0,1
-505177,"Babula, Greg",Individual,"Babula, Gregory",8667.0,6
+505175,"Kraemer, Adam",(Unknown),,0.0,0
+505176,"Contella, Frank",(Unknown),,0.0,0
+505177,"Babula, Greg",Individual,"Babula, Gregory",8667.0,7
 505177,"Babula, Greg",Business/Corp | Candidate Committee,Nicholas Joanow Campaign Account,4800.0,2
 505177,"Babula, Greg",Business/Corp | Candidate Committee,Jl For Nj 2026,2000.0,2
 505177,"Babula, Greg",Ideological Assoc/ PAC,In Our Hands,1000.0,1
+505177,"Babula, Greg",Individual,"Trojak, Joshua",625.0,3
 505177,"Babula, Greg",Candidate Committee,Election Fund - Ralph Caputo For Assembly,500.0,1
 505177,"Babula, Greg",Individual,"Michalski, Mimi & Ed",400.0,4
-505177,"Babula, Greg",Individual,"Trojak, Joshua",325.0,2
 505177,"Babula, Greg",Individual,"Nicolai, Norman",325.0,3
 505177,"Babula, Greg",Individual,"Hebert, Susan",250.0,2
 505177,"Babula, Greg",Individual,"Bishak, Michael",250.0,1
-505178,"Bonica, Paul",(Unknown),,0.0,1
+505178,"Bonica, Paul",(Unknown),,0.0,0
 505179,"Bootwala, Stef",Political Party Cmte,J-L For Nj,1000.0,1
 505179,"Bootwala, Stef",Ideological Assoc/ PAC,In Our Hands PAC,1000.0,1
 505179,"Bootwala, Stef",Individual,"Gaertner, Anthony",500.0,1
@@ -668,20 +693,20 @@ CandidateID,Candidate,Contributor Type,Contributor Name,Total Contributions,Numb
 505179,"Bootwala, Stef",Individual,"Hebert, Susan",250.0,2
 505179,"Bootwala, Stef",Individual,"Gaertner, Courtney",250.0,1
 505179,"Bootwala, Stef",(Unknown),Blue Rose Venue,250.0,1
-505182,"Jones, Garrett C",(Unknown),,0.0,1
-505183,"Pollara, Andrew",(Unknown),,0.0,1
-505184,"Bambrick, Brian",(Unknown),,0.0,1
-505185,"King, John",(Unknown),,0.0,1
-505186,"D`Avella, Bernard J",(Unknown),,0.0,1
-505187,"Campisi, Peter",(Unknown),,0.0,1
-505188,"Lattimer, Michael",(Unknown),,0.0,1
+505182,"Jones, Garrett C",(Unknown),,0.0,0
+505183,"Pollara, Andrew",(Unknown),,0.0,0
+505184,"Bambrick, Brian",(Unknown),,0.0,0
+505185,"King, John",(Unknown),,0.0,0
+505186,"D`Avella, Bernard J",(Unknown),,0.0,0
+505187,"Campisi, Peter",(Unknown),,0.0,0
+505188,"Lattimer, Michael",(Unknown),,0.0,0
 505189,"Lam, Bill",Individual,"Lam, Bill",3250.0,4
 505189,"Lam, Bill",Individual,"Lam, Mee",1000.0,1
 505189,"Lam, Bill",Individual,"Hames, Scott",350.0,1
 505189,"Lam, Bill",Individual,"Cho Lam, Holly",350.0,1
 505189,"Lam, Bill",Individual,"Bo, Patty",350.0,1
 505189,"Lam, Bill",Individual,"Lam, Holly",52.0,1
-505190,"Foley, Timothy S",(Unknown),,0.0,1
+505190,"Foley, Timothy S",(Unknown),,0.0,0
 505191,"De Luca, Victor",Political Cmte,Dafis & Deluca Campaign,1294.0,1
 505191,"De Luca, Victor",Individual,"Schwarz, Edward",1000.0,1
 505191,"De Luca, Victor",(Unknown),Rwdsu Local 108,1000.0,1
@@ -692,48 +717,48 @@ CandidateID,Candidate,Contributor Type,Contributor Name,Total Contributions,Numb
 505191,"De Luca, Victor",Individual,"Mccaffrey, Katherine",250.0,1
 505191,"De Luca, Victor",Individual,"Goldstein, Danny",250.0,1
 505191,"De Luca, Victor",Union,Cwa Local 1081,250.0,1
-505192,"Saccomandi, Frank Iv",(Unknown),,0.0,1
-505193,"Stoller, Ben",(Unknown),,0.0,1
-505194,"Floria-Callori, Anthony",(Unknown),,0.0,1
-505195,"Luers-Franco, Aimee",(Unknown),,0.0,1
-505196,"Tilton, Kenneth",(Unknown),,0.0,1
-505197,"Biront, John",(Unknown),,0.0,1
+505192,"Saccomandi, Frank Iv",(Unknown),,0.0,0
+505193,"Stoller, Ben",(Unknown),,0.0,0
+505194,"Floria-Callori, Anthony",(Unknown),,0.0,0
+505195,"Luers-Franco, Aimee",(Unknown),,0.0,0
+505196,"Tilton, Kenneth",(Unknown),,0.0,0
+505197,"Biront, John",(Unknown),,0.0,0
 505235,"Goldsman, Justin",Individual,"Gavin, John",500.0,1
 505235,"Goldsman, Justin",Candidate Committee,Klein For Essex County Commissioner,318.0,1
 505235,"Goldsman, Justin",Individual,"Rabin-Koster, Lenore",300.0,1
-505331,"Zeblow , Aaron",(Unknown),,0.0,1
-505332,"Zeblow, Jennifer",(Unknown),,0.0,1
+505331,"Zeblow , Aaron",(Unknown),,0.0,0
+505332,"Zeblow, Jennifer",(Unknown),,0.0,0
 505340,Millburn Residents For Non Partisan Positive Change,Individual,"Saccomandi, Frank",2500.0,1
 505340,Millburn Residents For Non Partisan Positive Change,Individual,"Overdeck, Laura",2500.0,1
 505340,Millburn Residents For Non Partisan Positive Change,Individual,"Freidman, Robert",2500.0,1
 505340,Millburn Residents For Non Partisan Positive Change,Individual,"Canfield, Allison",2500.0,1
 505340,Millburn Residents For Non Partisan Positive Change,Individual,"Mann, Jonathon",2000.0,1
+505340,Millburn Residents For Non Partisan Positive Change,Misc/ Other,5/13/26,1175.0,1
 505340,Millburn Residents For Non Partisan Positive Change,Individual,"Volpicelli, Nicolas",1000.0,1
 505340,Millburn Residents For Non Partisan Positive Change,Individual,"Stoller, Ben",1000.0,1
 505340,Millburn Residents For Non Partisan Positive Change,Individual,"Kundtz, Theodore",1000.0,1
 505340,Millburn Residents For Non Partisan Positive Change,Individual,"Cao, Zhikang",1000.0,1
-505340,Millburn Residents For Non Partisan Positive Change,Individual,"Baxter, Jonathon",1000.0,1
-505354,"Krakoviak, Joe",(Unknown),,0.0,1
+505354,"Krakoviak, Joe",(Unknown),,0.0,0
 505371,Residents For Transparency And Affordability,(Unknown),Millburn Short Hills Democratic Committee,6640.0,4
 505371,Residents For Transparency And Affordability,Candidate Committee,Election Fund Of Rosy Bagolie,2000.0,1
 505371,Residents For Transparency And Affordability,Individual,"Lieberberg, Jackie",1000.0,1
 505371,Residents For Transparency And Affordability,Candidate Committee,Election Fund Of Annette Romano,1000.0,1
 505371,Residents For Transparency And Affordability,Individual,"Desmarais, Cheryl",1000.0,1
 505371,Residents For Transparency And Affordability,Individual,"Boyko, David",1000.0,1
+505371,Residents For Transparency And Affordability,Misc/ Other,Less Than 201 Through May 18,610.0,1
 505371,Residents For Transparency And Affordability,Individual,"Piszar, Janet",600.0,2
 505371,Residents For Transparency And Affordability,Individual,"Wasserman, Eve",500.0,1
 505371,Residents For Transparency And Affordability,Individual,"Truitt, Regina",500.0,1
-505371,Residents For Transparency And Affordability,Individual,"Kramer, Bruce",500.0,1
 505387,Pichardo Muhammad Luciano Pomares Klein Mcgrath Richardson & Yasin,(Unknown),Operating Engineers Local 825 PAC,25000.0,1
 505387,Pichardo Muhammad Luciano Pomares Klein Mcgrath Richardson & Yasin,Candidate Committee,Luciano For Freeholder,5800.0,2
 505387,Pichardo Muhammad Luciano Pomares Klein Mcgrath Richardson & Yasin,Union,Teamsters Local Union 863,5000.0,1
 505387,Pichardo Muhammad Luciano Pomares Klein Mcgrath Richardson & Yasin,Individual,"Frungillo, A;Lfred",5000.0,1
 505387,Pichardo Muhammad Luciano Pomares Klein Mcgrath Richardson & Yasin,Individual,"Watkins, Roderick",2500.0,1
 505387,Pichardo Muhammad Luciano Pomares Klein Mcgrath Richardson & Yasin,Union PAC,Ua Plumbers Locasl 24,2500.0,1
+505387,Pichardo Muhammad Luciano Pomares Klein Mcgrath Richardson & Yasin,Individual,"Johnson Esq, Everett",2500.0,1
 505387,Pichardo Muhammad Luciano Pomares Klein Mcgrath Richardson & Yasin,Business/Corp,"Adams.Rehmann, & Heggan Associates Inc",2500.0,1
 505387,Pichardo Muhammad Luciano Pomares Klein Mcgrath Richardson & Yasin,Individual,"Martino, Steven J",1000.0,1
 505387,Pichardo Muhammad Luciano Pomares Klein Mcgrath Richardson & Yasin,Business/Corp,Scholes Electric Communications Copr,350.0,1
-505387,Pichardo Muhammad Luciano Pomares Klein Mcgrath Richardson & Yasin,Individual,"Klein, Shawn R",350.0,1
 505446,"Bennett, Micaela",Individual,"Dismuke, Tonora",5500.0,1
 505446,"Bennett, Micaela",Individual,"Ghebremicael, Tekeste",500.0,1
 505446,"Bennett, Micaela",Individual,"Whitney, Adeola",300.0,2
@@ -744,7 +769,7 @@ CandidateID,Candidate,Contributor Type,Contributor Name,Total Contributions,Numb
 505446,"Bennett, Micaela",Individual,"Dipalma, Jennifer",200.0,1
 505446,"Bennett, Micaela",Individual,"Watson, Julie",100.0,1
 505446,"Bennett, Micaela",Individual,"Svetvilas, Loren",100.0,1
-505500,Saccomandi & Stoller,(Unknown),,0.0,1
+505500,Saccomandi & Stoller,(Unknown),,0.0,0
 505521,"Council, Patrick",Individual,"Fields, Scott",5500.0,1
 505521,"Council, Patrick",Individual,"Political Action Comm., Nj State Laborers",5000.0,1
 505521,"Council, Patrick",Individual,"Lemcor, Provident",5000.0,1
@@ -755,122 +780,94 @@ CandidateID,Candidate,Contributor Type,Contributor Name,Total Contributions,Numb
 505521,"Council, Patrick",Individual,"Taylor, Lester E Iii",2500.0,1
 505521,"Council, Patrick",Individual,"Green, Jay",2500.0,1
 505521,"Council, Patrick",Individual,"Faiella, Alfred",2500.0,1
-505552,"King, John",(Unknown),,0.0,1
-505616,"Dvorin, Matthew",(Unknown),,0.0,1
-505617,"Rudin, Joyce L",(Unknown),,0.0,1
-505634,Zeblow & Zeblow,(Unknown),,0.0,1
-505650,"Gibbons, Kenneth",(Unknown),,0.0,1
-505719,"Hartwyk, Katherine",(Unknown),,0.0,1
-505803,"Zablow, Aaron",(Unknown),,0.0,1
-505804,"Zablow, Jennifer",(Unknown),,0.0,1
-505805,Zablow & Zablow,(Unknown),,0.0,1
-505964,"Docteroff, Michael",(Unknown),,0.0,1
-505965,"Canale, Kathy L",(Unknown),,0.0,1
-506162,"Saccomandi, Frank Iv",(Unknown),,0.0,1
-506163,"Stoller, Ben",(Unknown),,0.0,1
-506164,Saccomandi & Stoller For Millburn Tc,(Unknown),,0.0,1
-506260,"Foley, Timothy S",(Unknown),,0.0,1
-506290,"Schor, Corey",(Unknown),,0.0,1
-506349,"Gonzalez, Rosalee",(Unknown),,0.0,1
-506350,"Cruz, Sarah",(Unknown),,0.0,1
-506351,Gonzalez & Cruz,(Unknown),,0.0,1
-506783,"Callahan, Elizabeth",(Unknown),,0.0,1
-506784,"Meyer, William",(Unknown),,0.0,1
-506785,Callahan & Meyer For Board Of Education,(Unknown),,0.0,1
-506872,"Zall, Beth",(Unknown),,0.0,1
-506873,"Brazell, Bill",(Unknown),,0.0,1
-506874,Zall & Brazell Cte,(Unknown),,0.0,1
-506982,"Scarpa, Susan",(Unknown),,0.0,1
-507177,"Frenklakh, Daniel",(Unknown),,0.0,1
-507250,"Meinhardt, Edward",(Unknown),,0.0,1
-507251,"Bhuptani, Ketan K",(Unknown),,0.0,1
-507252,"Abenstein, Stacey",(Unknown),,0.0,1
-507253,Meinhardt Bhuptani & Abenstein,(Unknown),,0.0,1
-507608,"Weintraub, Lawrence",(Unknown),,0.0,1
-507878,"Mathews, Maritza",(Unknown),,0.0,1
-507882,"Eley, Demetrius",(Unknown),,0.0,1
-507883,"Ferriera Almeida, Daniela",(Unknown),,0.0,1
-507884,"Freeman, Douglas",(Unknown),,0.0,1
-507885,"Defrank, Sahwa",(Unknown),,0.0,1
-507891,"Contella, Frank",(Unknown),,0.0,1
-507893,"Jurgensen, Kenneth",(Unknown),,0.0,1
-507894,"Jones, Garrett C",(Unknown),,0.0,1
-507895,"Sagalow, Jonathan R",(Unknown),,0.0,1
-507896,"Heftler, Mark",(Unknown),,0.0,1
-507897,"Pollara, Andrew",(Unknown),,0.0,1
-507898,"Bambrick, Brian",(Unknown),,0.0,1
-507899,"Davella, Bernard J",(Unknown),,0.0,1
-507900,"Campisi, Peter",(Unknown),,0.0,1
-507901,"Lattimer, Michael",(Unknown),,0.0,1
-507902,"Lefkovits, David",(Unknown),,0.0,1
-507903,"Moody, Lorijeane",(Unknown),,0.0,1
-507909,"Tilton, Kenneth",(Unknown),,0.0,1
-507910,"Floria-Callori, Anthony",(Unknown),,0.0,1
-507911,"Luers-Franco, Aimee",(Unknown),,0.0,1
-507913,"Biront, John",(Unknown),,0.0,1
-508276,"Woods, Jason J",(Unknown),,0.0,1
-508671,"Diaz, Kevin",(Unknown),,0.0,1
-508997,"Bennett Meany, Gabrielle",(Unknown),,0.0,1
-508998,"Lu, Kyle",(Unknown),,0.0,1
-508999,"Maldonado, Andrea C",(Unknown),,0.0,1
-509000,"Missaggia, Lissa",(Unknown),,0.0,1
-509001,"Miller, Quan R",(Unknown),,0.0,1
-509002,"Diaz, Maria A",(Unknown),,0.0,1
-509003,"Serrano, Damaso",(Unknown),,0.0,1
-509004,"Dudley, Kasey",(Unknown),,0.0,1
-509005,"Green, Nadeisha",(Unknown),,0.0,1
-509006,"Parry, Stephanie",(Unknown),,0.0,1
-509007,"Landolfi-Jefferson, Marisa",(Unknown),,0.0,1
-509008,"Palek, Paul A Jr",(Unknown),,0.0,1
-509009,"Street, Jason",(Unknown),,0.0,1
-509010,"Cristobal, Laila",(Unknown),,0.0,1
-509011,"Schaer, Jonathan R",(Unknown),,0.0,1
-509012,"Depascale, Anthony",(Unknown),,0.0,1
-509013,"Street, Melinda",(Unknown),,0.0,1
-509014,"Gearhart, Darleen L",(Unknown),,0.0,1
-509015,"Gottlieb, Jocelyn",(Unknown),,0.0,1
-509016,"Maddock, Gilbert",(Unknown),,0.0,1
-509017,"Gong, Fang",(Unknown),,0.0,1
-509018,"Ashinsky, Neal Adam",(Unknown),,0.0,1
-509019,"Azeez, Patricia",(Unknown),,0.0,1
-509020,"Ostrovsky, Anna",(Unknown),,0.0,1
-509021,"Saurabh, Prasoon",(Unknown),,0.0,1
-509022,"Germa, Christian",(Unknown),,0.0,1
-509023,"Longley Richards, Cynthia",(Unknown),,0.0,1
-509024,"Shivani, Priya",(Unknown),,0.0,1
-509025,"Finkelstein, Andrew",(Unknown),,0.0,1
-509026,"Mishra, Gyanprakash S",(Unknown),,0.0,1
-509027,"Gideon, Andrew W",(Unknown),,0.0,1
-509028,"Reynics, Richard",(Unknown),,0.0,1
-509029,"Pierson, Corey",(Unknown),,0.0,1
-509030,"Bookhart, Brandie",(Unknown),,0.0,1
-509031,"Haran, Ayelet",(Unknown),,0.0,1
-509032,"Moon, David",(Unknown),,0.0,1
-509033,"Simpson, George",(Unknown),,0.0,1
-509034,"Ved, David",(Unknown),,0.0,1
-509035,"Patel Malige, Sapna",(Unknown),,0.0,1
-509037,"Danchak-Martin, Lisa",(Unknown),,0.0,1
-509038,"Battaglia, Joe",(Unknown),,0.0,1
-509039,"Balsamo, Salvatore",(Unknown),,0.0,1
-509040,"Ferraro, Salvatore",(Unknown),,0.0,1
-509041,"Marsala, Michael",(Unknown),,0.0,1
-509042,"Turner, Fatimah",(Unknown),,0.0,1
-509043,"Davis, Samantha",(Unknown),,0.0,1
-509044,"Lambert Wingfield, Jeff",(Unknown),,0.0,1
-509046,"Cianni Villopoto, Angelica",(Unknown),,0.0,1
-509047,"Scaraggi, Allison",(Unknown),,0.0,1
-509048,"Boone, Michael",(Unknown),,0.0,1
-509049,"Goman, Robert W Iii",(Unknown),,0.0,1
-509050,"Ferrera, Diana",(Unknown),,0.0,1
-509051,"Deo, Anthony J",(Unknown),,0.0,1
-509052,"Vera, Maria",(Unknown),,0.0,1
-509053,"Mims, Brenda T",(Unknown),,0.0,1
-509058,Ostrovsky Saurabh & Germa For Millburn Boe,(Unknown),,0.0,1
-509107,"Digiovanni, Ruth",(Unknown),,0.0,1
-509419,"Horta, Mariana",(Unknown),,0.0,1
-509420,"Porro, Kyle",(Unknown),,0.0,1
-509421,"Martin, Antoinette",(Unknown),,0.0,1
-509449,Spango Bardi & Biront Committee To Re-Elect,(Unknown),,0.0,1
-509476,Miller Diaz & Serrano For The Bloomfield Students,(Unknown),,0.0,1
-509483,"Rosa, Jacqueline",(Unknown),,0.0,1
-509516,Maldonado & Missaggia For Boe,(Unknown),,0.0,1
+505616,"Dvorin, Matthew",(Unknown),,0.0,0
+505617,"Rudin, Joyce L",(Unknown),,0.0,0
+505634,Zeblow & Zeblow,(Unknown),,0.0,0
+505650,"Gibbons, Kenneth",(Unknown),,0.0,0
+505719,"Hartwyk, Katherine",(Unknown),,0.0,0
+505803,"Zablow, Aaron",(Unknown),,0.0,0
+505804,"Zablow, Jennifer",(Unknown),,0.0,0
+505805,Zablow & Zablow,(Unknown),,0.0,0
+506164,Saccomandi & Stoller For Millburn Tc,(Unknown),,0.0,0
+506290,"Schor, Corey",(Unknown),,0.0,0
+506351,Gonzalez & Cruz,(Unknown),,0.0,0
+506783,"Callahan, Elizabeth",(Unknown),,0.0,0
+506784,"Meyer, William",(Unknown),,0.0,0
+506785,Callahan & Meyer For Board Of Education,(Unknown),,0.0,0
+506873,"Brazell, Bill",(Unknown),,0.0,0
+506874,Zall & Brazell Cte,(Unknown),,0.0,0
+506982,"Scarpa, Susan",(Unknown),,0.0,0
+507177,"Frenklakh, Daniel",(Unknown),,0.0,0
+507253,Meinhardt Bhuptani & Abenstein,(Unknown),,0.0,0
+507608,"Weintraub, Lawrence",(Unknown),,0.0,0
+507883,"Ferriera Almeida, Daniela",(Unknown),,0.0,0
+507896,"Heftler, Mark",(Unknown),,0.0,0
+507899,"Davella, Bernard J",(Unknown),,0.0,0
+507902,"Lefkovits, David",(Unknown),,0.0,0
+507903,"Moody, Lorijeane",(Unknown),,0.0,0
+508276,"Woods, Jason J",(Unknown),,0.0,0
+508671,"Diaz, Kevin",(Unknown),,0.0,0
+508997,"Bennett Meany, Gabrielle",(Unknown),,0.0,0
+508998,"Lu, Kyle",(Unknown),,0.0,0
+508999,"Maldonado, Andrea C",(Unknown),,0.0,0
+509000,"Missaggia, Lissa",(Unknown),,0.0,0
+509001,"Miller, Quan R",(Unknown),,0.0,0
+509002,"Diaz, Maria A",(Unknown),,0.0,0
+509003,"Serrano, Damaso",(Unknown),,0.0,0
+509004,"Dudley, Kasey",(Unknown),,0.0,0
+509005,"Green, Nadeisha",(Unknown),,0.0,0
+509006,"Parry, Stephanie",(Unknown),,0.0,0
+509007,"Landolfi-Jefferson, Marisa",(Unknown),,0.0,0
+509008,"Palek, Paul A Jr",(Unknown),,0.0,0
+509009,"Street, Jason",(Unknown),,0.0,0
+509010,"Cristobal, Laila",(Unknown),,0.0,0
+509011,"Schaer, Jonathan R",(Unknown),,0.0,0
+509012,"Depascale, Anthony",(Unknown),,0.0,0
+509013,"Street, Melinda",(Unknown),,0.0,0
+509014,"Gearhart, Darleen L",(Unknown),,0.0,0
+509015,"Gottlieb, Jocelyn",(Unknown),,0.0,0
+509016,"Maddock, Gilbert",(Unknown),,0.0,0
+509017,"Gong, Fang",(Unknown),,0.0,0
+509018,"Ashinsky, Neal Adam",(Unknown),,0.0,0
+509019,"Azeez, Patricia",(Unknown),,0.0,0
+509020,"Ostrovsky, Anna",(Unknown),,0.0,0
+509021,"Saurabh, Prasoon",(Unknown),,0.0,0
+509022,"Germa, Christian",(Unknown),,0.0,0
+509023,"Longley Richards, Cynthia",(Unknown),,0.0,0
+509024,"Shivani, Priya",(Unknown),,0.0,0
+509025,"Finkelstein, Andrew",(Unknown),,0.0,0
+509026,"Mishra, Gyanprakash S",(Unknown),,0.0,0
+509027,"Gideon, Andrew W",(Unknown),,0.0,0
+509028,"Reynics, Richard",(Unknown),,0.0,0
+509029,"Pierson, Corey",(Unknown),,0.0,0
+509030,"Bookhart, Brandie",(Unknown),,0.0,0
+509031,"Haran, Ayelet",(Unknown),,0.0,0
+509032,"Moon, David",(Unknown),,0.0,0
+509033,"Simpson, George",(Unknown),,0.0,0
+509034,"Ved, David",(Unknown),,0.0,0
+509035,"Patel Malige, Sapna",(Unknown),,0.0,0
+509037,"Danchak-Martin, Lisa",(Unknown),,0.0,0
+509038,"Battaglia, Joe",(Unknown),,0.0,0
+509039,"Balsamo, Salvatore",(Unknown),,0.0,0
+509040,"Ferraro, Salvatore",(Unknown),,0.0,0
+509041,"Marsala, Michael",(Unknown),,0.0,0
+509042,"Turner, Fatimah",(Unknown),,0.0,0
+509043,"Davis, Samantha",(Unknown),,0.0,0
+509044,"Lambert Wingfield, Jeff",(Unknown),,0.0,0
+509046,"Cianni Villopoto, Angelica",(Unknown),,0.0,0
+509047,"Scaraggi, Allison",(Unknown),,0.0,0
+509048,"Boone, Michael",(Unknown),,0.0,0
+509049,"Goman, Robert W Iii",(Unknown),,0.0,0
+509050,"Ferrera, Diana",(Unknown),,0.0,0
+509051,"Deo, Anthony J",(Unknown),,0.0,0
+509052,"Vera, Maria",(Unknown),,0.0,0
+509053,"Mims, Brenda T",(Unknown),,0.0,0
+509058,Ostrovsky Saurabh & Germa For Millburn Boe,(Unknown),,0.0,0
+509107,"Digiovanni, Ruth",(Unknown),,0.0,0
+509419,"Horta, Mariana",(Unknown),,0.0,0
+509420,"Porro, Kyle",(Unknown),,0.0,0
+509421,"Martin, Antoinette",(Unknown),,0.0,0
+509449,Spango Bardi & Biront Committee To Re-Elect,(Unknown),,0.0,0
+509476,Miller Diaz & Serrano For The Bloomfield Students,(Unknown),,0.0,0
+509483,"Rosa, Jacqueline",(Unknown),,0.0,0
+509516,Maldonado & Missaggia For Boe,(Unknown),,0.0,0
