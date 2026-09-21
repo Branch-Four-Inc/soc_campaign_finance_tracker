@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Leveler News: Campaign Finance Tracker</title>
+<title>Slice of Culture: Campaign Finance Tracker</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Gudea:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
@@ -13,12 +13,12 @@
   /* ── Sidebar ── */
   #sidebar { width: 220px; min-width: 220px; background: #16162a; border-right: 1px solid #e5e7eb; display: flex; flex-direction: column; padding: 24px 0 0; transition: transform .25s; overflow-y: auto; }
   .sidebar-header { padding: 0 20px 24px; border-bottom: 1px solid #e5e7eb; }
-  .sidebar-logo { width: 80px; height: auto; margin-bottom: 10px; display: block;}
+  .sidebar-logo { width: 80px; height: auto; margin-bottom: 20px; display: block;}
   .sidebar-flex {     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
-    align-content: center;
-    justify-content: space-evenly;}
+    align-items: flex-start;
+    justify-content: flex-start;}
   .sidebar-cycle { font-size: 7px; color: #9ca3af; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 16px; }
   .sidebar-title { font-family: "Playfair Display"; font-size: 17px; font-weight: 700; line-height: 1.3; color: #fcfcfc; }
   nav { padding: 16px 0; }
@@ -32,9 +32,9 @@
   .nav-back button { background: none; border: none; color: #9ca3af; font-size: 13px; cursor: pointer; display: flex; align-items: center; gap: 6px; padding: 10px; }
   .nav-back button:hover { color: #d7ae6e; }
   .nav-section { padding: 8px 20px 4px; font-size: 10px; color: #9ca3af; text-transform: uppercase; letter-spacing: .1em; }
-  .btn-grad { background-image: linear-gradient(to right, #372f59 0%, #17182b 51%, #17182b 100%);}
-  .btn-grad { margin: 10px; padding: 13px 56px; text-transform: uppercase; transition: 0.5s; background-size: 200% auto; border-radius: 9px; display: flex; outline: none; color: #fff; text-decoration: none; border: 1px solid transparent; background-image: linear-gradient(to right, #372f59 0%, #17182b 50%, #17182b 100%), linear-gradient(to right, #d7ae6e 0%, #17182b 40%, #17182b 100%); background-origin: border-box; background-clip: padding-box, border-box;}
-  .btn-grad:hover {  background-position: right center; color: #d7ae6e; }
+  .btn-grad { margin: 10px; padding: 13px 12px; border-radius: 9px; white-space: nowrap; }
+  .btn-grad.active { transition: 0.5s; background-size: 200% auto; display: flex; outline: none; text-decoration: none; border: 1px solid transparent; background-image: linear-gradient(to right, #372f59 0%, #17182b 50%, #17182b 100%), linear-gradient(to right, #d7ae6e 0%, #17182b 40%, #17182b 100%); background-origin: border-box; background-clip: padding-box, border-box; }
+  .btn-grad.active:hover { background-position: right center; color: #d7ae6e; }
 
 
   #overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,.3); z-index: 10; }
@@ -54,40 +54,42 @@
 
   .stat-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: clamp(10px, 2vw, 16px);
   margin-bottom: 32px;
 }
 .stat-card {
   position: relative;
   display: flex;
   align-items: flex-start;
-  gap: 20px;
+  gap: clamp(12px, 2vw, 20px);
   min-height: 145px;
-  padding: 28px 24px;
+  padding: clamp(16px, 3vw, 28px) clamp(14px, 2.5vw, 24px);
   background: #fff;
   border: 1px solid #e5e7eb;
   border-radius: 14px;
   overflow: hidden;
   box-shadow: 0 8px 24px rgba(15,23,42,.05);
+  min-width: 0;
 }
 .stat-card:first-child{border-left:5px solid #d4a64a;}
 .stat-icon{
- width:62px;height:62px;border-radius:50%;
+ width:clamp(44px, 6vw, 62px);height:clamp(44px, 6vw, 62px);border-radius:50%;
  display:flex;align-items:center;justify-content:center;
- color:white;font-size:28px;flex-shrink:0;z-index:2;
+ color:white;font-size:clamp(18px, 2.5vw, 28px);flex-shrink:0;z-index:2;
 }
-.stat-content{z-index:2}
+.stat-content{z-index:2; min-width: 0;}
 .stat-label{
- font-size:13px;font-weight:600;
+ font-size:clamp(11px, 1.4vw, 13px);font-weight:600;
  text-transform:uppercase;letter-spacing:.04em;
  margin-bottom:5px;
 }
 .stat-value{
  font-family:Georgia,serif;
- font-size:40px;
- line-height:1;
+ font-size:clamp(22px, 4vw, 40px);
+ line-height:1.1;
  color:#0f172a;
+ overflow-wrap: break-word;
 }
 .stat-sub{margin-top:10px;color:#6b7280;}
 .raised .stat-icon{background:linear-gradient(145deg,#174e3e,#052d27);}
@@ -99,12 +101,26 @@
 .stat-wave{ position:absolute; right:-20px; bottom:-25px; width:70%; height:90px; border-top:1px solid rgba(0,0,0,.15);
  border-radius:60% 0 0 0; opacity:.45;
 }
+  .filter-bar { display: flex; gap: 12px; margin-bottom: 24px; flex-wrap: wrap; }
+  .filter-select {
+    font-family: inherit;
+    font-size: 14px;
+    color: #111827;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 8px 14px;
+    cursor: pointer;
+    min-width: 160px;
+  }
+  .filter-select:focus { outline: none; border-color: #d7ae6e; }
+
   .race-section { margin-bottom: 28px; }
   
-  .race-badge { 
-    display: inline-block; 
-    font-size: 12px; 
-    font-weight: 600; 
+  .race-badge {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
     padding: 3px 10px; 
     border-radius: 4px; 
     margin-bottom: 10px; 
@@ -113,7 +129,7 @@
   /*candidate table*/
 
   .candidate-table { background: #fff; border: 1px solid #e5e7eb; border-radius: 10px; overflow: hidden; margin-bottom: 8px; }
-  .table-header { display: grid; grid-template-columns: 1fr 175px 165px; padding: 10px 16px; font-size: 14px; color: #9ca3af; text-transform: uppercase; letter-spacing: .07em; border-bottom: 1px solid #e5e7eb; }
+  .table-header { display: grid; grid-template-columns: 1fr 175px 165px; padding: 10px 16px; font-size: 14px; color: #9ca3af; text-transform: uppercase; letter-spacing: .07em; border-bottom: 1px solid #e5e7eb; align-items: center; }
   .candidate-row { display: grid; grid-template-columns: 1fr 160px 160px; padding: 14px 16px; align-items: center; border-bottom: 1px solid #e5e7eb; cursor: pointer; transition: background .15s; }
   .candidate-row:last-child { border-bottom: none; }
   .candidate-row:hover { background: #f9fafb; }
@@ -148,6 +164,88 @@
   .type-bar-pct { font-size: 12px; color: #9ca3af; width: 40px; text-align: right; }
   .type-bar-amt { font-size: 13px; font-weight: 600; width: 100px; text-align: right; color: #111827; }
 
+  /* ── Summary overview page ── */
+  .overview-bar-section { margin-bottom: 36px; }
+  .overview-bar-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 16px; }
+  .overview-bar-header h3 { font-size: 20px; font-weight: 700; color: #111827; }
+  .overview-bar-header .overview-bar-meta { font-size: 13px; color: #9ca3af; }
+  .overview-bar-row {
+    display: grid;
+    grid-template-columns: 250px 110px 1fr;
+    align-items: center;
+    gap: 14px;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 14px 20px;
+    margin-bottom: 8px;
+  }
+  .overview-bar-label { font-size: 14px; font-weight: 500; color: #374151; display: flex; align-items: center; gap: 8px; }
+  .overview-bar-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+  .overview-bar-amount { font-family: Georgia, serif; font-size: 16px; font-weight: 700; color: #0f172a; text-align: right; }
+  .overview-bar-track { height: 10px; background: #e5e7eb; border-radius: 5px; overflow: hidden; }
+  .overview-bar-fill { height: 100%; border-radius: 5px; transition: width .4s; }
+
+  /* ── Disclaimer ── */
+  .disclaimer {
+    margin-top: 40px;
+    padding-top: 16px;
+    border-top: 1px solid #e5e7eb;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #9ca3af;
+  }
+
+  /* Toggle */
+  .highlight-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; flex-wrap: wrap; gap: 12px; }
+  .highlight-header h3 { font-size: 20px; font-weight: 700; color: #111827; }
+  .toggle-group { display: inline-flex; border-radius: 999px; overflow: hidden; border: 1px solid #e5e7eb; background: #fff; }
+  .toggle-btn {
+    padding: 8px 20px;
+    font-size: 13px;
+    font-weight: 600;
+    border: none;
+    background: #fff;
+    color: #6b7280;
+    cursor: pointer;
+    transition: all .2s;
+    white-space: nowrap;
+  }
+  .toggle-btn.active {
+    background: #16162a;
+    color: #fff;
+    border-radius: 999px;
+  }
+
+  /* Highlight cards */
+  .highlight-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 32px; }
+  .highlight-card {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    padding: 24px 22px;
+    border-top: 4px solid #ccc;
+    box-shadow: 0 4px 16px rgba(15,23,42,.04);
+  }
+  .highlight-card-label {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    margin-bottom: 10px;
+  }
+  .highlight-card-candidate { font-size: 15px; font-weight: 600; color: #111827; margin-bottom: 6px; }
+  .highlight-card-value { font-family: Georgia, serif; font-size: 36px; font-weight: 700; line-height: 1.1; margin-bottom: 6px; }
+  .highlight-card-sub { font-size: 13px; color: #9ca3af; }
+
+  @media (max-width: 640px) {
+    .highlight-grid { grid-template-columns: 1fr; }
+    .overview-bar-row { grid-template-columns: 1fr; gap: 6px; }
+    .overview-bar-amount { text-align: left; }
+    .highlight-card-value { font-size: 28px; }
+    .highlight-header { flex-direction: column; align-items: flex-start; }
+  }
+
   .type-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 24px; }
   .type-card { background: #fff; border: 1px solid #e5e7eb; border-radius: 10px; padding: 18px 20px; }
   .type-card-label { font-size: 11px; text-transform: uppercase; letter-spacing: .07em; margin-bottom: 6px; }
@@ -177,11 +275,6 @@
     #topbar { display: flex; }
 
     #main { padding: 16px; overflow-y: auto; }
-
-    .stat-grid { grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 20px; }
-    .stat-card { padding: 12px 10px; }
-    .stat-value { font-size: 18px; }
-    .stat-label { font-size: 10px; }
 
     .table-header { grid-template-columns: 1fr 90px; }
     .table-header span:nth-child(3) { display: none; }
@@ -249,9 +342,13 @@
   </div>
   <div id="sidebar-summary-nav">
     <nav>
-      <a class="active btn-grad btn-border" data-page="summary">
-    <span class="icon">❖</span>
+      <a class="active btn-grad btn-border" data-page="overview">
+    <span class="icon">◈</span>
     <span>Summary</span>
+</a>
+      <a class="btn-grad btn-border" data-page="summary">
+    <span class="icon">❖</span>
+    <span>All Candidates</span>
 </a>
     </nav>
   </div>
@@ -272,7 +369,8 @@
 </div>
 
 <div id="main">
-  <div id="summary" class="page active"></div>
+  <div id="overview" class="page active"></div>
+  <div id="summary" class="page"></div>
   <div id="candidate-detail" class="page"></div>
 </div>
 
@@ -325,43 +423,59 @@ const contributorColors = { //for top contributors
   const contributorBarColors = {//for bar charts
     "(Unknown)": {
       background: "#ca9545",
-      text: "#6B7280"
+      text: "#ca9545"
     },
     "Individual": {
       background: "#6f62cd",
-      text: "#2563EB"
+      text: "#6f62cd"
     },
     "Political Committee": {
       background: "#ca7e7d",
-      text: "#DB2777"
+      text: "#ca7e7d"
     },
     "Candidate/Candidate Spouse": {
       background: "#893332",
-      text: "#D97706"
+      text: "#893332"
     },
     "Candidate Family Member": {
       background: "#9ac6bd",
-      text: "#7C3AED"
+      text: "#9ac6bd"
     },
     "Partnership, Including Llps": {
       background: "#f43a3b",
-      text: "#16A34A"
+      text: "#f43a3b"
     },
     "Political Action Committee (PAC) | Political Committee": {
       background: "#3c7e2d",
-      text: "#DC2626"
+      text: "#3c7e2d"
     },
     "Union": {
       background: "#0a96aa",
-      text: "#0F766E"
+      text: "#0a96aa"
     },
     "Corporation": {
-      background: "#E0F2FE",
+      background: "#0284C7",
       text: "#0284C7"
     },
     "Political Action Committee (PAC)": {
       background: "#3c7e2d",
-      text: "#C026D3"
+      text: "#3c7e2d"
+    },
+    "Association": {
+      background: "#2563eb",
+      text: "#2563eb"
+    },
+    "Other": {
+      background: "#64748b",
+      text: "#64748b"
+    },
+    "Professional/Limited Liability Company (Pllc/Llc)": {
+      background: "#78350f",
+      text: "#78350f"
+    },
+    "Sole Proprietorship": {
+      background: "#be185d",
+      text: "#be185d"
     },
   };
 
@@ -401,34 +515,312 @@ sidebar.addEventListener('click', e => {
   if (e.target.closest('nav a') || e.target.closest('#back-btn')) closeDrawer();
 });
 
+// ── Page navigation (Summary vs All Candidates) ──
+document.querySelectorAll('#sidebar-summary-nav nav a').forEach(a => {
+  a.addEventListener('click', () => {
+    const page = a.dataset.page;
+    // Update active nav
+    document.querySelectorAll('#sidebar-summary-nav nav a').forEach(x => x.classList.remove('active'));
+    a.classList.add('active');
+    // Show correct page
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    document.getElementById(page).classList.add('active');
+    // Reset detail nav if visible
+    document.getElementById('sidebar-summary-nav').style.display = 'block';
+    document.getElementById('sidebar-detail-nav').style.display = 'none';
+    document.getElementById('topbar-title').textContent = 'Campaign Finance Tracker';
+  });
+});
+
 // ── Data ──
 let DATA = {};
+let SUMMARY_DATA = {};
 
 async function loadAll() {
   const files = ['total_contributions','contributor_types','pac_contributors','corporate_contributors','top_contributors','instate_perc','all_state_perc'];
+  const summaryFiles = ['total_contributions_by_election','most_pac_money','most_pac_share','most_corporate_money','most_corporate_share','most_out_state_money','most_out_state_share','most_union_share','widest_fundraising_gap','smallest_fundraising_gap'];
   const [paramsText, ...results] = await Promise.all([
     fetch('data_output/HUDSON COUNTY/parameters.csv').then(r => r.text()),
-    ...files.map(f => fetch(`data_output/HUDSON COUNTY/${f}.csv`).then(r => r.text()))
+    ...files.map(f => fetch(`data_output/HUDSON COUNTY/${f}.csv`).then(r => r.text())),
+    ...summaryFiles.map(f => fetch(`data_output/HUDSON COUNTY/summary_page/${f}.csv`).then(r => r.text()))
   ]);
   files.forEach((f, i) => DATA[f] = parseCSV(results[i]));
+  summaryFiles.forEach((f, i) => SUMMARY_DATA[f] = parseCSV(results[files.length + i]));
 
   const params = parseCSV(paramsText)[0];
   DATA.params = params;
 
   document.title = `${params['Newsroom']}: Campaign Finance Tracker`;
   const sourceEl = document.getElementById('sidebar-source');
-  sourceEl.textContent = `Data sourced from ${params['State']} State Board of Elections.`;
+  sourceEl.textContent = `Data sourced from ${params['State']} Election Law Enforcement Commission.`;
   sourceEl.style.display = 'block';
 
+  renderOverview();
   renderSummary();
+}
+
+// ── Overview / Summary page ──
+const HIGHLIGHT_COLORS = ['#1f483d','#b76583','#7c5caf','#cf785d','#1f483d','#b76583','#7c5caf'];
+
+function renderOverview() {
+  const totals = DATA.total_contributions;
+  const grandTotal = totals.reduce((s,r) => s + +r['Total Contributions'], 0);
+  const numCandidates = totals.length;
+  const byElection = SUMMARY_DATA.total_contributions_by_election || [];
+  const numElections = byElection.length;
+
+  // Sort elections by total contributions descending
+  const sortedElections = [...byElection].sort((a,b) => +b['Total Contributions'] - +a['Total Contributions']);
+  const maxElection = sortedElections.length ? +sortedElections[0]['Total Contributions'] : 1;
+
+  const electionBarColors = ['#1f483d','#b76583','#7c5caf','#cf785d','#1f483d','#b76583'];
+
+  const barsHTML = sortedElections.map((e, i) => {
+    const amt = +e['Total Contributions'];
+    const pct = maxElection ? (amt / maxElection * 100) : 0;
+    const color = electionBarColors[i % electionBarColors.length];
+    const label = `${e.Office} — ${e.Location}`;
+    return `<div class="overview-bar-row">
+      <div class="overview-bar-label"><div class="overview-bar-dot" style="background:${color}"></div>${label}</div>
+      <div class="overview-bar-amount">${fmt(amt)}</div>
+      <div class="overview-bar-track"><div class="overview-bar-fill" style="width:${pct.toFixed(1)}%;background:${color}"></div></div>
+    </div>`;
+  }).join('');
+
+  // Build highlight cards data
+  const dollarCards = buildDollarCards();
+  const shareCards = buildShareCards();
+
+  const dollarHTML = dollarCards.map((c,i) => renderHighlightCard(c, HIGHLIGHT_COLORS[i % HIGHLIGHT_COLORS.length])).join('');
+  const shareHTML = shareCards.map((c,i) => renderHighlightCard(c, HIGHLIGHT_COLORS[i % HIGHLIGHT_COLORS.length])).join('');
+
+  document.getElementById('overview').innerHTML = `
+    <h2>Summary</h2>
+    <div class="page-sub">Data Updated: <span class="page-sub-date">${DATA.params['Data End']}</span></div>
+
+    <div class="stat-grid">
+      <div class="stat-card raised">
+        <div class="stat-icon">$</div>
+        <div class="stat-content">
+          <div class="stat-label">Total Raised</div>
+          <div class="stat-value">${fmt(grandTotal)}</div>
+          <div class="stat-sub">All candidates</div>
+        </div>
+        <div class="stat-wave"></div>
+      </div>
+      <div class="stat-card candidates">
+        <div class="stat-icon">👥</div>
+        <div class="stat-content">
+          <div class="stat-label">Candidates</div>
+          <div class="stat-value">${numCandidates}</div>
+        </div>
+        <div class="stat-wave"></div>
+      </div>
+      <div class="stat-card elections">
+        <div class="stat-icon">🗳</div>
+        <div class="stat-content">
+          <div class="stat-label">Elections</div>
+          <div class="stat-value">${numElections}</div>
+        </div>
+        <div class="stat-wave"></div>
+      </div>
+    </div>
+
+    <div class="overview-bar-section">
+      <div class="overview-bar-header">
+        <h3>Total Raised by Election</h3>
+        <div class="overview-bar-meta">${numElections} elections · ${fmt(grandTotal)} combined</div>
+      </div>
+      ${barsHTML}
+    </div>
+
+    <div class="highlight-header">
+      <h3>Fundraising Highlights</h3>
+      <div class="toggle-group">
+        <button class="toggle-btn active" data-view="dollar" onclick="switchHighlightView('dollar')">By the Dollar</button>
+        <button class="toggle-btn" data-view="share" onclick="switchHighlightView('share')">By the Share</button>
+      </div>
+    </div>
+    <div id="highlight-dollar" class="highlight-grid">${dollarHTML}</div>
+    <div id="highlight-share" class="highlight-grid" style="display:none">${shareHTML}</div>
+
+    <footer class="disclaimer">
+      <p>
+        <strong>Disclaimer:</strong> The information presented on this dashboard is provided for informational and illustrative purposes only. While every effort has been made to ensure the accuracy and completeness of the data, no representations or warranties of any kind are made regarding its reliability, timeliness, correctness, or fitness for any particular purpose. The creators, contributors, and affiliated parties of this dashboard expressly disclaim all liability for any errors, omissions, or inaccuracies in the data, as well as for any actions taken or decisions made based on the information displayed herein. Under no circumstances shall the creators, contributors, or affiliated parties be held liable for any direct, indirect, incidental, special, consequential, or punitive damages arising from the use of, or inability to use, the information provided on this dashboard. Users are encouraged to independently verify all data before relying on it for any purpose.
+      </p>
+    </footer>
+  `;
+
+}
+
+function switchHighlightView(view) {
+  document.querySelectorAll('.toggle-btn').forEach(b => b.classList.toggle('active', b.dataset.view === view));
+  document.getElementById('highlight-dollar').style.display = view === 'dollar' ? '' : 'none';
+  document.getElementById('highlight-share').style.display = view === 'share' ? '' : 'none';
+}
+
+function buildDollarCards() {
+  const cards = [];
+  const totals = DATA.total_contributions;
+
+  // Most PAC Money
+  const pacMoney = SUMMARY_DATA.most_pac_money;
+  if (pacMoney && pacMoney.length) {
+    const r = pacMoney[0];
+    const cand = totals.find(t => t.CandidateID === r.CandidateID);
+    const district = cand ? `${cand.Office} — ${cand.Location}` : '';
+    cards.push({ label: 'Most PAC Money', candidate: r.Candidate, value: fmt(+r['Total Contributions']), sub: district });
+  }
+
+  // Most Corporate Money
+  const corpMoney = SUMMARY_DATA.most_corporate_money;
+  if (corpMoney && corpMoney.length) {
+    const r = corpMoney[0];
+    const cand = totals.find(t => t.CandidateID === r.CandidateID);
+    const district = cand ? `${cand.Office} — ${cand.Location}` : '';
+    cards.push({ label: 'Most Corporate Money', candidate: r.Candidate, value: fmt(+r['Total Contributions']), sub: district });
+  }
+
+  // Most Out-of-State Money
+  const outMoney = SUMMARY_DATA.most_out_state_money;
+  if (outMoney && outMoney.length) {
+    const r = outMoney[0];
+    const cand = totals.find(t => t.CandidateID === r.CandidateID);
+    const district = cand ? `${cand.Office} — ${cand.Location}` : '';
+    cards.push({ label: 'Most Out-of-State Money', candidate: r.Candidate, value: fmt(+r.Amount), sub: district });
+  }
+
+  // Most Grassroots Funded — find candidate with highest individual share (we derive from contributor_types)
+  const indivByCand = {};
+  DATA.contributor_types.forEach(r => {
+    if (r['Contributor Type'] === 'Individual') {
+      indivByCand[r.CandidateID] = +r['Total Contributions'];
+    }
+  });
+  let bestGrassroots = null, bestGrassrootsAmt = 0;
+  totals.forEach(c => {
+    const indivAmt = indivByCand[c.CandidateID] || 0;
+    if (indivAmt > bestGrassrootsAmt) {
+      bestGrassrootsAmt = indivAmt;
+      bestGrassroots = c;
+    }
+  });
+  if (bestGrassroots) {
+    cards.push({ label: 'Most Grassroots Funded', candidate: bestGrassroots.Candidate, value: fmt(bestGrassrootsAmt), sub: `${bestGrassroots.Office} — ${bestGrassroots.Location}` });
+  }
+
+  // Widest Fundraising Gap
+  const widest = SUMMARY_DATA.widest_fundraising_gap;
+  if (widest && widest.length) {
+    const r = widest[0];
+    const matchup = `${(r['Highest Candidate']||'').split('(')[0].trim()} vs. ${(r['Second Highest Candidate']||'').split('(')[0].trim()}`;
+    cards.push({ label: 'Widest Fundraising Gap', candidate: `${r.Office} — ${r.Location}`, value: fmt(+r.Difference), sub: matchup });
+  }
+
+  // Tightest Fundraising Gap
+  const smallest = SUMMARY_DATA.smallest_fundraising_gap;
+  if (smallest && smallest.length) {
+    const r = smallest[0];
+    const matchup = `${(r['Highest Candidate']||'').split('(')[0].trim()} vs. ${(r['Second Highest Candidate']||'').split('(')[0].trim()}`;
+    cards.push({ label: 'Tightest Fundraising Gap', candidate: `${r.Office} — ${r.Location}`, value: fmt(+r.Difference), sub: matchup });
+  }
+
+  // Top Overall Fundraiser
+  const sorted = [...totals].sort((a,b) => +b['Total Contributions'] - +a['Total Contributions']);
+  if (sorted.length) {
+    const top = sorted[0];
+    cards.push({ label: 'Top Overall Fundraiser', candidate: top.Candidate, value: fmt(+top['Total Contributions']), sub: `${top.Office} — ${top.Location}` });
+  }
+
+  return cards;
+}
+
+function buildShareCards() {
+  const cards = [];
+
+  // Highest PAC Share
+  const pacShare = SUMMARY_DATA.most_pac_share;
+  if (pacShare && pacShare.length) {
+    const r = pacShare[0];
+    cards.push({ label: 'Highest PAC Share', candidate: r.Candidate, value: Math.round(+r.share * 100) + '%', sub: 'of total raised' });
+  }
+
+  // Highest Corporate Share
+  const corpShare = SUMMARY_DATA.most_corporate_share;
+  if (corpShare && corpShare.length) {
+    const r = corpShare[0];
+    cards.push({ label: 'Highest Corporate Share', candidate: r.Candidate, value: Math.round(+r.share * 100) + '%', sub: 'of total raised' });
+  }
+
+  // Highest Out-of-State Share
+  const outShare = SUMMARY_DATA.most_out_state_share;
+  if (outShare && outShare.length) {
+    const r = outShare[0];
+    cards.push({ label: 'Highest Out-of-State Share', candidate: r.Candidate, value: Math.round(+r.share * 100) + '%', sub: 'of total raised' });
+  }
+
+  // Highest Union Share
+  const unionShare = SUMMARY_DATA.most_union_share;
+  if (unionShare && unionShare.length) {
+    const r = unionShare[0];
+    cards.push({ label: 'Highest Union Share', candidate: r.Candidate, value: Math.round(+r.share * 100) + '%', sub: 'of total raised' });
+  }
+
+  return cards;
+}
+
+function renderHighlightCard(card, color) {
+  return `<div class="highlight-card" style="border-top-color:${color}">
+    <div class="highlight-card-label" style="color:${color}">${card.label}</div>
+    <div class="highlight-card-candidate">${card.candidate}</div>
+    <div class="highlight-card-value" style="color:${color}">${card.value}</div>
+    <div class="highlight-card-sub">${card.sub}</div>
+  </div>`;
 }
 
 function renderSummary() {
   const totals = DATA.total_contributions;
-  const grandTotal = totals.reduce((s,r) => s + +r['Total Contributions'], 0);
+  const offices = [...new Set(totals.map(r => r.Office))].sort();
+  const locations = [...new Set(totals.map(r => r.Location))].sort();
+
+  document.getElementById('summary').innerHTML = `
+
+
+    <h2>All Candidates</h2>
+    <div class="page-sub">Data Updated:
+    <span class="page-sub-date">${DATA.params['Data End']}</span></div>
+
+    <div class="filter-bar">
+      <select id="office-filter" class="filter-select">
+        <option value="">All Offices</option>
+        ${offices.map(o => `<option value="${o}">${o}</option>`).join('')}
+      </select>
+      <select id="location-filter" class="filter-select">
+        <option value="">All Locations</option>
+        ${locations.map(l => `<option value="${l}">${l}</option>`).join('')}
+      </select>
+    </div>
+
+    <div id="races-container"></div>`;
+
+  document.getElementById('office-filter').addEventListener('change', renderRaces);
+  document.getElementById('location-filter').addEventListener('change', renderRaces);
+
+  renderRaces();
+}
+
+function renderRaces() {
+  const totals = DATA.total_contributions;
+  const officeFilter = document.getElementById('office-filter').value;
+  const locationFilter = document.getElementById('location-filter').value;
+
+  const filtered = totals.filter(r =>
+    (!officeFilter || r.Office === officeFilter) &&
+    (!locationFilter || r.Location === locationFilter)
+  );
 
   const byRace = {};
-  totals.forEach(r => {
+  filtered.forEach(r => {
     const key = `${r.Office} – ${r.Location}`;
     (byRace[key] = byRace[key] || []).push(r);
   });
@@ -462,7 +854,7 @@ function renderSummary() {
     }).join('');
 
     racesHTML += `<div class="race-section">
-      
+
       <div class="race-badge" style="color:${savedColor}"> ${race}</div>
       <div class="candidate-table">
         <div class="table-header"><span>Candidate</span><span>Total Raised</span><span>Share of Election</span></div>
@@ -472,46 +864,7 @@ function renderSummary() {
     </div>`;
   });
 
-  const numRaces = Object.keys(byRace).length;
-  document.getElementById('summary').innerHTML = `
-
-  
-    <h2>Summary</h2>
-    <div class="page-sub">Data Updated:
-    <span class="page-sub-date">${DATA.params['Data End']}</span></div>
-
-<div class="stat-grid">
-<div class="stat-card raised">
-<div class="stat-icon">$</div>
-<div class="stat-content">
-<div class="stat-label">Total Raised</div>
-<div class="stat-value stat-total">${fmt(grandTotal)}</div>
-<div class="stat-sub">All candidates</div>
-</div>
-<div class="stat-wave"></div>
-</div>
-
-<div class="stat-card candidates">
-<div class="stat-icon">👥</div>
-<div class="stat-content">
-<div class="stat-label">Candidates</div>
-<div class="stat-value stat-cand">${totals.length}</div>
-</div>
-<div class="stat-wave"></div>
-</div>
-
-<div class="stat-card elections">
-<div class="stat-icon">🗳</div>
-<div class="stat-content">
-<div class="stat-label">Elections</div>
-<div class="stat-value">${numRaces}</div>
-</div>
-<div class="stat-wave"></div>
-</div>
-</div>
-  
-
-    ${racesHTML}`;
+  document.getElementById('races-container').innerHTML = racesHTML || '<div class="empty">No results match the selected filters.</div>';
 
   document.querySelectorAll('.candidate-row').forEach(row => {
     row.addEventListener('click', () => showCandidate(row.dataset.id, row.dataset.name));
@@ -524,7 +877,7 @@ function showCandidate(id, name) {
   document.getElementById('detail-nav-candidate').textContent = name;
   document.getElementById('topbar-title').textContent = name;
 
-  document.getElementById('summary').classList.remove('active');
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
   document.getElementById('candidate-detail').classList.add('active');
 
   renderCandidateDetail(id, name);
@@ -536,8 +889,13 @@ document.getElementById('back-btn').addEventListener('click', () => {
   document.getElementById('sidebar-summary-nav').style.display = 'block';
   document.getElementById('sidebar-detail-nav').style.display = 'none';
   document.getElementById('topbar-title').textContent = 'Campaign Finance Tracker';
-  document.getElementById('candidate-detail').classList.remove('active');
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  // Go back to All Candidates page
   document.getElementById('summary').classList.add('active');
+  // Update sidebar nav to show All Candidates as active
+  document.querySelectorAll('#sidebar-summary-nav nav a').forEach(a => {
+    a.classList.toggle('active', a.dataset.page === 'summary');
+  });
 });
 
 document.querySelectorAll('#sidebar-detail-nav nav a').forEach(a => {
@@ -581,8 +939,8 @@ function renderContribTypes(types) {
   const cards = sorted.slice(0,3).map(r => {
     const color =
         contributorBarColors[r['Contributor Type']] || {
-            background: "#E5E7EB",
-            text: "#6B7280"
+            background: "#9CA3AF",
+            text: "#9CA3AF"
         };
 
     return `
@@ -625,8 +983,8 @@ function renderContribTypes(types) {
 
     const color =
         contributorBarColors[r['Contributor Type']] || {
-            background: "#E5E7EB",
-            text: "#6B7280"
+            background: "#9CA3AF",
+            text: "#9CA3AF"
         };
 
     return `
@@ -929,4 +1287,6 @@ async function renderGeography(id, name) {
 loadAll();
 </script>
 </body>
+
+
 </html>

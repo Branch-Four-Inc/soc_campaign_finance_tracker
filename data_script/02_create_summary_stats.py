@@ -51,6 +51,11 @@ def top_candidate(df: pd.DataFrame,
     Identify top candidate for different money categories 
     '''
     
+    #keep_var = df[df[variable].str.lower().str.contains(contains_string)]
+    
+    # some states have categories across variable names, like Union PAC and Union; group candidates & sum 
+    #keep_var = keep_var.group_by('Candidate')[sorting_variable].sum
+    
     return (df[df[variable].str.lower().str.contains(contains_string)]
                       .sort_values(sorting_variable, ascending = False)
                       .head(1) )
