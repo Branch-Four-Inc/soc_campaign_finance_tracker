@@ -7,9 +7,10 @@ Created on Wed Aug 19 21:08:52 2026
 
 import pandas as pd 
 import numpy as np 
+import os
 
 
-input_dir = 'C:\\Users\\stm4z\\OneDrive - branchfour.org\\Local Data Lab\\Repositories\\leveler_campaign_finance_tracker\\data_output\\'
+input_dir = './data_output/HUDSON COUNTY/'
 
 
 
@@ -57,7 +58,7 @@ def top_candidate(df: pd.DataFrame,
 
 
 pac_string = 'pac|political action committee'
-corporate_string = 'partnership|professional|limited liability company'
+corporate_string = 'business|corp'
 outstate_string = 'out-of-state'
 union_string = 'union'
 
@@ -93,8 +94,16 @@ most_out_state_money = top_candidate(in_state, 'Contributor Location', outstate_
 
 # widest fundraising gap
 
-fundraising_gap = total_contributions.groupby(['Location', 'Office']).apply(top_two_spread, include_groups=False).reset_index().sort_values('Difference', ascending=False)
+#fundraising_gap = total_contributions.groupby(['Location', 'Office']).apply(top_two_spread, include_groups=False).reset_index().sort_values('Difference', ascending=False)
 #fundraising_gap =  total_contributions.groupby(['Location', 'Office']).apply(top_two_spread).reset_index().sort_values('Difference', ascending = False)
+
+fundraising_gap = (
+    total_contributions
+    .groupby(['Location', 'Office'], group_keys=False)
+    .apply(top_two_spread)
+    .dropna(subset=['Difference'])
+    .sort_values('Difference', ascending=False)
+)
 widest_gap = fundraising_gap.head(1)
 smallest_gap = fundraising_gap.tail(1)
 
@@ -131,6 +140,9 @@ outstate_share = top_candidate(state_share, 'Contributor Location', outstate_str
 # ------------------------------------------------------------------------------------------
 # EXPORT OUTPUTS 
 # ------------------------------------------------------------------------------------------
+
+if not os.path.exists(input_dir + '//summary_page'):
+    os.makedirs(input_dir + '//summary_page')
 
 # output totals 
 total_contributions_by_election.to_csv(input_dir + 'summary_page//total_contributions_by_election.csv')
