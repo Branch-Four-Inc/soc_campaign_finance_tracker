@@ -15,7 +15,20 @@ def main(file_format="tsv"):
     contribution_start = (date.today() - relativedelta(years = 5)).strftime("%Y-%m-%d")
     contribution_end = pull_date
     state = "NJ"
+    data_source = "NJ Election Law Enforcement Commission"
     ###############################################
+    
+    # parmeters to show on UI
+    parameters = pd.DataFrame(
+        {
+            "Newsroom": newsroom,
+            "State": state.upper(),
+            "Data Start": contribution_start,
+            "Data End": contribution_end,
+            "Data Source": data_source
+        },
+        index=[0],
+    )
 
     input_dir = Path(f"raw_contributions/{county}")
     output_dir = Path(f"data_output/{county}")
@@ -310,16 +323,6 @@ def main(file_format="tsv"):
     # state_contr['STATE'] = state_contr['STATE'].str.upper()
     state_contr = state_contr.rename({"STATE": "State"}, axis=1)
 
-    # parmeters to show on UI
-    parameters = pd.DataFrame(
-        {
-            "Newsroom": newsroom,
-            "State": state.upper(),
-            "Data Start": contribution_start,
-            "Data End": contribution_end,
-        },
-        index=[0],
-    )
 
     # export csvs
     output_dir.mkdir(exist_ok=True)
