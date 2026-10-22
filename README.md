@@ -1,7 +1,7 @@
 # soc_campaign_finance_tracker
 Campaign finance tracker for local candidates representing towns in Hudson County, NJ
 
-Weblink: https://branch-four-inc.github.io/leveler_campaign_finance_tracker/
+Weblink: https://branch-four-inc.github.io/soc_campaign_finance_tracker/
 
 ## How to run
 
