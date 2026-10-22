@@ -1,3 +1,49 @@
+"""
+Summarize Contributions
+=======================
+
+Reads the raw per-candidate contribution files and the candidate list for a
+county (produced by 01_scrape_data.py) and writes the summary CSVs used by the
+tracker UI.
+
+USAGE
+-----
+Run from the repository root (input/output paths are relative to it):
+
+    python data_script/02_summarize_contributions.py COUNTY YEAR NEWSROOM STATE DATA_SOURCE
+
+Arguments (all required, in this order):
+    COUNTY       County name as used in raw_contributions, e.g. "HUDSON COUNTY"
+    YEAR         Election year in the candidate file name, e.g. 2026
+    NEWSROOM     Newsroom name shown in the UI, e.g. "Slice of Culture"
+    STATE        Two-letter state code, e.g. NJ
+    DATA_SOURCE  Source of the data, e.g. "NJ Election Law Enforcement Commission"
+
+Example:
+    python data_script/02_summarize_contributions.py "HUDSON COUNTY" 2026 "Slice of Culture" NJ "NJ Election Law Enforcement Commission"
+
+INPUT
+-----
+    raw_contributions/<COUNTY>/<PULL_DATE>/*_contribution_detail.tsv
+    raw_contributions/<COUNTY>/<PULL_DATE>/candidates_<COUNTY_WITH_UNDERSCORES>_<YEAR>.tsv
+    (the most recent <PULL_DATE> folder, YYYY-MM-DD, is used)
+
+Run 01_scrape_data.py first with the same county and year to create these.
+
+OUTPUT
+------
+    data_output/<COUNTY>/ : total_contributions.csv, contributor_types.csv,
+    top_contributors.csv, pac_contributors.csv, corporate_contributors.csv,
+    parameters.csv, instate_perc.csv, all_state_perc.csv
+
+NOTES
+-----
+- Data window is the five years ending today; the pull date is today's date.
+- Only HUDSON COUNTY and ESSEX COUNTY have candidate-name cleanup mappings.
+  Other counties need an entry added to CNTY_MAP in main().
+"""
+
+import argparse
 import numpy as np
 import pandas as pd
 from pathlib import Path
@@ -6,21 +52,55 @@ from datetime import date
 from dateutil.relativedelta import relativedelta
 
 
-def main(file_format="tsv"):
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description="Summarize raw contribution files for a county into the "
+        "CSVs used by the tracker UI."
+    )
+    parser.add_argument(
+        "county", help='County name as used in raw_contributions, e.g. "HUDSON COUNTY"'
+    )
+    parser.add_argument("year", help='Election year of the candidate file, e.g. "2026"')
+    parser.add_argument("newsroom", help='Newsroom name, e.g. "Slice of Culture"')
+    parser.add_argument("state", help='Two-letter state code, e.g. "NJ"')
+    parser.add_argument(
+        "data_source",
+        help='Data source, e.g. "NJ Election Law Enforcement Commission"',
+    )
+    return parser.parse_args()
 
-    ############# CONFIG ##########################
-    county = "HUDSON COUNTY"
-    newsroom = "Slice of Culture"
+
+def main(county, year, newsroom, state, data_source, file_format="tsv"):
+
     pull_date = date.today().strftime("%Y-%m-%d")
     contribution_start = (date.today() - relativedelta(years = 5)).strftime("%Y-%m-%d")
     contribution_end = pull_date
-    state = "NJ"
-    ###############################################
 
-    input_dir = Path(f"raw_contributions/{county}")
+    # parmeters to show on UI
+    parameters = pd.DataFrame(
+        {
+            "Newsroom": newsroom,
+            "State": state.upper(),
+            "Data Start": contribution_start,
+            "Data End": contribution_end,
+            "Data Source": data_source
+        },
+        index=[0],
+    )
+
+    # each scrape lands in its own raw_contributions/<county>/<pull date>/ folder;
+    # use the most recent one
+    pull_folders = sorted(
+        p for p in Path(f"raw_contributions/{county}").iterdir() if p.is_dir()
+    )
+    if not pull_folders:
+        raise FileNotFoundError(
+            f"No dated pull folders found in raw_contributions/{county}"
+        )
+    input_dir = pull_folders[-1]
     output_dir = Path(f"data_output/{county}")
     candidate_info_dir = input_dir / Path(
-        f"candidates_{'_'.join(county.split(' '))}_2026.tsv"
+        f"candidates_{'_'.join(county.split(' '))}_{year}.tsv"
     )
     file_names = input_dir.glob(f"*{file_format}")
 
@@ -310,16 +390,6 @@ def main(file_format="tsv"):
     # state_contr['STATE'] = state_contr['STATE'].str.upper()
     state_contr = state_contr.rename({"STATE": "State"}, axis=1)
 
-    # parmeters to show on UI
-    parameters = pd.DataFrame(
-        {
-            "Newsroom": newsroom,
-            "State": state.upper(),
-            "Data Start": contribution_start,
-            "Data End": contribution_end,
-        },
-        index=[0],
-    )
 
     # export csvs
     output_dir.mkdir(exist_ok=True)
@@ -335,4 +405,5 @@ def main(file_format="tsv"):
 
 
 if __name__ == "__main__":
-    main()
+    args = parse_args()
+    main(args.county, args.year, args.newsroom, args.state, args.data_source)

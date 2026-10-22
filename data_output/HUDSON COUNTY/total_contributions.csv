@@ -1,6 +1,6 @@
 CandidateID,Candidate,Location,Office,Total Contributions
 441534,"Carroll, Cornelius J",Bayonne City,Municipal Office,39425.0
-441914,"Davis, James",Bayonne City,Mayor,239423.0
+441914,"Davis, James",Bayonne City,Mayor,243223.0
 446421,"Perez, Juan  M",Bayonne City,Municipal Office,57175.0
 446426,"La Pelusa, Gary Sr",Bayonne City,Municipal Office,112419.0
 448965,"Gerbasio, John",Secaucus Town,Municipal Office,0.0
@@ -8,7 +8,7 @@ CandidateID,Candidate,Location,Office,Total Contributions
 448967,"Clancy, James",Secaucus Town,Municipal Office,0.0
 448968,Gerbasio Tringali & Clancy,Secaucus Town,Joint Candidates Cmte,0.0
 459096,"Booker, Loyad",Bayonne City,Mayor,86675.0
-459284,"Baselice, Robert P",Hudson County,County Commissioner,85550.0
+459284,"Baselice, Robert P",Hudson County,County Commissioner,500.0
 459966,"O'Dea, William",Hudson County,County Commissioner,78789.0
 459974,"Kopacz, Kenneth",Hudson County,County Commissioner,198550.0
 460816,"Romano, Anthony L Jr",Hudson County,County Commissioner,100051.0
@@ -24,7 +24,7 @@ CandidateID,Candidate,Location,Office,Total Contributions
 475396,"Ghainda, Adrian",Hudson County,County Commissioner,0.0
 481744,"Lucarelli, Lance",Bayonne City,Mayor,0.0
 481935,"Theodoropoulos, Stathis",Kearny Town,Municipal Office,3100.0
-502634,"Ashe Nadrowski, Sharon",Bayonne City,Mayor,240686.0
+502634,"Ashe Nadrowski, Sharon",Bayonne City,Mayor,184636.0
 502755,"Walker, Erica",Hudson County,County Commissioner,0.0
 502790,"Sabry Guirgis, David",Hudson County,County Commissioner,5963.0
 502840,"Perry, Gene E",Bayonne City,Municipal Office,0.0
@@ -44,7 +44,7 @@ CandidateID,Candidate,Location,Office,Total Contributions
 503108,"Valdivia, Celin J",Union City,Municipal Office,0.0
 503109,Stack Martinetti Grullon Fernandez & Valdivia,Union City,Joint Candidates Cmte,492401.0
 503124,"Ekladious, Mina",Hudson County,County Commissioner,42800.0
-503165,"Dublin, Jeffrey",Hudson County,County Registrar Of Deeds,27975.0
+503165,"Dublin, Jeffrey",Hudson County,County Registrar Of Deeds,33625.0
 503283,"Gillen, Thomas",Bayonne City,Municipal Office,0.0
 503444,"Valdez, Alex",Hudson County,County Commissioner,28589.0
 503454,"Desmond, Mary Jane",Bayonne City,Mayor,0.0
@@ -61,7 +61,7 @@ CandidateID,Candidate,Location,Office,Total Contributions
 503571,"Solano, Dennis",Kearny Town,Municipal Office,0.0
 503572,"Bonilla, Sarah",Kearny Town,Municipal Office,0.0
 503573,Zapata Solano Bonilla & Theodoropoulos,Kearny Town,Joint Candidates Cmte,25057.0
-503579,"Johnson, Pam",Hudson County,County Commissioner,4587.0
+503579,"Johnson, Pam",Hudson County,County Commissioner,1787.0
 503610,"Cannata, John",Weehawken Township,School Board,0.0
 503611,"Cabrera, Linda",Weehawken Township,School Board,0.0
 503612,"Pinal, Richard",Weehawken Township,School Board,0.0
@@ -96,8 +96,8 @@ CandidateID,Candidate,Location,Office,Total Contributions
 505315,"Manuel, Emily",Weehawken Township,Municipal Office,0.0
 505589,Zincavage & De Oliveira,East Newark Borough,Joint Candidates Cmte,0.0
 505610,"Gillen, Tommy",Bayonne City,Municipal Office,0.0
-505637,"Weiner, Aaron",Hudson County,County Commissioner,0.0
-507236,"Bystrowski, Darius",Kearny Town,Municipal Office,0.0
+505637,"Weiner, Aaron",Hudson County,County Commissioner,16601.0
+507236,"Bystrowski, Dariusz",Kearny Town,Municipal Office,0.0
 507242,"Tehfa, Sukaina",Guttenberg Town,School Board,0.0
 507256,"Klich, Amanda",Bayonne City,School Board,0.0
 509364,"Kopacz, Robyn",Bayonne City,School Board,0.0
@@ -131,5 +131,14 @@ CandidateID,Candidate,Location,Office,Total Contributions
 509393,"Graniere, Anthony",Secaucus Town,School Board,0.0
 509394,"Nguyen, Katherine",Secaucus Town,School Board,0.0
 509395,"Khiry Gerbasio, Dina",Secaucus Town,School Board,0.0
-509396,Patel Blount Morris Rodriguez Education Matters,Jersey City,Joint Candidates Cmte,0.0
-509500,Taube Verdibello Williams Walker For Stronger School,Jersey City,Joint Candidates Cmte,0.0
+509396,Patel Blount Morris & Rodriguez Education Matters,Jersey City,Joint Candidates Cmte,0.0
+509500,Taube Verdibello Williams Walker For Stronger Schools,Jersey City,Joint Candidates Cmte,0.0
+509537,Rodrigues & Elliott Cte,Kearny Town,Joint Candidates Cmte,0.0
+509625,Vogt Garcia Bahadur & Masongo Leadership That Listens Jc,Jersey City,Joint Candidates Cmte,0.0
+509651,Dallara Oxman & Angley Together For Tomorrow,Hoboken City,Joint Candidates Cmte,0.0
+509711,Zapata & Bonilla,Kearny Town,Joint Candidates Cmte,0.0
+509730,Cubberly Kopacz Hladik & Yacoub Together We Can 2026,Bayonne City,Joint Candidates Cmte,0.0
+509740,"Chan, Ki Sau",Harrison Town,Municipal Office,0.0
+509755,Zincavage & De Oliveira Moving East Newark Forward,East Newark Borough,Joint Candidates Cmte,0.0
+509819,"Landfield, Stephen",Harrison Town,Municipal Office,0.0
+509868,"Martins, Janeth",Kearny Town,Municipal Office,0.0

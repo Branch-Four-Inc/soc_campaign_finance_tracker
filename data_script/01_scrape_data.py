@@ -16,16 +16,24 @@ Selenium is used to load the search page once to read the Location and Office
 dropdowns' codes which aren't present in the plain page HTML. Once
 those codes are collected, everything runs as plain HTTP calls.
 
-CONFIGURATION
--------------
-Edit the constants in the CONFIG section below.
+USAGE
+-----
+Run from the repository root (output goes to ./raw_contributions):
+
+    python data_script/01_scrape_data.py COUNTY_TEXT YEAR_TEXT
+    python data_script/01_scrape_data.py "HUDSON COUNTY" 2026
+
+Other settings (office filter, headless mode, etc.) are constants in the
+CONFIG section below.
 """
 
+import argparse
 import os
 import re
 import csv
 import time
 import requests
+from datetime import date
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait, Select
@@ -39,13 +47,13 @@ SUMMARY_URL_TMPL = f"{BASE_URL}/SummaryData?eid={{eid}}"
 ENTITIES_API_URL = f"{BASE_URL}/api/VWEntity/Entities20"
 CONTRIB_API_URL = f"{BASE_URL}/api/VWContributionDetail/GetContBitsDataByObject"
 
-COUNTY_TEXT = "ESSEX COUNTY"  # <-- set to the county you want
-YEAR_TEXT = "2026"  # <-- election year (or "ALL")
+COUNTY_TEXT = None  # set from the command line (e.g. "HUDSON COUNTY")
+YEAR_TEXT = None  # set from the command line (e.g. "2026", or "ALL")
 OFFICE_TEXT = "ALL"  # <-- office filter, "ALL" for everything
 INCLUDE_COUNTY_WIDE_OPTION = True  # also search the bare county option
 NONPAC_ONLY = True  # matches the site default (candidates/committees, not PACs)
 
-OUTPUT_DIR = os.path.abspath(f"./raw_contributions/{COUNTY_TEXT}")
+OUTPUT_DIR = None  # raw_contributions/<COUNTY_TEXT>/<pull date>, set in main()
 
 HEADLESS = False  # set True once everything's confirmed working
 WAIT_TIMEOUT = 20  # seconds to wait for elements
@@ -439,7 +447,32 @@ def write_candidates_tsv(all_candidates):
 # ------------------------------------ main ---------------------------------
 
 
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description="Download NJ ELEC contribution data for every candidate "
+        "in a county for a given election year."
+    )
+    parser.add_argument(
+        "county",
+        metavar="COUNTY_TEXT",
+        help='County name exactly as shown on the site, e.g. "HUDSON COUNTY"',
+    )
+    parser.add_argument(
+        "year",
+        metavar="YEAR_TEXT",
+        help='Election year, e.g. "2026", or "ALL"',
+    )
+    return parser.parse_args()
+
+
 def main():
+    global COUNTY_TEXT, YEAR_TEXT, OUTPUT_DIR
+    args = parse_args()
+    COUNTY_TEXT = args.county.strip()
+    YEAR_TEXT = args.year.strip()
+    pull_date = date.today().strftime("%Y-%m-%d")
+    OUTPUT_DIR = os.path.abspath(f"./raw_contributions/{COUNTY_TEXT}/{pull_date}")
+
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     # Use Selenium only to read dropdown codes
