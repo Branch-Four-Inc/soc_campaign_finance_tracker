@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Slice of Culture: Campaign Finance Tracker</title>
+<title>Campaign Finance Tracker</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Gudea:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
@@ -28,9 +28,25 @@
    nav a.active { color: #d7ae6e}
   nav a .icon { font-size: 22px; display: flex;
     align-items: center;}
-  .nav-back { padding: 10px 20px 0; }
-  .nav-back button { background: none; border: none; color: #9ca3af; font-size: 13px; cursor: pointer; display: flex; align-items: center; gap: 6px; padding: 10px; }
-  .nav-back button:hover { color: #d7ae6e; }
+  .page-back-btn {
+    background: #fff;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    color: #1f483d;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.06);
+    transition: background .15s, color .15s, border-color .15s;
+  }
+  .page-back-btn:hover { background: #1f483d; border-color: #1f483d; color: #fff; }
+  .page-back-btn:focus-visible { outline: 2px solid #d7ae6e; outline-offset: 2px; }
   .nav-section { padding: 8px 20px 4px; font-size: 10px; color: #9ca3af; text-transform: uppercase; letter-spacing: .1em; }
   .btn-grad { margin: 10px; padding: 13px 12px; border-radius: 9px; white-space: nowrap; }
   .btn-grad.active { transition: 0.5s; background-size: 200% auto; display: flex; outline: none; text-decoration: none; border: 1px solid transparent; background-image: linear-gradient(to right, #372f59 0%, #17182b 50%, #17182b 100%), linear-gradient(to right, #d7ae6e 0%, #17182b 40%, #17182b 100%); background-origin: border-box; background-clip: padding-box, border-box; }
@@ -169,6 +185,14 @@
   .overview-bar-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 16px; }
   .overview-bar-header h3 { font-size: 20px; font-weight: 700; color: #111827; }
   .overview-bar-header .overview-bar-meta { font-size: 13px; color: #9ca3af; }
+  .nofiling-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; }
+  .nofiling-tile { background: #fff; border: 1px solid #e5e7eb; border-left: 4px solid #d1d5db; border-radius: 8px; padding: 10px 14px; cursor: pointer; transition: box-shadow .15s, border-color .15s; }
+  .nofiling-tile:hover, .nofiling-tile:focus-visible { border-color: #1f483d; box-shadow: 0 2px 8px rgba(0,0,0,.08); outline: none; }
+  .nofiling-tile-office { font-size: 14px; font-weight: 600; color: #374151; }
+  .nofiling-tile-location { font-size: 12px; color: #9ca3af; margin-top: 2px; }
+  .overview-bar-row[data-election] { cursor: pointer; transition: box-shadow .15s, border-color .15s; }
+  .overview-bar-row[data-election]:hover,
+  .overview-bar-row[data-election]:focus-visible { border-color: #1f483d; box-shadow: 0 2px 8px rgba(0,0,0,.08); outline: none; }
   .overview-bar-row {
     display: grid;
     grid-template-columns: 250px 110px 1fr;
@@ -219,6 +243,9 @@
 
   /* Highlight cards */
   .highlight-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 32px; }
+  .highlight-card.clickable { cursor: pointer; transition: box-shadow .15s, transform .15s; }
+  .highlight-card.clickable:hover,
+  .highlight-card.clickable:focus-visible { box-shadow: 0 4px 12px rgba(0,0,0,.1); transform: translateY(-2px); outline: none; }
   .highlight-card {
     background: #fff;
     border: 1px solid #e5e7eb;
@@ -252,8 +279,25 @@
   .type-card-value { font-size: 20px; font-weight: 700; }
   .type-card-sub { font-size: 12px; color: #9ca3af; margin-top: 4px; }
 
-  h2 { font-size: 22px; font-weight: 700; margin-bottom: 4px; color: #111827; }
-  .page-sub { font-size: 13px; color: #9ca3af; margin-bottom: 24px; }
+  h2 {
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    margin-bottom: 6px;
+    color: #1f483d;
+  }
+  h2 .h2-sub { display: block; font-size: 18px; font-weight: 600; letter-spacing: 0; color: #6b7280; margin-top: 4px; }
+  h2::after {
+    content: "";
+    display: block;
+    width: 48px;
+    height: 4px;
+    border-radius: 2px;
+    background: #d7ae6e;
+    margin-top: 10px;
+  }
+  .page-sub { font-size: 15px; color: #9ca3af; margin: 10px 0 24px; }
   .page-sub .page-sub-date { color: #c79072; 
 }
   .empty { color: #9ca3af; font-size: 13px; padding: 24px 16px; }
@@ -275,6 +319,8 @@
     #topbar { display: flex; }
 
     #main { padding: 16px; overflow-y: auto; }
+    h2 { font-size: 26px; }
+    h2 .h2-sub { font-size: 15px; }
 
     .table-header { grid-template-columns: 1fr 90px; }
     .table-header span:nth-child(3) { display: none; }
@@ -353,9 +399,6 @@
     </nav>
   </div>
   <div id="sidebar-detail-nav" style="display:none">
-    <div class="nav-back">
-      <button id="back-btn">← All Elections</button>
-    </div>
     <div class="nav-section" id="detail-nav-candidate"></div>
     <nav>
       <a class="active" data-tab="contrib-types"><span class="icon">◑</span> Contribution Types</a>
@@ -420,64 +463,34 @@ const contributorColors = { //for top contributors
       text: "#C026D3"
     }
   };
+  // One distinct color per contributor type (names match contributor_types.csv)
   const contributorBarColors = {//for bar charts
-    "(Unknown)": {
-      background: "#ca9545",
-      text: "#ca9545"
-    },
-    "Individual": {
-      background: "#6f62cd",
-      text: "#6f62cd"
-    },
-    "Political Committee": {
-      background: "#ca7e7d",
-      text: "#ca7e7d"
-    },
-    "Candidate/Candidate Spouse": {
-      background: "#893332",
-      text: "#893332"
-    },
-    "Candidate Family Member": {
-      background: "#9ac6bd",
-      text: "#9ac6bd"
-    },
-    "Partnership, Including Llps": {
-      background: "#f43a3b",
-      text: "#f43a3b"
-    },
-    "Political Action Committee (PAC) | Political Committee": {
-      background: "#3c7e2d",
-      text: "#3c7e2d"
-    },
-    "Union": {
-      background: "#0a96aa",
-      text: "#0a96aa"
-    },
-    "Corporation": {
-      background: "#0284C7",
-      text: "#0284C7"
-    },
-    "Political Action Committee (PAC)": {
-      background: "#3c7e2d",
-      text: "#3c7e2d"
-    },
-    "Association": {
-      background: "#2563eb",
-      text: "#2563eb"
-    },
-    "Other": {
-      background: "#64748b",
-      text: "#64748b"
-    },
-    "Professional/Limited Liability Company (Pllc/Llc)": {
-      background: "#78350f",
-      text: "#78350f"
-    },
-    "Sole Proprietorship": {
-      background: "#be185d",
-      text: "#be185d"
-    },
+    "(Unknown)": "#ca9545",
+    "Individual": "#6f62cd",
+    "Business/Corp": "#0284c7",
+    "Business/ Corp Assoc/ PAC": "#1e3a8a",
+    "Union": "#0a96aa",
+    "Union PAC": "#3c7e2d",
+    "Candidate Committee": "#893332",
+    "Political Cmte": "#ca7e7d",
+    "Political Party Cmte": "#f43a3b",
+    "Political Club": "#be185d",
+    "Professional PAC": "#78350f",
+    "Trade Association PAC": "#7a8f1c",
+    "Ideological Assoc/ PAC": "#9ac6bd",
+    "Interest": "#e87d2b",
+    "Misc/ Other": "#c026d3",
+    "Legislative Leadership Cmte": "#1f483d",
   };
+  // Types not listed above get a stable color from this palette instead of grey
+  const FALLBACK_TYPE_COLORS = ['#2563eb','#b45309','#0f766e','#9333ea','#dc2626','#65a30d','#db2777','#0891b2'];
+
+  function contributorColor(type) {
+    if (contributorBarColors[type]) return contributorBarColors[type];
+    let h = 0;
+    for (const ch of String(type)) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+    return FALLBACK_TYPE_COLORS[h % FALLBACK_TYPE_COLORS.length];
+  }
 
 function fmt(n) { return '$' + Number(n).toLocaleString(undefined, {minimumFractionDigits:0, maximumFractionDigits:0}); }
 function initials(name) { return name.split(' ').filter(Boolean).slice(0,2).map(w=>w[0].toUpperCase()).join(''); }
@@ -512,29 +525,70 @@ overlay.addEventListener('click', closeDrawer);
 
 // close drawer on nav item click (mobile)
 sidebar.addEventListener('click', e => {
-  if (e.target.closest('nav a') || e.target.closest('#back-btn')) closeDrawer();
+  if (e.target.closest('nav a')) closeDrawer();
 });
 
 // ── Page navigation (Summary vs All Candidates) ──
-document.querySelectorAll('#sidebar-summary-nav nav a').forEach(a => {
-  a.addEventListener('click', () => {
-    const page = a.dataset.page;
-    // Update active nav
-    document.querySelectorAll('#sidebar-summary-nav nav a').forEach(x => x.classList.remove('active'));
-    a.classList.add('active');
-    // Show correct page
-    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
-    document.getElementById(page).classList.add('active');
-    // Reset detail nav if visible
-    document.getElementById('sidebar-summary-nav').style.display = 'block';
-    document.getElementById('sidebar-detail-nav').style.display = 'none';
-    document.getElementById('topbar-title').textContent = 'Campaign Finance Tracker';
+// #main is the scroll container (the window itself never scrolls)
+function scrollToTop() {
+  document.getElementById('main').scrollTop = 0;
+}
+
+function showPage(page) {
+  // Update active nav
+  document.querySelectorAll('#sidebar-summary-nav nav a').forEach(x => {
+    x.classList.toggle('active', x.dataset.page === page);
   });
+  // Show correct page
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.getElementById(page).classList.add('active');
+  // Reset detail nav if visible
+  document.getElementById('sidebar-summary-nav').style.display = 'block';
+  document.getElementById('sidebar-detail-nav').style.display = 'none';
+  document.getElementById('topbar-title').textContent = 'Campaign Finance Tracker';
+  scrollToTop();
+}
+
+document.querySelectorAll('#sidebar-summary-nav nav a').forEach(a => {
+  a.addEventListener('click', () => showPage(a.dataset.page));
+});
+
+// Clicking an election tile opens All Candidates filtered to that office/location
+function openElection(row) {
+  showPage('summary');
+  document.getElementById('office-filter').value = row.Office;
+  document.getElementById('location-filter').value = row.Location;
+  renderRaces();
+  scrollToTop();
+}
+
+// Clicking a highlight tile opens that candidate (or, for the fundraising-gap
+// tiles, the election) it describes
+function openHighlight(card) {
+  if (card.id) showCandidate(card.id, card.candidate);
+  else if (card.election) openElection(card.election);
+}
+
+function handleOverviewActivate(e) {
+  const election = e.target.closest('[data-election]');
+  if (election) return openElection(ELECTION_ROWS[+election.dataset.election]);
+  const highlight = e.target.closest('.highlight-card[data-card]');
+  if (highlight) openHighlight(HIGHLIGHT_CARDS[+highlight.dataset.card]);
+}
+
+document.getElementById('overview').addEventListener('click', handleOverviewActivate);
+document.getElementById('overview').addEventListener('keydown', e => {
+  if (e.key !== 'Enter' && e.key !== ' ') return;
+  if (!e.target.closest('[data-election], [data-card]')) return;
+  e.preventDefault();
+  handleOverviewActivate(e);
 });
 
 // ── Data ──
 let DATA = {};
 let SUMMARY_DATA = {};
+let HIGHLIGHT_CARDS = []; // highlight cards, indexed by data-card
+let ELECTION_ROWS = []; // election tiles, in displayed order
 
 async function loadAll() {
   const files = ['total_contributions','contributor_types','pac_contributors','corporate_contributors','top_contributors','instate_perc','all_state_perc'];
@@ -552,7 +606,7 @@ async function loadAll() {
 
   document.title = `${params['Newsroom']}: Campaign Finance Tracker`;
   const sourceEl = document.getElementById('sidebar-source');
-  sourceEl.textContent = `Data sourced from ${params['State']} Election Law Enforcement Commission.`;
+  sourceEl.textContent = `Data sourced from ${params['Data Source']}.`;
   sourceEl.style.display = 'block';
 
   renderOverview();
@@ -572,22 +626,42 @@ function renderOverview() {
   // Sort elections by total contributions descending
   const sortedElections = [...byElection].sort((a,b) => +b['Total Contributions'] - +a['Total Contributions']);
   const maxElection = sortedElections.length ? +sortedElections[0]['Total Contributions'] : 1;
+  ELECTION_ROWS = sortedElections;
 
   const electionBarColors = ['#1f483d','#b76583','#7c5caf','#cf785d','#1f483d','#b76583'];
 
-  const barsHTML = sortedElections.map((e, i) => {
+  // data-election is the index into ELECTION_ROWS, so it stays the same across both sections
+  const electionRowHTML = (e, i, color) => {
     const amt = +e['Total Contributions'];
     const pct = maxElection ? (amt / maxElection * 100) : 0;
-    const color = electionBarColors[i % electionBarColors.length];
     const label = `${e.Office} — ${e.Location}`;
-    return `<div class="overview-bar-row">
+    return `<div class="overview-bar-row" data-election="${i}" role="button" tabindex="0">
       <div class="overview-bar-label"><div class="overview-bar-dot" style="background:${color}"></div>${label}</div>
       <div class="overview-bar-amount">${fmt(amt)}</div>
       <div class="overview-bar-track"><div class="overview-bar-fill" style="width:${pct.toFixed(1)}%;background:${color}"></div></div>
     </div>`;
-  }).join('');
+  };
+
+  // elections with $0 raised go in their own section (sorted descending, so they are last)
+  const numFiled = sortedElections.filter(e => +e['Total Contributions'] > 0).length;
+  const barsHTML = sortedElections.slice(0, numFiled)
+    .map((e, i) => electionRowHTML(e, i, electionBarColors[i % electionBarColors.length])).join('');
+  const noFilingsHTML = sortedElections.slice(numFiled).map((e, i) => `
+    <div class="nofiling-tile" data-election="${numFiled + i}" role="button" tabindex="0">
+      <div class="nofiling-tile-office">${e.Office}</div>
+      <div class="nofiling-tile-location">${e.Location}</div>
+    </div>`).join('');
+  const noFilingsSection = noFilingsHTML ? `
+    <div class="overview-bar-section">
+      <div class="overview-bar-header">
+        <h3>Elections with No Contribution Filings</h3>
+        <div class="overview-bar-meta">${numElections - numFiled} elections</div>
+      </div>
+      <div class="nofiling-grid">${noFilingsHTML}</div>
+    </div>` : '';
 
   // Build highlight cards data
+  HIGHLIGHT_CARDS = [];
   const dollarCards = buildDollarCards();
   const shareCards = buildShareCards();
 
@@ -629,10 +703,11 @@ function renderOverview() {
     <div class="overview-bar-section">
       <div class="overview-bar-header">
         <h3>Total Raised by Election</h3>
-        <div class="overview-bar-meta">${numElections} elections · ${fmt(grandTotal)} combined</div>
+        <div class="overview-bar-meta">${numFiled} elections · ${fmt(grandTotal)} combined</div>
       </div>
       ${barsHTML}
     </div>
+    ${noFilingsSection}
 
     <div class="highlight-header">
       <h3>Fundraising Highlights</h3>
@@ -669,7 +744,7 @@ function buildDollarCards() {
     const r = pacMoney[0];
     const cand = totals.find(t => t.CandidateID === r.CandidateID);
     const district = cand ? `${cand.Office} — ${cand.Location}` : '';
-    cards.push({ label: 'Most PAC Money', candidate: r.Candidate, value: fmt(+r['Total Contributions']), sub: district });
+    cards.push({ label: 'Most PAC Money', candidate: r.Candidate, id: r.CandidateID, value: fmt(+r['Total Contributions']), sub: district });
   }
 
   // Most Corporate Money
@@ -678,7 +753,7 @@ function buildDollarCards() {
     const r = corpMoney[0];
     const cand = totals.find(t => t.CandidateID === r.CandidateID);
     const district = cand ? `${cand.Office} — ${cand.Location}` : '';
-    cards.push({ label: 'Most Corporate Money', candidate: r.Candidate, value: fmt(+r['Total Contributions']), sub: district });
+    cards.push({ label: 'Most Corporate Money', candidate: r.Candidate, id: r.CandidateID, value: fmt(+r['Total Contributions']), sub: district });
   }
 
   // Most Out-of-State Money
@@ -687,7 +762,7 @@ function buildDollarCards() {
     const r = outMoney[0];
     const cand = totals.find(t => t.CandidateID === r.CandidateID);
     const district = cand ? `${cand.Office} — ${cand.Location}` : '';
-    cards.push({ label: 'Most Out-of-State Money', candidate: r.Candidate, value: fmt(+r.Amount), sub: district });
+    cards.push({ label: 'Most Out-of-State Money', candidate: r.Candidate, id: r.CandidateID, value: fmt(+r.Amount), sub: district });
   }
 
   // Most Grassroots Funded — find candidate with highest individual share (we derive from contributor_types)
@@ -706,7 +781,7 @@ function buildDollarCards() {
     }
   });
   if (bestGrassroots) {
-    cards.push({ label: 'Most Grassroots Funded', candidate: bestGrassroots.Candidate, value: fmt(bestGrassrootsAmt), sub: `${bestGrassroots.Office} — ${bestGrassroots.Location}` });
+    cards.push({ label: 'Most Grassroots Funded', candidate: bestGrassroots.Candidate, id: bestGrassroots.CandidateID, value: fmt(bestGrassrootsAmt), sub: `${bestGrassroots.Office} — ${bestGrassroots.Location}` });
   }
 
   // Widest Fundraising Gap
@@ -714,7 +789,7 @@ function buildDollarCards() {
   if (widest && widest.length) {
     const r = widest[0];
     const matchup = `${(r['Highest Candidate']||'').split('(')[0].trim()} vs. ${(r['Second Highest Candidate']||'').split('(')[0].trim()}`;
-    cards.push({ label: 'Widest Fundraising Gap', candidate: `${r.Office} — ${r.Location}`, value: fmt(+r.Difference), sub: matchup });
+    cards.push({ label: 'Widest Fundraising Gap', candidate: `${r.Office} — ${r.Location}`, election: { Office: r.Office, Location: r.Location }, value: fmt(+r.Difference), sub: matchup });
   }
 
   // Tightest Fundraising Gap
@@ -722,14 +797,14 @@ function buildDollarCards() {
   if (smallest && smallest.length) {
     const r = smallest[0];
     const matchup = `${(r['Highest Candidate']||'').split('(')[0].trim()} vs. ${(r['Second Highest Candidate']||'').split('(')[0].trim()}`;
-    cards.push({ label: 'Tightest Fundraising Gap', candidate: `${r.Office} — ${r.Location}`, value: fmt(+r.Difference), sub: matchup });
+    cards.push({ label: 'Tightest Fundraising Gap', candidate: `${r.Office} — ${r.Location}`, election: { Office: r.Office, Location: r.Location }, value: fmt(+r.Difference), sub: matchup });
   }
 
   // Top Overall Fundraiser
   const sorted = [...totals].sort((a,b) => +b['Total Contributions'] - +a['Total Contributions']);
   if (sorted.length) {
     const top = sorted[0];
-    cards.push({ label: 'Top Overall Fundraiser', candidate: top.Candidate, value: fmt(+top['Total Contributions']), sub: `${top.Office} — ${top.Location}` });
+    cards.push({ label: 'Top Overall Fundraiser', candidate: top.Candidate, id: top.CandidateID, value: fmt(+top['Total Contributions']), sub: `${top.Office} — ${top.Location}` });
   }
 
   return cards;
@@ -742,35 +817,38 @@ function buildShareCards() {
   const pacShare = SUMMARY_DATA.most_pac_share;
   if (pacShare && pacShare.length) {
     const r = pacShare[0];
-    cards.push({ label: 'Highest PAC Share', candidate: r.Candidate, value: Math.round(+r.share * 100) + '%', sub: 'of total raised' });
+    cards.push({ label: 'Highest PAC Share', candidate: r.Candidate, id: r.CandidateID, value: Math.round(+r.share * 100) + '%', sub: 'of total raised' });
   }
 
   // Highest Corporate Share
   const corpShare = SUMMARY_DATA.most_corporate_share;
   if (corpShare && corpShare.length) {
     const r = corpShare[0];
-    cards.push({ label: 'Highest Corporate Share', candidate: r.Candidate, value: Math.round(+r.share * 100) + '%', sub: 'of total raised' });
+    cards.push({ label: 'Highest Corporate Share', candidate: r.Candidate, id: r.CandidateID, value: Math.round(+r.share * 100) + '%', sub: 'of total raised' });
   }
 
   // Highest Out-of-State Share
   const outShare = SUMMARY_DATA.most_out_state_share;
   if (outShare && outShare.length) {
     const r = outShare[0];
-    cards.push({ label: 'Highest Out-of-State Share', candidate: r.Candidate, value: Math.round(+r.share * 100) + '%', sub: 'of total raised' });
+    cards.push({ label: 'Highest Out-of-State Share', candidate: r.Candidate, id: r.CandidateID, value: Math.round(+r.share * 100) + '%', sub: 'of total raised' });
   }
 
   // Highest Union Share
   const unionShare = SUMMARY_DATA.most_union_share;
   if (unionShare && unionShare.length) {
     const r = unionShare[0];
-    cards.push({ label: 'Highest Union Share', candidate: r.Candidate, value: Math.round(+r.share * 100) + '%', sub: 'of total raised' });
+    cards.push({ label: 'Highest Union Share', candidate: r.Candidate, id: r.CandidateID, value: Math.round(+r.share * 100) + '%', sub: 'of total raised' });
   }
 
   return cards;
 }
 
 function renderHighlightCard(card, color) {
-  return `<div class="highlight-card" style="border-top-color:${color}">
+  HIGHLIGHT_CARDS.push(card);
+  const clickable = card.id || card.election;
+  const attrs = clickable ? ` data-card="${HIGHLIGHT_CARDS.length - 1}" role="button" tabindex="0"` : '';
+  return `<div class="highlight-card${clickable ? ' clickable' : ''}"${attrs} style="border-top-color:${color}">
     <div class="highlight-card-label" style="color:${color}">${card.label}</div>
     <div class="highlight-card-candidate">${card.candidate}</div>
     <div class="highlight-card-value" style="color:${color}">${card.value}</div>
@@ -789,6 +867,34 @@ function renderSummary() {
     <h2>All Candidates</h2>
     <div class="page-sub">Data Updated:
     <span class="page-sub-date">${DATA.params['Data End']}</span></div>
+
+    <div class="stat-grid">
+      <div class="stat-card raised">
+        <div class="stat-icon">$</div>
+        <div class="stat-content">
+          <div class="stat-label">Total Raised</div>
+          <div class="stat-value" id="filtered-total-raised"></div>
+          <div class="stat-sub">Matching current filters</div>
+        </div>
+        <div class="stat-wave"></div>
+      </div>
+      <div class="stat-card candidates">
+        <div class="stat-icon">👥</div>
+        <div class="stat-content">
+          <div class="stat-label">Candidates</div>
+          <div class="stat-value" id="filtered-candidates"></div>
+        </div>
+        <div class="stat-wave"></div>
+      </div>
+      <div class="stat-card elections">
+        <div class="stat-icon">🗳</div>
+        <div class="stat-content">
+          <div class="stat-label">Elections</div>
+          <div class="stat-value" id="filtered-elections"></div>
+        </div>
+        <div class="stat-wave"></div>
+      </div>
+    </div>
 
     <div class="filter-bar">
       <select id="office-filter" class="filter-select">
@@ -825,21 +931,21 @@ function renderRaces() {
     (byRace[key] = byRace[key] || []).push(r);
   });
 
+  // stat tiles follow the filters
+  document.getElementById('filtered-total-raised').textContent =
+    fmt(filtered.reduce((sum, r) => sum + +r['Total Contributions'], 0));
+  document.getElementById('filtered-candidates').textContent = filtered.length;
+  document.getElementById('filtered-elections').textContent = Object.keys(byRace).length;
+
   let racesHTML = '';
   Object.entries(byRace).forEach(([race, candidates], ri) => {
     const sorted = [...candidates].sort((a,b) => +b['Total Contributions'] - +a['Total Contributions']);
     const raceTotal = sorted.reduce((s,r) => s + +r['Total Contributions'], 0);
-    let savedColor;
-    let i = 0;
+    const savedColor = COLORS[(ri * 3) % COLORS.length];
 
     const rows = sorted.map((c, ci) => {
       const pct = raceTotal ? Math.round(+c['Total Contributions'] / raceTotal * 100) : 0;
       const color = COLORS[(ri * 3 + ci) % COLORS.length];
-      if(i == 0)
-      {
-        savedColor = color;
-        i += 1;
-      }
       return `<div class="candidate-row" data-id="${c.CandidateID}" data-name="${c.Candidate}">
         <div class="cand-info">
           <div class="avatar" style="background-color:${color};color:${'#fcfcfc'}">${initials(c.Candidate)}</div>
@@ -885,7 +991,9 @@ function showCandidate(id, name) {
   showDetailPanel('contrib-types');
 }
 
-document.getElementById('back-btn').addEventListener('click', () => {
+// the back button is rendered inside the candidate page, so listen on the page
+document.getElementById('candidate-detail').addEventListener('click', e => {
+  if (!e.target.closest('#back-btn')) return;
   document.getElementById('sidebar-summary-nav').style.display = 'block';
   document.getElementById('sidebar-detail-nav').style.display = 'none';
   document.getElementById('topbar-title').textContent = 'Campaign Finance Tracker';
@@ -896,6 +1004,7 @@ document.getElementById('back-btn').addEventListener('click', () => {
   document.querySelectorAll('#sidebar-summary-nav nav a').forEach(a => {
     a.classList.toggle('active', a.dataset.page === 'summary');
   });
+  scrollToTop();
 });
 
 document.querySelectorAll('#sidebar-detail-nav nav a').forEach(a => {
@@ -906,10 +1015,21 @@ document.querySelectorAll('#sidebar-detail-nav nav a').forEach(a => {
   });
 });
 
+const DETAIL_PAGE_NAMES = {
+  'contrib-types': 'Contribution Types',
+  'pac': 'PAC Contributors',
+  'corporate': 'Corporate',
+  'top': 'Top Contributors',
+  'geography': 'Geography',
+};
+
 function showDetailPanel(tab) {
+  const subheader = document.getElementById('detail-subheader');
+  if (subheader && DETAIL_PAGE_NAMES[tab]) subheader.textContent = DETAIL_PAGE_NAMES[tab];
   document.querySelectorAll('.detail-panel').forEach(p => p.classList.remove('active'));
   const el = document.getElementById(`panel-${tab}`);
   if (el) el.classList.add('active');
+  scrollToTop();
 }
 
 function renderCandidateDetail(id, name) {
@@ -917,10 +1037,13 @@ function renderCandidateDetail(id, name) {
   const pacs = DATA.pac_contributors.filter(r => r.CandidateID === id);
   const corps = DATA.corporate_contributors.filter(r => r.CandidateID === id);
   const tops = DATA.top_contributors.filter(r => r.CandidateID === id);
+  const info = DATA.total_contributions.find(r => r.CandidateID === id);
+  const race = info ? `${info.Office} — ${info.Location}` : '';
 
   document.getElementById('candidate-detail').innerHTML = `
-    <h2>${name}</h2>
-    <div class="page-sub">Campaign finance detail</div>
+    <button id="back-btn" class="page-back-btn">← All Candidates</button>
+    <h2>${name}${race ? `<span class="h2-sub">${race}</span>` : ''}</h2>
+    <div class="page-sub" id="detail-subheader">Contribution Types</div>
     <div id="panel-contrib-types" class="detail-panel active"> ${renderContribTypes(types)}</div>
     <div id="panel-pac" class="detail-panel"> ${renderSimpleTable(pacs, ['Contributor Name','Total Contributions'])}</div>
     <div id="panel-corporate" class="detail-panel"> ${renderSimpleTable(corps, ['Contributor Name','Total Contributions'])}</div>
@@ -937,18 +1060,14 @@ function renderContribTypes(types) {
   const sorted = [...types].sort((a,b) => +b['Total Contributions'] - +a['Total Contributions']);
 
   const cards = sorted.slice(0,3).map(r => {
-    const color =
-        contributorBarColors[r['Contributor Type']] || {
-            background: "#9CA3AF",
-            text: "#9CA3AF"
-        };
+    const color = contributorColor(r['Contributor Type']);
 
     return `
         <div class="type-card">
-            <div class="type-card-label" style="color:${color.background}">
+            <div class="type-card-label" style="color:${color}">
                 ${r['Contributor Type']} 
             </div>
-            <div class="type-card-value" style="color:${color.background}">
+            <div class="type-card-value" style="color:${color}">
                 ${fmt(r['Total Contributions'])}
             </div>
             <div class="type-card-sub">
@@ -981,11 +1100,7 @@ function renderContribTypes(types) {
         ? Math.round(+r['Total Contributions'] / total * 100)
         : 0;
 
-    const color =
-        contributorBarColors[r['Contributor Type']] || {
-            background: "#9CA3AF",
-            text: "#9CA3AF"
-        };
+    const color = contributorColor(r['Contributor Type']);
 
     return `
         <div class="type-bar-row">
@@ -994,13 +1109,13 @@ function renderContribTypes(types) {
             <div class="type-bar-bg">
                 <div
                     class="type-bar-fill"
-                    style="width:${pct}%; background:${color.background};">
+                    style="width:${pct}%; background:${color};">
                 </div>
             </div>
 
             <div
                 class="type-bar-pct"
-                style="color:${color.background};">
+                style="color:${color};">
                 ${pct}%
             </div>
 
